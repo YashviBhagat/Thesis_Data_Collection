@@ -1,0 +1,1125 @@
+{
+  "paper_title": "Influence of Annealing on Microstructure and Mechanical Properties of a Nanocrystalline CrCoNi Medium-Entropy Alloy",
+  "graphs": [
+    {
+      "graph_id": "fig9_crconi_tensile_curves",
+      "title": "Tensile curves of CrCoNi for as-received, HPT, and annealed states",
+      "description": "Engineering stress\u2013strain curves for equiatomic CrCoNi showing the effect of nanocrystallization by high-pressure torsion (HPT) and subsequent anneals at 500 \u00b0C (1 h) and 800 \u00b0C (1 h).",
+      "about_graph": "Room-temperature miniature tensile tests on samples taken from HPT disks (steady-state region at r\u22482 mm); curves correspond to microstructural states: as-received (coarse-grained), HPT (nanocrystalline), HPT+500 \u00b0C 1 h, and HPT+800 \u00b0C 1 h.",
+      "x_axis_label": "Engineering strain (\u2013)",
+      "y_axis_label": "Engineering (tensile) stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "crconi_as_received_blue",
+          "curve_label": "as-received (blue)",
+          "curve_description": "Coarse-grained state with high ductility and moderate strength.",
+          "about_curve": "Yield \u2248216 MPa, UTS \u2248461 MPa, elongation \u224837%.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lowest strength, highest uniform elongation; no prior HPT or anneal.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy and test temperature; plotted as engineering stress\u2013strain.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Cr": 33.33,
+            "Co": 33.33,
+            "Ni": 33.33
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.01,
+                "y": 116.193
+              },
+              {
+                "x": 0.012,
+                "y": 159.79
+              },
+              {
+                "x": 0.016,
+                "y": 179.132
+              },
+              {
+                "x": 0.022,
+                "y": 193.6
+              },
+              {
+                "x": 0.03,
+                "y": 193.493
+              },
+              {
+                "x": 0.04,
+                "y": 203.072
+              },
+              {
+                "x": 0.045,
+                "y": 212.701
+              },
+              {
+                "x": 0.052,
+                "y": 222.308
+              },
+              {
+                "x": 0.058,
+                "y": 222.236
+              },
+              {
+                "x": 0.069,
+                "y": 222.108
+              },
+              {
+                "x": 0.076,
+                "y": 226.869
+              },
+              {
+                "x": 0.085,
+                "y": 250.987
+              },
+              {
+                "x": 0.095,
+                "y": 260.565
+              },
+              {
+                "x": 0.104,
+                "y": 270.144
+              },
+              {
+                "x": 0.113,
+                "y": 279.73
+              },
+              {
+                "x": 0.123,
+                "y": 289.301
+              },
+              {
+                "x": 0.134,
+                "y": 298.866
+              },
+              {
+                "x": 0.142,
+                "y": 313.298
+              },
+              {
+                "x": 0.149,
+                "y": 318.066
+              },
+              {
+                "x": 0.166,
+                "y": 332.398
+              },
+              {
+                "x": 0.182,
+                "y": 341.898
+              },
+              {
+                "x": 0.2,
+                "y": 356.224
+              },
+              {
+                "x": 0.214,
+                "y": 370.584
+              },
+              {
+                "x": 0.228,
+                "y": 384.96
+              },
+              {
+                "x": 0.243,
+                "y": 394.467
+              },
+              {
+                "x": 0.255,
+                "y": 394.324
+              },
+              {
+                "x": 0.27,
+                "y": 389.292
+              },
+              {
+                "x": 0.286,
+                "y": 403.639
+              },
+              {
+                "x": 0.305,
+                "y": 427.65
+              },
+              {
+                "x": 0.315,
+                "y": 432.368
+              },
+              {
+                "x": 0.325,
+                "y": 432.253
+              },
+              {
+                "x": 0.332,
+                "y": 422.475
+              },
+              {
+                "x": 0.341,
+                "y": 388.436
+              },
+              {
+                "x": 0.345,
+                "y": 364.154
+              },
+              {
+                "x": 0.349,
+                "y": 325.339
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 1333.392,
+            "sigma_sat_MPa": 3033.98,
+            "fit_strain_range": [
+              0.02176,
+              0.07381
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.00022,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.074."
+          }
+        },
+        {
+          "curve_id": "crconi_hpt_red",
+          "curve_label": "HPT (red)",
+          "curve_description": "Nanocrystalline state produced by HPT; very high strength, low ductility.",
+          "about_curve": "Yield \u22481901 MPa, UTS \u22482095 MPa, elongation \u22484.7%.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Sharpest initial slope and early necking; reflects NC microstructure without anneal.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same specimen geometry and test conditions.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Cr": 33.33,
+            "Co": 33.33,
+            "Ni": 33.33
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": -0.0,
+                "y": 542.815
+              },
+              {
+                "x": 0.001,
+                "y": 654.269
+              },
+              {
+                "x": 0.004,
+                "y": 756.015
+              },
+              {
+                "x": 0.004,
+                "y": 886.862
+              },
+              {
+                "x": 0.005,
+                "y": 1027.401
+              },
+              {
+                "x": 0.007,
+                "y": 1124.309
+              },
+              {
+                "x": 0.007,
+                "y": 1182.466
+              },
+              {
+                "x": 0.008,
+                "y": 1260.002
+              },
+              {
+                "x": 0.009,
+                "y": 1337.537
+              },
+              {
+                "x": 0.01,
+                "y": 1444.145
+              },
+              {
+                "x": 0.01,
+                "y": 1579.845
+              },
+              {
+                "x": 0.011,
+                "y": 1657.381
+              },
+              {
+                "x": 0.013,
+                "y": 1802.752
+              },
+              {
+                "x": 0.016,
+                "y": 1860.874
+              },
+              {
+                "x": 0.02,
+                "y": 1889.902
+              },
+              {
+                "x": 0.024,
+                "y": 1841.388
+              },
+              {
+                "x": 0.029,
+                "y": 1783.174
+              },
+              {
+                "x": 0.033,
+                "y": 1734.652
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 64310.736,
+            "sigma_sat_MPa": -1675.38,
+            "fit_strain_range": [
+              0.00151,
+              0.00732
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.10856,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.002\u20130.007."
+          }
+        },
+        {
+          "curve_id": "crconi_hpt_500C_1h_black",
+          "curve_label": "HPT + 500 \u00b0C, 1 h (black)",
+          "curve_description": "Low-temperature anneal after HPT; further increases strength but fractures early.",
+          "about_curve": "UTS \u22482760 MPa; many specimens fracture in the elastic regime (very small uniform strain).",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Highest strength; least ductility.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same CrCoNi alloy and test temperature.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Cr": 33.33,
+            "Co": 33.33,
+            "Ni": 33.33
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 600.944
+              },
+              {
+                "x": 0.003,
+                "y": 673.633
+              },
+              {
+                "x": 0.004,
+                "y": 765.708
+              },
+              {
+                "x": 0.004,
+                "y": 852.937
+              },
+              {
+                "x": 0.005,
+                "y": 969.244
+              },
+              {
+                "x": 0.006,
+                "y": 1061.312
+              },
+              {
+                "x": 0.007,
+                "y": 1143.701
+              },
+              {
+                "x": 0.007,
+                "y": 1226.084
+              },
+              {
+                "x": 0.008,
+                "y": 1332.698
+              },
+              {
+                "x": 0.009,
+                "y": 1497.463
+              },
+              {
+                "x": 0.011,
+                "y": 1637.995
+              },
+              {
+                "x": 0.012,
+                "y": 1725.224
+              },
+              {
+                "x": 0.012,
+                "y": 1851.224
+              },
+              {
+                "x": 0.014,
+                "y": 1957.831
+              },
+              {
+                "x": 0.014,
+                "y": 2059.606
+              },
+              {
+                "x": 0.015,
+                "y": 2171.06
+              },
+              {
+                "x": 0.017,
+                "y": 2267.974
+              },
+              {
+                "x": 0.017,
+                "y": 2355.21
+              },
+              {
+                "x": 0.018,
+                "y": 2432.739
+              },
+              {
+                "x": 0.019,
+                "y": 2505.421
+              },
+              {
+                "x": 0.02,
+                "y": 2626.575
+              },
+              {
+                "x": 0.022,
+                "y": 2733.175
+              },
+              {
+                "x": 0.023,
+                "y": 2786.479
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 143824.697,
+            "sigma_sat_MPa": -10143.015,
+            "fit_strain_range": [
+              0.00374,
+              0.0078
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.0105,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.004\u20130.008."
+          }
+        },
+        {
+          "curve_id": "crconi_hpt_800C_1h_green",
+          "curve_label": "HPT + 800 \u00b0C, 1 h (green)",
+          "curve_description": "Recrystallized microstructure (~3 \u00b5m grains) with balanced properties.",
+          "about_curve": "Yield \u2248512 MPa, UTS \u2248836 MPa, elongation \u224837%.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Intermediate strength with ductility restored close to as-received.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy and specimen/test method.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Cr": 33.33,
+            "Co": 33.33,
+            "Ni": 33.33
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.006,
+                "y": 314.947
+              },
+              {
+                "x": 0.008,
+                "y": 377.936
+              },
+              {
+                "x": 0.01,
+                "y": 426.372
+              },
+              {
+                "x": 0.014,
+                "y": 479.633
+              },
+              {
+                "x": 0.021,
+                "y": 513.479
+              },
+              {
+                "x": 0.03,
+                "y": 542.444
+              },
+              {
+                "x": 0.041,
+                "y": 571.394
+              },
+              {
+                "x": 0.058,
+                "y": 609.958
+              },
+              {
+                "x": 0.076,
+                "y": 633.976
+              },
+              {
+                "x": 0.085,
+                "y": 643.562
+              },
+              {
+                "x": 0.098,
+                "y": 657.937
+              },
+              {
+                "x": 0.117,
+                "y": 677.095
+              },
+              {
+                "x": 0.129,
+                "y": 691.491
+              },
+              {
+                "x": 0.144,
+                "y": 710.699
+              },
+              {
+                "x": 0.154,
+                "y": 720.263
+              },
+              {
+                "x": 0.158,
+                "y": 725.059
+              },
+              {
+                "x": 0.173,
+                "y": 734.574
+              },
+              {
+                "x": 0.186,
+                "y": 744.117
+              },
+              {
+                "x": 0.201,
+                "y": 753.624
+              },
+              {
+                "x": 0.213,
+                "y": 753.474
+              },
+              {
+                "x": 0.225,
+                "y": 753.331
+              },
+              {
+                "x": 0.246,
+                "y": 772.46
+              },
+              {
+                "x": 0.263,
+                "y": 786.793
+              },
+              {
+                "x": 0.282,
+                "y": 781.725
+              },
+              {
+                "x": 0.298,
+                "y": 771.832
+              },
+              {
+                "x": 0.312,
+                "y": 757.122
+              },
+              {
+                "x": 0.32,
+                "y": 732.789
+              },
+              {
+                "x": 0.329,
+                "y": 674.532
+              },
+              {
+                "x": 0.333,
+                "y": 616.318
+              },
+              {
+                "x": 0.338,
+                "y": 548.411
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 14342.327,
+            "sigma_sat_MPa": 786.384,
+            "fit_strain_range": [
+              0.0207,
+              0.07142
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.90214,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.021\u20130.071."
+          }
+        }
+      ]
+    },
+    {
+      "graph_id": "fig10_a220_tensile_curves",
+      "title": "Tensile curves of A220 (316L) stainless steel for as-received, HPT, and annealed states",
+      "description": "Engineering stress\u2013strain curves for B\u00f6hler A220 (equivalent to Grade 316L) showing as-received, HPT nanocrystalline, and HPT annealed at 500 \u00b0C (1 h) and 800 \u00b0C (1 h).",
+      "about_graph": "Same miniature tensile test setup and processing logic as for CrCoNi; curves illustrate behavior of a commercial austenitic stainless steel used for benchmarking.",
+      "x_axis_label": "Engineering strain (\u2013)",
+      "y_axis_label": "Engineering (tensile) stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "a220_as_received_blue",
+          "curve_label": "as-received (blue)",
+          "curve_description": "Coarse-grained 316L; low strength, high ductility.",
+          "about_curve": "Yield \u2248247 MPa, UTS \u2248398 MPa, elongation \u224843%.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Greatest ductility; lowest strength.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same grade and test temperature; engineering stress\u2013strain presentation.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {},
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 153.61
+              },
+              {
+                "x": 0.002,
+                "y": 188.172
+              },
+              {
+                "x": 0.006,
+                "y": 215.054
+              },
+              {
+                "x": 0.015,
+                "y": 222.734
+              },
+              {
+                "x": 0.025,
+                "y": 226.575
+              },
+              {
+                "x": 0.038,
+                "y": 234.255
+              },
+              {
+                "x": 0.051,
+                "y": 241.935
+              },
+              {
+                "x": 0.061,
+                "y": 249.616
+              },
+              {
+                "x": 0.073,
+                "y": 249.616
+              },
+              {
+                "x": 0.088,
+                "y": 249.616
+              },
+              {
+                "x": 0.102,
+                "y": 249.616
+              },
+              {
+                "x": 0.113,
+                "y": 249.616
+              },
+              {
+                "x": 0.124,
+                "y": 253.456
+              },
+              {
+                "x": 0.137,
+                "y": 257.296
+              },
+              {
+                "x": 0.145,
+                "y": 257.296
+              },
+              {
+                "x": 0.159,
+                "y": 264.977
+              },
+              {
+                "x": 0.171,
+                "y": 268.817
+              },
+              {
+                "x": 0.181,
+                "y": 276.498
+              },
+              {
+                "x": 0.198,
+                "y": 284.178
+              },
+              {
+                "x": 0.208,
+                "y": 288.018
+              },
+              {
+                "x": 0.218,
+                "y": 295.699
+              },
+              {
+                "x": 0.231,
+                "y": 303.379
+              },
+              {
+                "x": 0.25,
+                "y": 311.06
+              },
+              {
+                "x": 0.261,
+                "y": 311.06
+              },
+              {
+                "x": 0.28,
+                "y": 318.74
+              },
+              {
+                "x": 0.295,
+                "y": 318.74
+              },
+              {
+                "x": 0.306,
+                "y": 318.74
+              },
+              {
+                "x": 0.318,
+                "y": 318.74
+              },
+              {
+                "x": 0.327,
+                "y": 318.74
+              },
+              {
+                "x": 0.342,
+                "y": 311.06
+              },
+              {
+                "x": 0.353,
+                "y": 303.379
+              },
+              {
+                "x": 0.364,
+                "y": 303.379
+              },
+              {
+                "x": 0.383,
+                "y": 303.379
+              },
+              {
+                "x": 0.402,
+                "y": 303.379
+              },
+              {
+                "x": 0.409,
+                "y": 288.018
+              },
+              {
+                "x": 0.415,
+                "y": 230.415
+              },
+              {
+                "x": 0.418,
+                "y": 192.012
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 2991.019,
+            "sigma_sat_MPa": 330.14,
+            "fit_strain_range": [
+              0.02511,
+              0.07085
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.32194,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.025\u20130.071."
+          }
+        },
+        {
+          "curve_id": "a220_hpt_red",
+          "curve_label": "HPT (red)",
+          "curve_description": "Nanocrystalline 316L after HPT; very high strength with low ductility.",
+          "about_curve": "Yield \u22481729 MPa, UTS \u22481836 MPa, elongation \u22484.3%.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Large increase in strength versus as-received due to NC structure.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same testing protocol and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {},
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.001,
+                "y": 526.114
+              },
+              {
+                "x": 0.001,
+                "y": 595.238
+              },
+              {
+                "x": 0.003,
+                "y": 679.724
+              },
+              {
+                "x": 0.006,
+                "y": 779.57
+              },
+              {
+                "x": 0.008,
+                "y": 913.978
+              },
+              {
+                "x": 0.009,
+                "y": 1002.304
+              },
+              {
+                "x": 0.01,
+                "y": 1056.068
+              },
+              {
+                "x": 0.013,
+                "y": 1163.594
+              },
+              {
+                "x": 0.013,
+                "y": 1213.518
+              },
+              {
+                "x": 0.014,
+                "y": 1317.204
+              },
+              {
+                "x": 0.014,
+                "y": 1382.488
+              },
+              {
+                "x": 0.014,
+                "y": 1432.412
+              },
+              {
+                "x": 0.014,
+                "y": 1501.536
+              },
+              {
+                "x": 0.015,
+                "y": 1578.341
+              },
+              {
+                "x": 0.018,
+                "y": 1674.347
+              },
+              {
+                "x": 0.019,
+                "y": 1731.951
+              },
+              {
+                "x": 0.021,
+                "y": 1808.756
+              },
+              {
+                "x": 0.025,
+                "y": 1808.756
+              },
+              {
+                "x": 0.027,
+                "y": 1747.312
+              },
+              {
+                "x": 0.031,
+                "y": 1674.347
+              },
+              {
+                "x": 0.035,
+                "y": 1601.382
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": -206719.454,
+            "sigma_sat_MPa": 1854.62,
+            "fit_strain_range": [
+              0.0212,
+              0.03449
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.3304,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.021\u20130.034."
+          }
+        },
+        {
+          "curve_id": "a220_hpt_500C_1h_black",
+          "curve_label": "HPT + 500 \u00b0C, 1 h (black)",
+          "curve_description": "Low-temperature anneal after HPT; strength increases further but specimens often fracture early.",
+          "about_curve": "UTS \u22482172 MPa; elongation \u22481.7%; yield ~1900 MPa (not all specimens yield before fracture).",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Highest strength for A220; minimal ductility.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same material family and methodology.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {},
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.0,
+                "y": 572.197
+              },
+              {
+                "x": 0.002,
+                "y": 641.321
+              },
+              {
+                "x": 0.003,
+                "y": 718.126
+              },
+              {
+                "x": 0.004,
+                "y": 802.611
+              },
+              {
+                "x": 0.004,
+                "y": 879.416
+              },
+              {
+                "x": 0.005,
+                "y": 944.7
+              },
+              {
+                "x": 0.005,
+                "y": 994.624
+              },
+              {
+                "x": 0.006,
+                "y": 1056.068
+              },
+              {
+                "x": 0.008,
+                "y": 1140.553
+              },
+              {
+                "x": 0.008,
+                "y": 1209.677
+              },
+              {
+                "x": 0.009,
+                "y": 1274.962
+              },
+              {
+                "x": 0.01,
+                "y": 1355.607
+              },
+              {
+                "x": 0.011,
+                "y": 1478.495
+              },
+              {
+                "x": 0.011,
+                "y": 1578.341
+              },
+              {
+                "x": 0.011,
+                "y": 1651.306
+              },
+              {
+                "x": 0.012,
+                "y": 1716.59
+              },
+              {
+                "x": 0.013,
+                "y": 1778.034
+              },
+              {
+                "x": 0.015,
+                "y": 1824.117
+              },
+              {
+                "x": 0.016,
+                "y": 1889.401
+              },
+              {
+                "x": 0.016,
+                "y": 1908.602
+              },
+              {
+                "x": 0.016,
+                "y": 1977.727
+              },
+              {
+                "x": 0.017,
+                "y": 2062.212
+              },
+              {
+                "x": 0.018,
+                "y": 2158.218
+              },
+              {
+                "x": 0.019,
+                "y": 2231.183
+              },
+              {
+                "x": 0.02,
+                "y": 2284.946
+              },
+              {
+                "x": 0.022,
+                "y": 2338.71
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 247044.148,
+            "sigma_sat_MPa": 1856.367,
+            "fit_strain_range": [
+              0.00317,
+              0.00831
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.29846,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.003\u20130.008."
+          }
+        },
+        {
+          "curve_id": "a220_hpt_800C_1h_green",
+          "curve_label": "HPT + 800 \u00b0C, 1 h (green)",
+          "curve_description": "Recrystallized microstructure (~2 \u00b5m grains) with improved ductility and moderate strength.",
+          "about_curve": "Yield \u2248580 MPa, UTS \u2248733 MPa, elongation \u224826%.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Strength\u2013ductility balance compared to the other states.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same grade and test conditions; engineering stress\u2013strain.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {},
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.003,
+                "y": 330.261
+              },
+              {
+                "x": 0.004,
+                "y": 410.906
+              },
+              {
+                "x": 0.006,
+                "y": 460.829
+              },
+              {
+                "x": 0.007,
+                "y": 518.433
+              },
+              {
+                "x": 0.013,
+                "y": 579.877
+              },
+              {
+                "x": 0.021,
+                "y": 606.759
+              },
+              {
+                "x": 0.039,
+                "y": 629.8
+              },
+              {
+                "x": 0.058,
+                "y": 649.002
+              },
+              {
+                "x": 0.082,
+                "y": 672.043
+              },
+              {
+                "x": 0.107,
+                "y": 695.084
+              },
+              {
+                "x": 0.13,
+                "y": 706.605
+              },
+              {
+                "x": 0.158,
+                "y": 725.806
+              },
+              {
+                "x": 0.173,
+                "y": 733.487
+              },
+              {
+                "x": 0.2,
+                "y": 745.008
+              },
+              {
+                "x": 0.225,
+                "y": 748.848
+              },
+              {
+                "x": 0.247,
+                "y": 752.688
+              },
+              {
+                "x": 0.265,
+                "y": 752.688
+              },
+              {
+                "x": 0.281,
+                "y": 741.167
+              },
+              {
+                "x": 0.292,
+                "y": 718.126
+              },
+              {
+                "x": 0.3,
+                "y": 695.084
+              },
+              {
+                "x": 0.308,
+                "y": 656.682
+              },
+              {
+                "x": 0.314,
+                "y": 614.439
+              },
+              {
+                "x": 0.317,
+                "y": 595.238
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 126107.434,
+            "sigma_sat_MPa": 682.116,
+            "fit_strain_range": [
+              0.0053,
+              0.07871
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.7529,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.005\u20130.079."
+          }
+        }
+      ]
+    }
+  ]
+}

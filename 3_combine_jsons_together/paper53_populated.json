@@ -1,0 +1,1245 @@
+{
+  "paper_title": "Time-resolved evolution of the deformation mechanisms in a TRIP/TWIP Fe50Mn30Co10Cr10 high entropy alloy during tensile loading probed with synchrotron X-ray diffraction",
+  "graphs": [
+    {
+      "graph_id": "fig2c",
+      "title": "Engineering & true stress\u2013strain curves with strain-hardening rate (DP-HEA)",
+      "description": "Macroscopic tensile response of Fe50Mn30Co10Cr10 (dual-phase TRIP/TWIP HEA) showing engineering and true stress\u2013strain curves; right-hand axis shows strain hardening rate.",
+      "about_graph": "Room-temperature tensile test at ~10\u207b\u00b3 s\u207b\u00b9. The blue curve is engineering stress, gray is true stress, and red is the strain-hardening rate d\u03c3/d\u03b5 (secondary y-axis). Four deformation stages (I\u2013IV) are indicated.",
+      "x_axis_label": "Strain (%)  [engineering for blue; true for gray/red]",
+      "y_axis_label": "Stress (MPa)  [left]; Strain hardening rate (MPa)  [right]",
+      "curves": [
+        {
+          "curve_id": "c1",
+          "curve_label": "Engineering stress",
+          "curve_description": "Engineering stress vs engineering strain (blue) for the bulk DP-HEA.",
+          "about_curve": "Shows macroscopic response; rises to ~700 MPa UTS with ~36% engineering elongation.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Uses engineering definitions (area and strain referenced to original gauge). Values lower than true stress at high strains.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same specimen, temperature, and loading rate as the other curves; derived from the same tensile test.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe (at.%)": 50.0,
+            "Mn (at.%)": 30.0,
+            "Co (at.%)": 10.0,
+            "Cr (at.%)": 10.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.005,
+                "y": 155.936
+              },
+              {
+                "x": 0.008,
+                "y": 179.243
+              },
+              {
+                "x": 0.007,
+                "y": 202.538
+              },
+              {
+                "x": 0.008,
+                "y": 225.842
+              },
+              {
+                "x": 0.008,
+                "y": 247.348
+              },
+              {
+                "x": 0.01,
+                "y": 268.86
+              },
+              {
+                "x": 0.01,
+                "y": 295.742
+              },
+              {
+                "x": 0.013,
+                "y": 326.222
+              },
+              {
+                "x": 0.015,
+                "y": 358.49
+              },
+              {
+                "x": 0.018,
+                "y": 385.386
+              },
+              {
+                "x": 0.026,
+                "y": 455.316
+              },
+              {
+                "x": 0.019,
+                "y": 423.027
+              },
+              {
+                "x": 0.035,
+                "y": 487.618
+              },
+              {
+                "x": 0.044,
+                "y": 510.956
+              },
+              {
+                "x": 0.05,
+                "y": 528.907
+              },
+              {
+                "x": 0.06,
+                "y": 546.876
+              },
+              {
+                "x": 0.072,
+                "y": 570.227
+              },
+              {
+                "x": 0.081,
+                "y": 582.816
+              },
+              {
+                "x": 0.09,
+                "y": 595.404
+              },
+              {
+                "x": 0.1,
+                "y": 609.788
+              },
+              {
+                "x": 0.112,
+                "y": 622.387
+              },
+              {
+                "x": 0.123,
+                "y": 638.57
+              },
+              {
+                "x": 0.139,
+                "y": 651.189
+              },
+              {
+                "x": 0.147,
+                "y": 663.774
+              },
+              {
+                "x": 0.159,
+                "y": 669.204
+              },
+              {
+                "x": 0.17,
+                "y": 678.218
+              },
+              {
+                "x": 0.182,
+                "y": 685.44
+              },
+              {
+                "x": 0.194,
+                "y": 692.669
+              },
+              {
+                "x": 0.204,
+                "y": 699.885
+              },
+              {
+                "x": 0.214,
+                "y": 699.932
+              },
+              {
+                "x": 0.227,
+                "y": 705.369
+              },
+              {
+                "x": 0.237,
+                "y": 709.0
+              },
+              {
+                "x": 0.248,
+                "y": 714.43
+              },
+              {
+                "x": 0.258,
+                "y": 718.061
+              },
+              {
+                "x": 0.268,
+                "y": 719.897
+              },
+              {
+                "x": 0.278,
+                "y": 719.947
+              },
+              {
+                "x": 0.288,
+                "y": 723.579
+              },
+              {
+                "x": 0.296,
+                "y": 723.616
+              },
+              {
+                "x": 0.308,
+                "y": 725.461
+              },
+              {
+                "x": 0.318,
+                "y": 729.096
+              },
+              {
+                "x": 0.328,
+                "y": 729.143
+              },
+              {
+                "x": 0.337,
+                "y": 725.602
+              },
+              {
+                "x": 0.347,
+                "y": 727.441
+              },
+              {
+                "x": 0.358,
+                "y": 722.115
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 27923.628,
+            "sigma_sat_MPa": 580.269,
+            "fit_strain_range": [
+              0.02003,
+              0.07131
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.82848,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.020\u20130.071."
+          }
+        },
+        {
+          "curve_id": "c2",
+          "curve_label": "True stress",
+          "curve_description": "True stress vs true strain (gray) computed from the same tensile test.",
+          "about_curve": "Monotonic hardening to ~900\u2013950 MPa near failure; reflects instantaneous cross\u2011section and logarithmic strain.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Higher values at large strains compared to engineering curve; represents material flow behavior.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy, specimen, and conditions; shares x-axis as true strain (for true-stress and hardening-rate traces).",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe (at.%)": 50.0,
+            "Mn (at.%)": 30.0,
+            "Co (at.%)": 10.0,
+            "Cr (at.%)": 10.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.011,
+                "y": 301.125
+              },
+              {
+                "x": 0.011,
+                "y": 301.125
+              },
+              {
+                "x": 0.011,
+                "y": 301.125
+              },
+              {
+                "x": 0.014,
+                "y": 331.602
+              },
+              {
+                "x": 0.015,
+                "y": 360.282
+              },
+              {
+                "x": 0.016,
+                "y": 383.587
+              },
+              {
+                "x": 0.019,
+                "y": 414.063
+              },
+              {
+                "x": 0.022,
+                "y": 439.17
+              },
+              {
+                "x": 0.024,
+                "y": 466.062
+              },
+              {
+                "x": 0.029,
+                "y": 487.588
+              },
+              {
+                "x": 0.035,
+                "y": 509.12
+              },
+              {
+                "x": 0.04,
+                "y": 527.068
+              },
+              {
+                "x": 0.045,
+                "y": 541.425
+              },
+              {
+                "x": 0.05,
+                "y": 557.578
+              },
+              {
+                "x": 0.055,
+                "y": 573.734
+              },
+              {
+                "x": 0.06,
+                "y": 589.887
+              },
+              {
+                "x": 0.065,
+                "y": 604.247
+              },
+              {
+                "x": 0.072,
+                "y": 618.618
+              },
+              {
+                "x": 0.079,
+                "y": 634.777
+              },
+              {
+                "x": 0.085,
+                "y": 649.145
+              },
+              {
+                "x": 0.093,
+                "y": 663.515
+              },
+              {
+                "x": 0.099,
+                "y": 677.883
+              },
+              {
+                "x": 0.106,
+                "y": 694.045
+              },
+              {
+                "x": 0.115,
+                "y": 712.01
+              },
+              {
+                "x": 0.122,
+                "y": 726.378
+              },
+              {
+                "x": 0.131,
+                "y": 744.343
+              },
+              {
+                "x": 0.14,
+                "y": 760.512
+              },
+              {
+                "x": 0.148,
+                "y": 774.886
+              },
+              {
+                "x": 0.158,
+                "y": 787.478
+              },
+              {
+                "x": 0.168,
+                "y": 810.826
+              },
+              {
+                "x": 0.18,
+                "y": 827.012
+              },
+              {
+                "x": 0.19,
+                "y": 841.396
+              },
+              {
+                "x": 0.2,
+                "y": 853.988
+              },
+              {
+                "x": 0.21,
+                "y": 871.953
+              },
+              {
+                "x": 0.219,
+                "y": 882.75
+              },
+              {
+                "x": 0.228,
+                "y": 895.338
+              },
+              {
+                "x": 0.238,
+                "y": 906.138
+              },
+              {
+                "x": 0.248,
+                "y": 918.73
+              },
+              {
+                "x": 0.257,
+                "y": 927.734
+              },
+              {
+                "x": 0.266,
+                "y": 938.527
+              },
+              {
+                "x": 0.277,
+                "y": 949.334
+              },
+              {
+                "x": 0.286,
+                "y": 960.127
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 20396.022,
+            "sigma_sat_MPa": 676.426,
+            "fit_strain_range": [
+              0.02157,
+              0.07866
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.7273,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.079."
+          }
+        }
+      ]
+    },
+    {
+      "graph_id": "fig9a",
+      "title": "Load partitioning and true stress\u2013true strain (phase-resolved)",
+      "description": "Phase-level load sharing between \u03b3\u2011FCC and \u03b5\u2011HCP during tension, overlaid with macroscopic true stress\u2013true strain and a theoretical fit.",
+      "about_graph": "Phase stresses derived from SXRD lattice strains (Von Mises equivalent) compared against the overall flow curve. Shows how \u03b5\u2011HCP gradually bears more load as TRIP/TWIP proceed.",
+      "x_axis_label": "True strain (%)",
+      "y_axis_label": "True stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "c1",
+          "curve_label": "True stress\u2013true strain (macroscopic)",
+          "curve_description": "Bulk flow curve from tensile testing at room temperature.",
+          "about_curve": "Tracks overall specimen stress; used as reference for partitioning analysis.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Represents total material response rather than a single phase or model.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same strain axis and units; all curves are from the same alloy and experiment.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe (at.%)": 50.0,
+            "Mn (at.%)": 30.0,
+            "Co (at.%)": 10.0,
+            "Cr (at.%)": 10.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.007,
+                "y": 168.991
+              },
+              {
+                "x": 0.008,
+                "y": 199.935
+              },
+              {
+                "x": 0.011,
+                "y": 254.677
+              },
+              {
+                "x": 0.013,
+                "y": 278.47
+              },
+              {
+                "x": 0.015,
+                "y": 309.403
+              },
+              {
+                "x": 0.018,
+                "y": 347.474
+              },
+              {
+                "x": 0.022,
+                "y": 392.684
+              },
+              {
+                "x": 0.028,
+                "y": 430.727
+              },
+              {
+                "x": 0.032,
+                "y": 449.743
+              },
+              {
+                "x": 0.037,
+                "y": 468.755
+              },
+              {
+                "x": 0.041,
+                "y": 483.005
+              },
+              {
+                "x": 0.045,
+                "y": 494.878
+              },
+              {
+                "x": 0.051,
+                "y": 509.121
+              },
+              {
+                "x": 0.057,
+                "y": 525.736
+              },
+              {
+                "x": 0.061,
+                "y": 537.609
+              },
+              {
+                "x": 0.068,
+                "y": 549.462
+              },
+              {
+                "x": 0.074,
+                "y": 566.078
+              },
+              {
+                "x": 0.08,
+                "y": 585.078
+              },
+              {
+                "x": 0.087,
+                "y": 599.312
+              },
+              {
+                "x": 0.092,
+                "y": 611.177
+              },
+              {
+                "x": 0.098,
+                "y": 620.65
+              },
+              {
+                "x": 0.105,
+                "y": 634.88
+              },
+              {
+                "x": 0.112,
+                "y": 649.111
+              },
+              {
+                "x": 0.119,
+                "y": 656.202
+              },
+              {
+                "x": 0.125,
+                "y": 668.056
+              },
+              {
+                "x": 0.132,
+                "y": 682.286
+              },
+              {
+                "x": 0.143,
+                "y": 701.247
+              },
+              {
+                "x": 0.154,
+                "y": 722.584
+              },
+              {
+                "x": 0.164,
+                "y": 751.081
+              },
+              {
+                "x": 0.173,
+                "y": 758.152
+              },
+              {
+                "x": 0.181,
+                "y": 772.371
+              },
+              {
+                "x": 0.191,
+                "y": 788.959
+              },
+              {
+                "x": 0.198,
+                "y": 793.669
+              },
+              {
+                "x": 0.204,
+                "y": 803.142
+              },
+              {
+                "x": 0.21,
+                "y": 814.999
+              },
+              {
+                "x": 0.216,
+                "y": 826.86
+              },
+              {
+                "x": 0.222,
+                "y": 841.099
+              },
+              {
+                "x": 0.23,
+                "y": 855.317
+              },
+              {
+                "x": 0.237,
+                "y": 862.401
+              },
+              {
+                "x": 0.246,
+                "y": 869.473
+              },
+              {
+                "x": 0.256,
+                "y": 881.302
+              },
+              {
+                "x": 0.263,
+                "y": 897.91
+              },
+              {
+                "x": 0.271,
+                "y": 914.513
+              },
+              {
+                "x": 0.279,
+                "y": 923.974
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 19362.704,
+            "sigma_sat_MPa": 607.81,
+            "fit_strain_range": [
+              0.02243,
+              0.074
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.79153,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.074."
+          }
+        },
+        {
+          "curve_id": "c2",
+          "curve_label": "Theoretical stress (fitted model)",
+          "curve_description": "Model-predicted flow stress (dashed band/black points).",
+          "about_curve": "Empirical fit (e.g., modified Ludwigson) approximating the measured flow curve.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Not directly measured; derived from constitutive fitting.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same units and axis as the experimental macroscopic curve.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe (at.%)": 50.0,
+            "Mn (at.%)": 30.0,
+            "Co (at.%)": 10.0,
+            "Cr (at.%)": 10.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.02,
+                "y": 411.747
+              },
+              {
+                "x": 0.025,
+                "y": 454.56
+              },
+              {
+                "x": 0.03,
+                "y": 490.235
+              },
+              {
+                "x": 0.038,
+                "y": 528.267
+              },
+              {
+                "x": 0.046,
+                "y": 549.632
+              },
+              {
+                "x": 0.053,
+                "y": 566.243
+              },
+              {
+                "x": 0.058,
+                "y": 570.966
+              },
+              {
+                "x": 0.065,
+                "y": 580.434
+              },
+              {
+                "x": 0.072,
+                "y": 594.669
+              },
+              {
+                "x": 0.079,
+                "y": 611.276
+              },
+              {
+                "x": 0.086,
+                "y": 620.744
+              },
+              {
+                "x": 0.095,
+                "y": 639.725
+              },
+              {
+                "x": 0.104,
+                "y": 663.463
+              },
+              {
+                "x": 0.112,
+                "y": 680.063
+              },
+              {
+                "x": 0.121,
+                "y": 696.658
+              },
+              {
+                "x": 0.128,
+                "y": 713.27
+              },
+              {
+                "x": 0.135,
+                "y": 727.504
+              },
+              {
+                "x": 0.141,
+                "y": 746.5
+              },
+              {
+                "x": 0.147,
+                "y": 755.976
+              },
+              {
+                "x": 0.156,
+                "y": 770.191
+              },
+              {
+                "x": 0.163,
+                "y": 784.418
+              },
+              {
+                "x": 0.171,
+                "y": 798.64
+              },
+              {
+                "x": 0.18,
+                "y": 815.236
+              },
+              {
+                "x": 0.188,
+                "y": 831.839
+              },
+              {
+                "x": 0.197,
+                "y": 836.53
+              },
+              {
+                "x": 0.204,
+                "y": 848.383
+              },
+              {
+                "x": 0.209,
+                "y": 860.245
+              },
+              {
+                "x": 0.217,
+                "y": 883.995
+              },
+              {
+                "x": 0.225,
+                "y": 891.074
+              },
+              {
+                "x": 0.234,
+                "y": 910.051
+              },
+              {
+                "x": 0.242,
+                "y": 912.365
+              },
+              {
+                "x": 0.25,
+                "y": 928.972
+              },
+              {
+                "x": 0.26,
+                "y": 936.028
+              },
+              {
+                "x": 0.272,
+                "y": 945.457
+              },
+              {
+                "x": 0.277,
+                "y": 950.18
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 26329.282,
+            "sigma_sat_MPa": 624.901,
+            "fit_strain_range": [
+              0.02009,
+              0.07883
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.93215,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.020\u20130.079."
+          }
+        },
+        {
+          "curve_id": "c3",
+          "curve_label": "\u03b5\u2011HCP phase stress",
+          "curve_description": "Von Mises equivalent phase stress for \u03b5\u2011HCP (red circles).",
+          "about_curve": "Shows higher stress carrying capacity that increases with strain as TRIP forms more \u03b5\u2011HCP and TWIP/twinning activates.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Phase-resolved; typically above \u03b3\u2011FCC at a given strain.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Derived from the same SXRD-based lattice strain analysis and test conditions.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe (at.%)": 50.0,
+            "Mn (at.%)": 30.0,
+            "Co (at.%)": 10.0,
+            "Cr (at.%)": 10.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.004,
+                "y": 88.067
+              },
+              {
+                "x": 0.007,
+                "y": 149.947
+              },
+              {
+                "x": 0.009,
+                "y": 204.693
+              },
+              {
+                "x": 0.01,
+                "y": 242.78
+              },
+              {
+                "x": 0.012,
+                "y": 297.522
+              },
+              {
+                "x": 0.015,
+                "y": 354.644
+              },
+              {
+                "x": 0.016,
+                "y": 407.017
+              },
+              {
+                "x": 0.017,
+                "y": 447.485
+              },
+              {
+                "x": 0.018,
+                "y": 476.044
+              },
+              {
+                "x": 0.021,
+                "y": 528.409
+              },
+              {
+                "x": 0.024,
+                "y": 571.242
+              },
+              {
+                "x": 0.025,
+                "y": 604.567
+              },
+              {
+                "x": 0.026,
+                "y": 633.126
+              },
+              {
+                "x": 0.028,
+                "y": 666.447
+              },
+              {
+                "x": 0.03,
+                "y": 709.288
+              },
+              {
+                "x": 0.032,
+                "y": 737.844
+              },
+              {
+                "x": 0.035,
+                "y": 761.629
+              },
+              {
+                "x": 0.037,
+                "y": 794.942
+              },
+              {
+                "x": 0.041,
+                "y": 811.577
+              },
+              {
+                "x": 0.046,
+                "y": 835.351
+              },
+              {
+                "x": 0.051,
+                "y": 861.502
+              },
+              {
+                "x": 0.059,
+                "y": 866.197
+              },
+              {
+                "x": 0.067,
+                "y": 873.277
+              },
+              {
+                "x": 0.073,
+                "y": 877.991
+              },
+              {
+                "x": 0.082,
+                "y": 887.448
+              },
+              {
+                "x": 0.089,
+                "y": 894.532
+              },
+              {
+                "x": 0.097,
+                "y": 903.992
+              },
+              {
+                "x": 0.106,
+                "y": 908.683
+              },
+              {
+                "x": 0.113,
+                "y": 918.148
+              },
+              {
+                "x": 0.123,
+                "y": 927.597
+              },
+              {
+                "x": 0.13,
+                "y": 934.68
+              },
+              {
+                "x": 0.136,
+                "y": 948.918
+              },
+              {
+                "x": 0.142,
+                "y": 958.395
+              },
+              {
+                "x": 0.152,
+                "y": 963.082
+              },
+              {
+                "x": 0.159,
+                "y": 972.55
+              },
+              {
+                "x": 0.167,
+                "y": 977.249
+              },
+              {
+                "x": 0.174,
+                "y": 979.575
+              },
+              {
+                "x": 0.18,
+                "y": 989.051
+              },
+              {
+                "x": 0.187,
+                "y": 1000.901
+              },
+              {
+                "x": 0.192,
+                "y": 1010.377
+              },
+              {
+                "x": 0.201,
+                "y": 1017.449
+              },
+              {
+                "x": 0.208,
+                "y": 1022.16
+              },
+              {
+                "x": 0.216,
+                "y": 1031.616
+              },
+              {
+                "x": 0.225,
+                "y": 1043.454
+              },
+              {
+                "x": 0.233,
+                "y": 1050.534
+              },
+              {
+                "x": 0.241,
+                "y": 1062.375
+              },
+              {
+                "x": 0.247,
+                "y": 1067.086
+              },
+              {
+                "x": 0.256,
+                "y": 1071.781
+              },
+              {
+                "x": 0.263,
+                "y": 1074.102
+              },
+              {
+                "x": 0.271,
+                "y": 1081.182
+              },
+              {
+                "x": 0.279,
+                "y": 1085.877
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 61997.549,
+            "sigma_sat_MPa": 908.285,
+            "fit_strain_range": [
+              0.021,
+              0.07386
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.84036,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.021\u20130.074."
+          }
+        },
+        {
+          "curve_id": "c4",
+          "curve_label": "\u03b3\u2011FCC phase stress",
+          "curve_description": "Von Mises equivalent phase stress for \u03b3\u2011FCC (blue circles).",
+          "about_curve": "Lower stress level than \u03b5\u2011HCP at higher strains; \u03b3\u2011FCC yields early and contributes via TRIP and dislocation slip.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Phase-resolved stress of the ductile matrix phase.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same units and extraction method as \u03b5\u2011HCP phase stress.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe (at.%)": 50.0,
+            "Mn (at.%)": 30.0,
+            "Co (at.%)": 10.0,
+            "Cr (at.%)": 10.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.004,
+                "y": 135.681
+              },
+              {
+                "x": 0.007,
+                "y": 173.757
+              },
+              {
+                "x": 0.009,
+                "y": 207.074
+              },
+              {
+                "x": 0.009,
+                "y": 242.784
+              },
+              {
+                "x": 0.013,
+                "y": 295.137
+              },
+              {
+                "x": 0.014,
+                "y": 328.458
+              },
+              {
+                "x": 0.02,
+                "y": 359.367
+              },
+              {
+                "x": 0.03,
+                "y": 352.141
+              },
+              {
+                "x": 0.038,
+                "y": 352.078
+              },
+              {
+                "x": 0.048,
+                "y": 359.146
+              },
+              {
+                "x": 0.055,
+                "y": 366.233
+              },
+              {
+                "x": 0.062,
+                "y": 370.936
+              },
+              {
+                "x": 0.07,
+                "y": 370.873
+              },
+              {
+                "x": 0.08,
+                "y": 377.933
+              },
+              {
+                "x": 0.087,
+                "y": 385.021
+              },
+              {
+                "x": 0.095,
+                "y": 387.339
+              },
+              {
+                "x": 0.104,
+                "y": 394.41
+              },
+              {
+                "x": 0.116,
+                "y": 406.224
+              },
+              {
+                "x": 0.125,
+                "y": 413.296
+              },
+              {
+                "x": 0.132,
+                "y": 422.765
+              },
+              {
+                "x": 0.141,
+                "y": 422.694
+              },
+              {
+                "x": 0.15,
+                "y": 432.146
+              },
+              {
+                "x": 0.157,
+                "y": 432.083
+              },
+              {
+                "x": 0.166,
+                "y": 439.155
+              },
+              {
+                "x": 0.176,
+                "y": 443.842
+              },
+              {
+                "x": 0.183,
+                "y": 443.783
+              },
+              {
+                "x": 0.19,
+                "y": 450.875
+              },
+              {
+                "x": 0.201,
+                "y": 453.169
+              },
+              {
+                "x": 0.209,
+                "y": 462.626
+              },
+              {
+                "x": 0.217,
+                "y": 476.848
+              },
+              {
+                "x": 0.225,
+                "y": 479.17
+              },
+              {
+                "x": 0.234,
+                "y": 491.004
+              },
+              {
+                "x": 0.244,
+                "y": 498.067
+              },
+              {
+                "x": 0.253,
+                "y": 497.993
+              },
+              {
+                "x": 0.261,
+                "y": 497.926
+              },
+              {
+                "x": 0.269,
+                "y": 500.247
+              },
+              {
+                "x": 0.278,
+                "y": 500.172
+              },
+              {
+                "x": 0.285,
+                "y": 500.121
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 5301.038,
+            "sigma_sat_MPa": 415.216,
+            "fit_strain_range": [
+              0.02043,
+              0.07923
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.04608,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.020\u20130.079."
+          }
+        }
+      ]
+    }
+  ]
+}

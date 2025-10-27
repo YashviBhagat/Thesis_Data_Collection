@@ -1,0 +1,1255 @@
+{
+  "paper_title": "Strong and ductile CoCrFeNi high-entropy alloy microfibers at ambient and cryogenic temperatures",
+  "graphs": [
+    {
+      "graph_id": "Fig3a",
+      "title": "Engineering tensile stress\u2013strain curves of CoCrFeNi microfibers (293 K, 150 K)",
+      "description": "Engineering stress (MPa) vs engineering strain (%) for as-drawn microfiber at 293 K and annealed microfibers at 293 K and 150 K; bulk CoCrFeNi (annealed) shown for comparison.",
+      "about_graph": "Annealed microfibers show much higher strength than bulk, and cryogenic (150 K) testing yields both higher strength and larger uniform elongation than 293 K. Initial as-drawn microfiber is very strong but brittle.",
+      "x_axis_label": "Engineering strain (%)",
+      "y_axis_label": "Engineering stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "Fig3a_initial_293K",
+          "curve_label": "Initial microfiber (293 K)",
+          "curve_description": "As-drawn CoCrFeNi microfiber tested at 293 K (very high strength, negligible ductility).",
+          "about_curve": "Tensile strength about 1.7 GPa with brittle behavior due to high defect density from cold drawing.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Highest initial strength but essentially no plasticity; contrasts with annealed curves that show significant ductility.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy composition and fiber geometry; same engineering stress\u2013strain axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 25.0,
+            "Cr": 25.0,
+            "Fe": 25.0,
+            "Ni": 25.0,
+            "units": "at.% (equiatomic)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 1.028,
+                "y": 209.269
+              },
+              {
+                "x": 1.025,
+                "y": 261.612
+              },
+              {
+                "x": 1.126,
+                "y": 319.759
+              },
+              {
+                "x": 1.226,
+                "y": 383.723
+              },
+              {
+                "x": 1.223,
+                "y": 430.249
+              },
+              {
+                "x": 1.117,
+                "y": 468.064
+              },
+              {
+                "x": 1.115,
+                "y": 505.867
+              },
+              {
+                "x": 1.217,
+                "y": 543.659
+              },
+              {
+                "x": 1.318,
+                "y": 595.99
+              },
+              {
+                "x": 1.315,
+                "y": 639.609
+              },
+              {
+                "x": 1.209,
+                "y": 680.332
+              },
+              {
+                "x": 1.414,
+                "y": 723.928
+              },
+              {
+                "x": 1.516,
+                "y": 767.536
+              },
+              {
+                "x": 1.512,
+                "y": 831.51
+              },
+              {
+                "x": 1.822,
+                "y": 872.187
+              },
+              {
+                "x": 1.611,
+                "y": 924.553
+              },
+              {
+                "x": 1.504,
+                "y": 968.183
+              },
+              {
+                "x": 1.711,
+                "y": 1000.148
+              },
+              {
+                "x": 1.812,
+                "y": 1040.848
+              },
+              {
+                "x": 1.81,
+                "y": 1075.743
+              },
+              {
+                "x": 1.808,
+                "y": 1113.546
+              },
+              {
+                "x": 1.91,
+                "y": 1148.43
+              },
+              {
+                "x": 1.908,
+                "y": 1180.417
+              },
+              {
+                "x": 2.01,
+                "y": 1215.301
+              },
+              {
+                "x": 2.112,
+                "y": 1247.277
+              },
+              {
+                "x": 2.11,
+                "y": 1293.804
+              },
+              {
+                "x": 2.003,
+                "y": 1334.526
+              },
+              {
+                "x": 2.313,
+                "y": 1369.387
+              },
+              {
+                "x": 2.206,
+                "y": 1421.742
+              },
+              {
+                "x": 2.516,
+                "y": 1459.511
+              },
+              {
+                "x": 2.41,
+                "y": 1503.141
+              },
+              {
+                "x": 2.512,
+                "y": 1538.025
+              },
+              {
+                "x": 2.509,
+                "y": 1581.644
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 470.032,
+            "sigma_sat_MPa": 3437.442,
+            "fit_strain_range": [
+              0.8801,
+              1.04425
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.09251,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.880\u20131.044."
+          }
+        },
+        {
+          "curve_id": "Fig3a_annealed_293K",
+          "curve_label": "Annealed microfiber (293 K)",
+          "curve_description": "Engineering curve of annealed CoCrFeNi microfiber at 293 K.",
+          "about_curve": "YS \u2248 600 MPa, UTS \u2248 1066 MPa, UE \u2248 42%; visible necking after fracture.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lower strength and ductility than the 150 K annealed curve; much more ductile than the initial as-drawn curve.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy and specimen size; measured under uniaxial tension.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 25.0,
+            "Cr": 25.0,
+            "Fe": 25.0,
+            "Ni": 25.0,
+            "units": "at.% (equiatomic)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 2.77,
+                "y": 668.53
+              },
+              {
+                "x": 3.705,
+                "y": 697.507
+              },
+              {
+                "x": 4.847,
+                "y": 726.462
+              },
+              {
+                "x": 5.886,
+                "y": 758.336
+              },
+              {
+                "x": 7.34,
+                "y": 790.164
+              },
+              {
+                "x": 8.38,
+                "y": 804.59
+              },
+              {
+                "x": 9.835,
+                "y": 827.695
+              },
+              {
+                "x": 11.498,
+                "y": 853.685
+              },
+              {
+                "x": 12.745,
+                "y": 870.996
+              },
+              {
+                "x": 13.785,
+                "y": 882.515
+              },
+              {
+                "x": 15.032,
+                "y": 899.826
+              },
+              {
+                "x": 16.28,
+                "y": 911.322
+              },
+              {
+                "x": 17.424,
+                "y": 925.737
+              },
+              {
+                "x": 18.671,
+                "y": 937.232
+              },
+              {
+                "x": 19.815,
+                "y": 948.739
+              },
+              {
+                "x": 20.959,
+                "y": 954.43
+              },
+              {
+                "x": 22.311,
+                "y": 965.914
+              },
+              {
+                "x": 23.767,
+                "y": 974.479
+              },
+              {
+                "x": 25.118,
+                "y": 985.964
+              },
+              {
+                "x": 26.366,
+                "y": 994.551
+              },
+              {
+                "x": 27.198,
+                "y": 1003.184
+              },
+              {
+                "x": 28.134,
+                "y": 1005.99
+              },
+              {
+                "x": 29.174,
+                "y": 1014.601
+              },
+              {
+                "x": 30.214,
+                "y": 1020.303
+              },
+              {
+                "x": 31.358,
+                "y": 1023.086
+              },
+              {
+                "x": 32.606,
+                "y": 1028.766
+              },
+              {
+                "x": 33.958,
+                "y": 1034.434
+              },
+              {
+                "x": 35.206,
+                "y": 1040.114
+              },
+              {
+                "x": 36.454,
+                "y": 1045.794
+              },
+              {
+                "x": 37.702,
+                "y": 1051.474
+              },
+              {
+                "x": 39.159,
+                "y": 1057.131
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 104.768,
+            "sigma_sat_MPa": -88.218,
+            "fit_strain_range": [
+              2.7738,
+              3.30675
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.99396,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 2.774\u20133.307."
+          }
+        },
+        {
+          "curve_id": "Fig3a_annealed_150K",
+          "curve_label": "Annealed microfiber (150 K)",
+          "curve_description": "Engineering curve of annealed CoCrFeNi microfiber at 150 K.",
+          "about_curve": "YS \u2248 1010 MPa, UTS \u2248 1454 MPa, UE \u2248 75%; higher strength and ductility than at 293 K; pronounced necking.",
+          "what_is_different_between_this_curve_and_OTHER_curves_in_the_same_graph": "Highest combination of strength and ductility among annealed conditions; shows sustained work hardening.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy/system and axes; uniaxial tensile test.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 25.0,
+            "Cr": 25.0,
+            "Fe": 25.0,
+            "Ni": 25.0,
+            "units": "at.% (equiatomic)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 2.248,
+                "y": 703.482
+              },
+              {
+                "x": 2.246,
+                "y": 744.193
+              },
+              {
+                "x": 2.243,
+                "y": 787.812
+              },
+              {
+                "x": 2.449,
+                "y": 825.592
+              },
+              {
+                "x": 2.447,
+                "y": 866.304
+              },
+              {
+                "x": 2.444,
+                "y": 907.015
+              },
+              {
+                "x": 2.442,
+                "y": 944.818
+              },
+              {
+                "x": 2.439,
+                "y": 991.345
+              },
+              {
+                "x": 3.582,
+                "y": 1011.575
+              },
+              {
+                "x": 4.205,
+                "y": 1046.403
+              },
+              {
+                "x": 5.14,
+                "y": 1063.748
+              },
+              {
+                "x": 6.283,
+                "y": 1086.887
+              },
+              {
+                "x": 7.322,
+                "y": 1112.945
+              },
+              {
+                "x": 8.361,
+                "y": 1136.095
+              },
+              {
+                "x": 9.504,
+                "y": 1153.418
+              },
+              {
+                "x": 10.543,
+                "y": 1173.66
+              },
+              {
+                "x": 11.894,
+                "y": 1196.776
+              },
+              {
+                "x": 13.038,
+                "y": 1211.191
+              },
+              {
+                "x": 14.389,
+                "y": 1225.583
+              },
+              {
+                "x": 15.741,
+                "y": 1237.067
+              },
+              {
+                "x": 16.989,
+                "y": 1242.747
+              },
+              {
+                "x": 18.029,
+                "y": 1251.357
+              },
+              {
+                "x": 19.485,
+                "y": 1262.83
+              },
+              {
+                "x": 20.42,
+                "y": 1271.452
+              },
+              {
+                "x": 21.877,
+                "y": 1277.109
+              },
+              {
+                "x": 22.916,
+                "y": 1291.535
+              },
+              {
+                "x": 24.372,
+                "y": 1300.1
+              },
+              {
+                "x": 25.62,
+                "y": 1308.688
+              },
+              {
+                "x": 26.764,
+                "y": 1314.379
+              },
+              {
+                "x": 28.116,
+                "y": 1322.955
+              },
+              {
+                "x": 29.26,
+                "y": 1328.646
+              },
+              {
+                "x": 30.404,
+                "y": 1334.337
+              },
+              {
+                "x": 31.652,
+                "y": 1337.109
+              },
+              {
+                "x": 33.004,
+                "y": 1342.777
+              },
+              {
+                "x": 34.148,
+                "y": 1348.469
+              },
+              {
+                "x": 35.293,
+                "y": 1348.344
+              },
+              {
+                "x": 36.54,
+                "y": 1356.931
+              },
+              {
+                "x": 37.58,
+                "y": 1362.634
+              },
+              {
+                "x": 38.725,
+                "y": 1362.509
+              },
+              {
+                "x": 39.869,
+                "y": 1368.2
+              },
+              {
+                "x": 40.909,
+                "y": 1370.995
+              },
+              {
+                "x": 41.845,
+                "y": 1370.893
+              },
+              {
+                "x": 43.301,
+                "y": 1379.457
+              },
+              {
+                "x": 44.861,
+                "y": 1385.103
+              },
+              {
+                "x": 46.317,
+                "y": 1390.76
+              },
+              {
+                "x": 47.774,
+                "y": 1393.509
+              },
+              {
+                "x": 49.334,
+                "y": 1399.155
+              },
+              {
+                "x": 51.206,
+                "y": 1404.767
+              },
+              {
+                "x": 52.767,
+                "y": 1404.597
+              },
+              {
+                "x": 54.742,
+                "y": 1416.013
+              },
+              {
+                "x": 57.031,
+                "y": 1421.579
+              },
+              {
+                "x": 59.215,
+                "y": 1421.341
+              },
+              {
+                "x": 61.4,
+                "y": 1426.918
+              },
+              {
+                "x": 63.48,
+                "y": 1432.507
+              },
+              {
+                "x": 64.832,
+                "y": 1441.084
+              },
+              {
+                "x": 66.393,
+                "y": 1438.006
+              },
+              {
+                "x": 68.369,
+                "y": 1443.606
+              },
+              {
+                "x": 70.657,
+                "y": 1452.08
+              },
+              {
+                "x": 72.738,
+                "y": 1451.853
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 1755.25,
+            "sigma_sat_MPa": -3985564.994,
+            "fit_strain_range": [
+              2.88662,
+              3.65369
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.00302,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 2.887\u20133.654."
+          }
+        },
+        {
+          "curve_id": "Fig3a_bulk_annealed_293K",
+          "curve_label": "Bulk CoCrFeNi (annealed, 293 K) \u2014 reference",
+          "curve_description": "Engineering curve from literature for bulk annealed CoCrFeNi; included in figure for comparison.",
+          "about_curve": "Lower strength than annealed microfibers; plotted as dashed curve in the figure.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Represents bulk (not microfiber); generally lower strength.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy base and tensile testing concept; engineering stress\u2013strain axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 25.0,
+            "Cr": 25.0,
+            "Fe": 25.0,
+            "Ni": 25.0,
+            "units": "at.% (equiatomic)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 2.272,
+                "y": 290.555
+              },
+              {
+                "x": 3.207,
+                "y": 313.717
+              },
+              {
+                "x": 4.037,
+                "y": 342.705
+              },
+              {
+                "x": 5.18,
+                "y": 374.568
+              },
+              {
+                "x": 6.218,
+                "y": 403.534
+              },
+              {
+                "x": 7.362,
+                "y": 417.948
+              },
+              {
+                "x": 8.506,
+                "y": 429.455
+              },
+              {
+                "x": 9.441,
+                "y": 443.893
+              },
+              {
+                "x": 10.376,
+                "y": 464.146
+              },
+              {
+                "x": 11.623,
+                "y": 487.274
+              },
+              {
+                "x": 13.806,
+                "y": 519.023
+              },
+              {
+                "x": 14.741,
+                "y": 536.368
+              },
+              {
+                "x": 15.781,
+                "y": 550.795
+              },
+              {
+                "x": 17.236,
+                "y": 565.175
+              },
+              {
+                "x": 18.692,
+                "y": 582.464
+              },
+              {
+                "x": 20.252,
+                "y": 591.018
+              },
+              {
+                "x": 21.915,
+                "y": 605.376
+              },
+              {
+                "x": 23.267,
+                "y": 619.768
+              },
+              {
+                "x": 24.827,
+                "y": 634.138
+              },
+              {
+                "x": 26.282,
+                "y": 645.611
+              },
+              {
+                "x": 27.738,
+                "y": 662.899
+              },
+              {
+                "x": 29.298,
+                "y": 674.361
+              },
+              {
+                "x": 31.377,
+                "y": 691.582
+              },
+              {
+                "x": 33.145,
+                "y": 703.021
+              },
+              {
+                "x": 35.121,
+                "y": 711.529
+              },
+              {
+                "x": 36.785,
+                "y": 720.071
+              },
+              {
+                "x": 38.45,
+                "y": 719.89
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 1953.598,
+            "sigma_sat_MPa": -1680.223,
+            "fit_strain_range": [
+              2.55189,
+              3.12835
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.98192,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 2.552\u20133.128."
+          }
+        }
+      ]
+    },
+    {
+      "graph_id": "Fig3b",
+      "title": "True stress\u2013strain and strain-hardening rate of annealed CoCrFeNi microfibers",
+      "description": "True stress (left axis, MPa) and strain hardening rate (right axis, MPa) vs true strain for annealed microfibers at 293 K and 150 K.",
+      "about_graph": "At 150 K the microfiber shows more pronounced and sustained strain hardening; at 293 K the strain-hardening rate continuously decreases.",
+      "x_axis_label": "True strain (\u03b5)",
+      "y_axis_label": "Left: True stress (MPa); Right: Strain hardening rate (MPa)",
+      "curves": [
+        {
+          "curve_id": "Fig3b_true_293K",
+          "curve_label": "True stress\u2013strain (293 K)",
+          "curve_description": "True stress vs true strain for annealed microfiber at 293 K.",
+          "about_curve": "Lower flow stress and earlier decline in work hardening compared with 150 K.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Shows lower stresses and earlier saturation; paired SHR curve decreases continuously.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same material and testing protocol; same true strain axis.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 25.0,
+            "Cr": 25.0,
+            "Fe": 25.0,
+            "Ni": 25.0,
+            "units": "at.% (equiatomic)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.211,
+                "y": 1118.465
+              },
+              {
+                "x": 0.005,
+                "y": 21.021
+              },
+              {
+                "x": 0.01,
+                "y": 58.894
+              },
+              {
+                "x": 0.012,
+                "y": 105.234
+              },
+              {
+                "x": 0.012,
+                "y": 168.471
+              },
+              {
+                "x": 0.016,
+                "y": 240.094
+              },
+              {
+                "x": 0.017,
+                "y": 328.614
+              },
+              {
+                "x": 0.092,
+                "y": 825.019
+              },
+              {
+                "x": 0.017,
+                "y": 387.636
+              },
+              {
+                "x": 0.018,
+                "y": 455.077
+              },
+              {
+                "x": 0.021,
+                "y": 509.837
+              },
+              {
+                "x": 0.022,
+                "y": 589.925
+              },
+              {
+                "x": 0.031,
+                "y": 627.741
+              },
+              {
+                "x": 0.039,
+                "y": 669.784
+              },
+              {
+                "x": 0.049,
+                "y": 699.156
+              },
+              {
+                "x": 0.059,
+                "y": 732.744
+              },
+              {
+                "x": 0.069,
+                "y": 762.105
+              },
+              {
+                "x": 0.08,
+                "y": 799.897
+              },
+              {
+                "x": 0.102,
+                "y": 854.403
+              },
+              {
+                "x": 0.112,
+                "y": 883.764
+              },
+              {
+                "x": 0.121,
+                "y": 904.716
+              },
+              {
+                "x": 0.135,
+                "y": 934.03
+              },
+              {
+                "x": 0.144,
+                "y": 963.414
+              },
+              {
+                "x": 0.157,
+                "y": 988.524
+              },
+              {
+                "x": 0.167,
+                "y": 1005.249
+              },
+              {
+                "x": 0.178,
+                "y": 1038.826
+              },
+              {
+                "x": 0.189,
+                "y": 1059.743
+              },
+              {
+                "x": 0.2,
+                "y": 1084.888
+              },
+              {
+                "x": 0.222,
+                "y": 1130.962
+              },
+              {
+                "x": 0.231,
+                "y": 1164.55
+              },
+              {
+                "x": 0.244,
+                "y": 1177.025
+              },
+              {
+                "x": 0.254,
+                "y": 1202.181
+              },
+              {
+                "x": 0.264,
+                "y": 1227.326
+              },
+              {
+                "x": 0.274,
+                "y": 1239.835
+              },
+              {
+                "x": 0.285,
+                "y": 1264.98
+              },
+              {
+                "x": 0.296,
+                "y": 1285.898
+              },
+              {
+                "x": 0.307,
+                "y": 1311.043
+              },
+              {
+                "x": 0.317,
+                "y": 1323.552
+              },
+              {
+                "x": 0.324,
+                "y": 1344.527
+              },
+              {
+                "x": 0.332,
+                "y": 1357.071
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 40054.723,
+            "sigma_sat_MPa": 786.723,
+            "fit_strain_range": [
+              0.02363,
+              0.06909
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.7452,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.024\u20130.069."
+          }
+        },
+        {
+          "curve_id": "Fig3b_true_150K",
+          "curve_label": "True stress\u2013strain (150 K)",
+          "curve_description": "True stress vs true strain for annealed microfiber at 150 K.",
+          "about_curve": "Higher flow stress sustained to larger strains, consistent with excellent strength\u2013ductility synergy.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Higher stresses and extended hardening compared with 293 K.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy and axes; annealed condition.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 25.0,
+            "Cr": 25.0,
+            "Fe": 25.0,
+            "Ni": 25.0,
+            "units": "at.% (equiatomic)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.022,
+                "y": 644.731
+              },
+              {
+                "x": 0.023,
+                "y": 699.513
+              },
+              {
+                "x": 0.025,
+                "y": 758.512
+              },
+              {
+                "x": 0.026,
+                "y": 817.522
+              },
+              {
+                "x": 0.026,
+                "y": 876.543
+              },
+              {
+                "x": 0.029,
+                "y": 931.302
+              },
+              {
+                "x": 0.035,
+                "y": 977.596
+              },
+              {
+                "x": 0.045,
+                "y": 1002.752
+              },
+              {
+                "x": 0.053,
+                "y": 1032.147
+              },
+              {
+                "x": 0.061,
+                "y": 1061.543
+              },
+              {
+                "x": 0.071,
+                "y": 1095.131
+              },
+              {
+                "x": 0.08,
+                "y": 1120.31
+              },
+              {
+                "x": 0.085,
+                "y": 1149.74
+              },
+              {
+                "x": 0.094,
+                "y": 1166.488
+              },
+              {
+                "x": 0.103,
+                "y": 1204.292
+              },
+              {
+                "x": 0.112,
+                "y": 1229.472
+              },
+              {
+                "x": 0.12,
+                "y": 1250.435
+              },
+              {
+                "x": 0.129,
+                "y": 1275.603
+              },
+              {
+                "x": 0.14,
+                "y": 1300.748
+              },
+              {
+                "x": 0.148,
+                "y": 1330.144
+              },
+              {
+                "x": 0.158,
+                "y": 1351.084
+              },
+              {
+                "x": 0.168,
+                "y": 1372.025
+              },
+              {
+                "x": 0.177,
+                "y": 1397.193
+              },
+              {
+                "x": 0.189,
+                "y": 1418.099
+              },
+              {
+                "x": 0.197,
+                "y": 1434.847
+              },
+              {
+                "x": 0.207,
+                "y": 1455.788
+              },
+              {
+                "x": 0.215,
+                "y": 1489.399
+              },
+              {
+                "x": 0.224,
+                "y": 1501.919
+              },
+              {
+                "x": 0.231,
+                "y": 1522.906
+              },
+              {
+                "x": 0.241,
+                "y": 1539.631
+              },
+              {
+                "x": 0.249,
+                "y": 1564.81
+              },
+              {
+                "x": 0.256,
+                "y": 1581.57
+              },
+              {
+                "x": 0.264,
+                "y": 1602.545
+              },
+              {
+                "x": 0.273,
+                "y": 1627.713
+              },
+              {
+                "x": 0.282,
+                "y": 1640.234
+              },
+              {
+                "x": 0.29,
+                "y": 1661.197
+              },
+              {
+                "x": 0.298,
+                "y": 1686.377
+              },
+              {
+                "x": 0.308,
+                "y": 1698.886
+              },
+              {
+                "x": 0.316,
+                "y": 1728.281
+              },
+              {
+                "x": 0.326,
+                "y": 1745.006
+              },
+              {
+                "x": 0.334,
+                "y": 1770.197
+              },
+              {
+                "x": 0.343,
+                "y": 1782.706
+              },
+              {
+                "x": 0.352,
+                "y": 1807.886
+              },
+              {
+                "x": 0.359,
+                "y": 1824.645
+              },
+              {
+                "x": 0.366,
+                "y": 1845.621
+              },
+              {
+                "x": 0.374,
+                "y": 1862.38
+              },
+              {
+                "x": 0.382,
+                "y": 1883.344
+              },
+              {
+                "x": 0.391,
+                "y": 1904.296
+              },
+              {
+                "x": 0.399,
+                "y": 1925.271
+              },
+              {
+                "x": 0.406,
+                "y": 1950.462
+              },
+              {
+                "x": 0.417,
+                "y": 1975.596
+              },
+              {
+                "x": 0.426,
+                "y": 2000.764
+              },
+              {
+                "x": 0.436,
+                "y": 2021.716
+              },
+              {
+                "x": 0.444,
+                "y": 2038.464
+              },
+              {
+                "x": 0.452,
+                "y": 2067.859
+              },
+              {
+                "x": 0.463,
+                "y": 2088.788
+              },
+              {
+                "x": 0.47,
+                "y": 2113.979
+              },
+              {
+                "x": 0.482,
+                "y": 2143.328
+              },
+              {
+                "x": 0.49,
+                "y": 2160.076
+              },
+              {
+                "x": 0.497,
+                "y": 2181.052
+              },
+              {
+                "x": 0.504,
+                "y": 2197.823
+              },
+              {
+                "x": 0.512,
+                "y": 2218.786
+              },
+              {
+                "x": 0.52,
+                "y": 2248.182
+              },
+              {
+                "x": 0.529,
+                "y": 2264.918
+              },
+              {
+                "x": 0.537,
+                "y": 2285.882
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 120074.763,
+            "sigma_sat_MPa": 1108.03,
+            "fit_strain_range": [
+              0.02183,
+              0.07852
+            ],
+            "savgol_filter": {
+              "window_points": 7,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.64535,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.079."
+          }
+        }
+      ]
+    }
+  ]
+}

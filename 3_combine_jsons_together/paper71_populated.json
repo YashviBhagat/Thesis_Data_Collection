@@ -1,0 +1,349 @@
+{
+  "paper_title": "Effect of nano-sized precipitates on the fatigue property of a lamellar structured high entropy alloy",
+  "graphs": [
+    {
+      "graph_id": "G1",
+      "title": "Engineering stress\u2013strain (AH vs LTA)",
+      "description": "Figure 4(a): Engineering stress\u2013strain curves comparing as-homogenized (AH) and low-temperature annealed (LTA) conditions.",
+      "about_graph": "Al0.7CoCrFeNi lamellar HEA tested in tension at ~10^-3 s^-1; LTA introduces nano-sized L12 precipitates in FCC, raising strength over AH.",
+      "x_axis_label": "Engineering strain",
+      "y_axis_label": "Engineering stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "G1-C1",
+          "curve_label": "AH",
+          "curve_description": "As-homogenized condition with lamellar FCC + B2; lower strength than LTA but slightly higher ductility.",
+          "about_curve": "Baseline lamellar microstructure without L12 precipitates; ~780 MPa YS and ~1040 MPa UTS reported.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lower stress level across strain and slightly greater elongation.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy chemistry (Al0.7CoCrFeNi), same test temperature and axis definitions.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Al": 14.89,
+            "Co": 21.28,
+            "Cr": 21.28,
+            "Fe": 21.28,
+            "Ni": 21.28
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.001,
+                "y": 796.691
+              },
+              {
+                "x": 0.005,
+                "y": 838.579
+              },
+              {
+                "x": 0.008,
+                "y": 867.542
+              },
+              {
+                "x": 0.01,
+                "y": 890.027
+              },
+              {
+                "x": 0.015,
+                "y": 909.195
+              },
+              {
+                "x": 0.019,
+                "y": 918.615
+              },
+              {
+                "x": 0.023,
+                "y": 937.783
+              },
+              {
+                "x": 0.027,
+                "y": 950.505
+              },
+              {
+                "x": 0.031,
+                "y": 963.164
+              },
+              {
+                "x": 0.037,
+                "y": 978.984
+              },
+              {
+                "x": 0.042,
+                "y": 998.121
+              },
+              {
+                "x": 0.046,
+                "y": 1001.094
+              },
+              {
+                "x": 0.05,
+                "y": 1010.53
+              },
+              {
+                "x": 0.054,
+                "y": 1023.22
+              },
+              {
+                "x": 0.058,
+                "y": 1026.209
+              },
+              {
+                "x": 0.062,
+                "y": 1048.601
+              },
+              {
+                "x": 0.067,
+                "y": 1054.813
+              },
+              {
+                "x": 0.07,
+                "y": 1057.818
+              },
+              {
+                "x": 0.074,
+                "y": 1057.583
+              },
+              {
+                "x": 0.078,
+                "y": 1063.764
+              },
+              {
+                "x": 0.083,
+                "y": 1069.946
+              },
+              {
+                "x": 0.087,
+                "y": 1076.174
+              },
+              {
+                "x": 0.092,
+                "y": 1079.084
+              },
+              {
+                "x": 0.096,
+                "y": 1078.819
+              },
+              {
+                "x": 0.1,
+                "y": 1085.047
+              },
+              {
+                "x": 0.103,
+                "y": 1088.067
+              },
+              {
+                "x": 0.107,
+                "y": 1094.295
+              },
+              {
+                "x": 0.111,
+                "y": 1094.061
+              },
+              {
+                "x": 0.115,
+                "y": 1097.05
+              },
+              {
+                "x": 0.118,
+                "y": 1100.086
+              },
+              {
+                "x": 0.12,
+                "y": 1099.914
+              },
+              {
+                "x": 0.123,
+                "y": 1099.726
+              },
+              {
+                "x": 0.126,
+                "y": 1099.523
+              },
+              {
+                "x": 0.13,
+                "y": 1102.543
+              },
+              {
+                "x": 0.133,
+                "y": 1105.548
+              },
+              {
+                "x": 0.137,
+                "y": 1108.568
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 15685.889,
+            "sigma_sat_MPa": 1379.389,
+            "fit_strain_range": [
+              0.02274,
+              0.07942
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.5762,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.023\u20130.079."
+          }
+        },
+        {
+          "curve_id": "G1-C2",
+          "curve_label": "LTA",
+          "curve_description": "Low-temperature annealed (AH+LTA) with nano-sized L12 precipitates in FCC; markedly higher strength than AH.",
+          "about_curve": "Precipitation-strengthened lamellar microstructure; ~1050 MPa YS and ~1400 MPa UTS reported, with reduced ductility.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Higher engineering stress for a given strain due to precipitation strengthening.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy system, testing method, and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Al": 14.89,
+            "Co": 21.28,
+            "Cr": 21.28,
+            "Fe": 21.28,
+            "Ni": 21.28
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 1117.27
+              },
+              {
+                "x": 0.005,
+                "y": 1149.519
+              },
+              {
+                "x": 0.007,
+                "y": 1184.991
+              },
+              {
+                "x": 0.012,
+                "y": 1217.053
+              },
+              {
+                "x": 0.016,
+                "y": 1229.774
+              },
+              {
+                "x": 0.02,
+                "y": 1245.703
+              },
+              {
+                "x": 0.023,
+                "y": 1261.664
+              },
+              {
+                "x": 0.028,
+                "y": 1277.578
+              },
+              {
+                "x": 0.031,
+                "y": 1293.522
+              },
+              {
+                "x": 0.036,
+                "y": 1312.644
+              },
+              {
+                "x": 0.039,
+                "y": 1318.95
+              },
+              {
+                "x": 0.042,
+                "y": 1334.942
+              },
+              {
+                "x": 0.044,
+                "y": 1334.817
+              },
+              {
+                "x": 0.048,
+                "y": 1347.522
+              },
+              {
+                "x": 0.052,
+                "y": 1347.257
+              },
+              {
+                "x": 0.056,
+                "y": 1359.978
+              },
+              {
+                "x": 0.06,
+                "y": 1369.383
+              },
+              {
+                "x": 0.065,
+                "y": 1375.548
+              },
+              {
+                "x": 0.069,
+                "y": 1385.031
+              },
+              {
+                "x": 0.072,
+                "y": 1388.036
+              },
+              {
+                "x": 0.076,
+                "y": 1391.025
+              },
+              {
+                "x": 0.08,
+                "y": 1390.806
+              },
+              {
+                "x": 0.083,
+                "y": 1390.587
+              },
+              {
+                "x": 0.088,
+                "y": 1393.529
+              },
+              {
+                "x": 0.091,
+                "y": 1396.534
+              },
+              {
+                "x": 0.094,
+                "y": 1396.331
+              },
+              {
+                "x": 0.098,
+                "y": 1399.351
+              },
+              {
+                "x": 0.101,
+                "y": 1399.148
+              },
+              {
+                "x": 0.104,
+                "y": 1402.184
+              },
+              {
+                "x": 0.107,
+                "y": 1405.204
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 29549.317,
+            "sigma_sat_MPa": 1628.25,
+            "fit_strain_range": [
+              0.02333,
+              0.07664
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.85625,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.023\u20130.077."
+          }
+        }
+      ]
+    }
+  ]
+}

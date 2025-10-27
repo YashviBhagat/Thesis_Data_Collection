@@ -1,0 +1,2661 @@
+{
+  "paper_title": "Microstructure and mechanical behavior of an additive manufactured (AM) WE43-Mg alloy",
+  "graphs": [
+    {
+      "graph_id": "fig3a_as_built",
+      "title": "Dynamic true stress\u2013true strain at 1000 s\u207b\u00b9 (as-built)",
+      "description": "SHPB compression of as-built WE43 cylinders under four SLM settings; curves grouped by porosity level.",
+      "about_graph": "All tests at ~1000 s\u207b\u00b9. Higher porosity lowers flow stress and reduces work-hardening; dashed vertical lines at ~0.02 and ~0.11 true strain mark reference points in the panel.",
+      "x_axis_label": "True Strain (mm/mm)",
+      "y_axis_label": "True Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "c3a_1",
+          "curve_label": "#1 (0.3% porosity)",
+          "curve_description": "Nearly fully dense build; highest strength among as-built conditions.",
+          "about_curve": "Initial stress rises rapidly then hardens to ~420 MPa by \u03b5\u22480.10.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lowest porosity \u2192 highest flow stress and sustained hardening.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy, geometry, ~1000 s\u207b\u00b9 SHPB test, true metrics and units.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.001,
+                "y": 175.854
+              },
+              {
+                "x": 0.002,
+                "y": 195.388
+              },
+              {
+                "x": 0.005,
+                "y": 216.064
+              },
+              {
+                "x": 0.009,
+                "y": 233.284
+              },
+              {
+                "x": 0.012,
+                "y": 247.057
+              },
+              {
+                "x": 0.015,
+                "y": 259.681
+              },
+              {
+                "x": 0.02,
+                "y": 278.044
+              },
+              {
+                "x": 0.026,
+                "y": 292.955
+              },
+              {
+                "x": 0.03,
+                "y": 305.575
+              },
+              {
+                "x": 0.035,
+                "y": 315.892
+              },
+              {
+                "x": 0.041,
+                "y": 323.905
+              },
+              {
+                "x": 0.046,
+                "y": 334.216
+              },
+              {
+                "x": 0.053,
+                "y": 341.077
+              },
+              {
+                "x": 0.058,
+                "y": 355.99
+              },
+              {
+                "x": 0.063,
+                "y": 365.158
+              },
+              {
+                "x": 0.067,
+                "y": 374.328
+              },
+              {
+                "x": 0.071,
+                "y": 386.946
+              },
+              {
+                "x": 0.077,
+                "y": 394.962
+              },
+              {
+                "x": 0.082,
+                "y": 401.829
+              },
+              {
+                "x": 0.088,
+                "y": 405.242
+              },
+              {
+                "x": 0.092,
+                "y": 412.112
+              },
+              {
+                "x": 0.098,
+                "y": 416.68
+              },
+              {
+                "x": 0.103,
+                "y": 420.097
+              },
+              {
+                "x": 0.108,
+                "y": 421.221
+              },
+              {
+                "x": 0.114,
+                "y": 428.08
+              },
+              {
+                "x": 0.12,
+                "y": 431.497
+              },
+              {
+                "x": 0.125,
+                "y": 434.915
+              },
+              {
+                "x": 0.131,
+                "y": 438.33
+              },
+              {
+                "x": 0.136,
+                "y": 438.296
+              },
+              {
+                "x": 0.142,
+                "y": 438.267
+              },
+              {
+                "x": 0.146,
+                "y": 438.239
+              },
+              {
+                "x": 0.151,
+                "y": 433.616
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 4416.819,
+            "sigma_sat_MPa": 656.922,
+            "fit_strain_range": [
+              0.02017,
+              0.07657
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.23436,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.020\u20130.077."
+          }
+        },
+        {
+          "curve_id": "c3a_4",
+          "curve_label": "#4 (1.7% porosity)",
+          "curve_description": "Moderately dense build; intermediate flow stress.",
+          "about_curve": "Lower stresses than #1 but above #7 and #9 throughout strain.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Moderate porosity shifts curve downward relative to #1.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Identical testing conditions and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 154.011
+              },
+              {
+                "x": 0.005,
+                "y": 170.087
+              },
+              {
+                "x": 0.007,
+                "y": 186.169
+              },
+              {
+                "x": 0.008,
+                "y": 198.805
+              },
+              {
+                "x": 0.01,
+                "y": 207.987
+              },
+              {
+                "x": 0.012,
+                "y": 222.917
+              },
+              {
+                "x": 0.015,
+                "y": 232.099
+              },
+              {
+                "x": 0.018,
+                "y": 241.275
+              },
+              {
+                "x": 0.021,
+                "y": 244.707
+              },
+              {
+                "x": 0.026,
+                "y": 249.277
+              },
+              {
+                "x": 0.029,
+                "y": 257.303
+              },
+              {
+                "x": 0.033,
+                "y": 264.176
+              },
+              {
+                "x": 0.036,
+                "y": 268.756
+              },
+              {
+                "x": 0.042,
+                "y": 280.221
+              },
+              {
+                "x": 0.047,
+                "y": 289.383
+              },
+              {
+                "x": 0.052,
+                "y": 295.104
+              },
+              {
+                "x": 0.057,
+                "y": 311.164
+              },
+              {
+                "x": 0.063,
+                "y": 320.33
+              },
+              {
+                "x": 0.069,
+                "y": 335.237
+              },
+              {
+                "x": 0.074,
+                "y": 344.401
+              },
+              {
+                "x": 0.081,
+                "y": 351.258
+              },
+              {
+                "x": 0.088,
+                "y": 358.117
+              },
+              {
+                "x": 0.096,
+                "y": 360.367
+              },
+              {
+                "x": 0.101,
+                "y": 367.235
+              },
+              {
+                "x": 0.108,
+                "y": 374.093
+              },
+              {
+                "x": 0.114,
+                "y": 384.402
+              },
+              {
+                "x": 0.119,
+                "y": 384.376
+              },
+              {
+                "x": 0.125,
+                "y": 388.936
+              },
+              {
+                "x": 0.13,
+                "y": 391.206
+              },
+              {
+                "x": 0.136,
+                "y": 390.021
+              },
+              {
+                "x": 0.144,
+                "y": 392.278
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 808.273,
+            "sigma_sat_MPa": -231.471,
+            "fit_strain_range": [
+              0.02151,
+              0.07443
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.17069,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.074."
+          }
+        },
+        {
+          "curve_id": "c3a_7",
+          "curve_label": "#7 (3.4% porosity)",
+          "curve_description": "Higher-porosity build; reduced initial flow and hardening.",
+          "about_curve": "Work hardening weaker than #1/#4 due to porosity.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Greater porosity yields lower stress for a given strain.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy and SHPB setup; true stress\u2013strain.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.005,
+                "y": 91.922
+              },
+              {
+                "x": 0.007,
+                "y": 104.556
+              },
+              {
+                "x": 0.01,
+                "y": 121.78
+              },
+              {
+                "x": 0.013,
+                "y": 137.858
+              },
+              {
+                "x": 0.016,
+                "y": 150.48
+              },
+              {
+                "x": 0.02,
+                "y": 158.508
+              },
+              {
+                "x": 0.023,
+                "y": 172.279
+              },
+              {
+                "x": 0.029,
+                "y": 191.79
+              },
+              {
+                "x": 0.034,
+                "y": 210.147
+              },
+              {
+                "x": 0.042,
+                "y": 221.6
+              },
+              {
+                "x": 0.045,
+                "y": 231.927
+              },
+              {
+                "x": 0.048,
+                "y": 237.653
+              },
+              {
+                "x": 0.053,
+                "y": 241.075
+              },
+              {
+                "x": 0.056,
+                "y": 251.402
+              },
+              {
+                "x": 0.059,
+                "y": 260.578
+              },
+              {
+                "x": 0.065,
+                "y": 266.291
+              },
+              {
+                "x": 0.07,
+                "y": 272.013
+              },
+              {
+                "x": 0.075,
+                "y": 278.88
+              },
+              {
+                "x": 0.079,
+                "y": 286.9
+              },
+              {
+                "x": 0.085,
+                "y": 292.616
+              },
+              {
+                "x": 0.091,
+                "y": 297.18
+              },
+              {
+                "x": 0.096,
+                "y": 297.15
+              },
+              {
+                "x": 0.102,
+                "y": 301.71
+              },
+              {
+                "x": 0.108,
+                "y": 306.278
+              },
+              {
+                "x": 0.113,
+                "y": 307.398
+              },
+              {
+                "x": 0.118,
+                "y": 309.669
+              },
+              {
+                "x": 0.122,
+                "y": 309.644
+              },
+              {
+                "x": 0.127,
+                "y": 311.913
+              },
+              {
+                "x": 0.133,
+                "y": 311.881
+              },
+              {
+                "x": 0.136,
+                "y": 311.862
+              },
+              {
+                "x": 0.141,
+                "y": 315.28
+              },
+              {
+                "x": 0.147,
+                "y": 314.099
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 6809.343,
+            "sigma_sat_MPa": 345.0,
+            "fit_strain_range": [
+              0.02369,
+              0.07943
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.77729,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.024\u20130.079."
+          }
+        },
+        {
+          "curve_id": "c3a_9",
+          "curve_label": "#9 (12.4% porosity)",
+          "curve_description": "Most porous build; lowest stress and early softening.",
+          "about_curve": "Lowest curve among as-built; ductility reduced.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Largest porosity \u2192 largest strength drop.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same strain rate, axes and material state (as-built).",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 82.745
+              },
+              {
+                "x": 0.003,
+                "y": 99.98
+              },
+              {
+                "x": 0.006,
+                "y": 117.208
+              },
+              {
+                "x": 0.01,
+                "y": 129.828
+              },
+              {
+                "x": 0.013,
+                "y": 141.304
+              },
+              {
+                "x": 0.016,
+                "y": 150.48
+              },
+              {
+                "x": 0.02,
+                "y": 159.656
+              },
+              {
+                "x": 0.024,
+                "y": 172.278
+              },
+              {
+                "x": 0.027,
+                "y": 183.75
+              },
+              {
+                "x": 0.032,
+                "y": 191.772
+              },
+              {
+                "x": 0.037,
+                "y": 197.488
+              },
+              {
+                "x": 0.044,
+                "y": 202.046
+              },
+              {
+                "x": 0.048,
+                "y": 212.365
+              },
+              {
+                "x": 0.054,
+                "y": 213.483
+              },
+              {
+                "x": 0.059,
+                "y": 222.647
+              },
+              {
+                "x": 0.065,
+                "y": 229.514
+              },
+              {
+                "x": 0.07,
+                "y": 229.484
+              },
+              {
+                "x": 0.074,
+                "y": 240.953
+              },
+              {
+                "x": 0.08,
+                "y": 239.772
+              },
+              {
+                "x": 0.087,
+                "y": 248.928
+              },
+              {
+                "x": 0.092,
+                "y": 250.043
+              },
+              {
+                "x": 0.098,
+                "y": 253.462
+              },
+              {
+                "x": 0.102,
+                "y": 249.99
+              },
+              {
+                "x": 0.108,
+                "y": 253.403
+              },
+              {
+                "x": 0.113,
+                "y": 254.525
+              },
+              {
+                "x": 0.117,
+                "y": 256.798
+              },
+              {
+                "x": 0.123,
+                "y": 256.764
+              },
+              {
+                "x": 0.127,
+                "y": 252.141
+              },
+              {
+                "x": 0.134,
+                "y": 254.404
+              },
+              {
+                "x": 0.138,
+                "y": 254.377
+              },
+              {
+                "x": 0.144,
+                "y": 250.899
+              },
+              {
+                "x": 0.148,
+                "y": 248.572
+              },
+              {
+                "x": 0.154,
+                "y": 250.839
+              },
+              {
+                "x": 0.159,
+                "y": 245.065
+              },
+              {
+                "x": 0.162,
+                "y": 240.447
+              },
+              {
+                "x": 0.166,
+                "y": 233.531
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 7485.884,
+            "sigma_sat_MPa": 258.026,
+            "fit_strain_range": [
+              0.02,
+              0.07434
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.77138,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.020\u20130.074."
+          }
+        }
+      ]
+    },
+    {
+      "graph_id": "fig3b_HIP",
+      "title": "Dynamic true stress\u2013true strain at 1000 s\u207b\u00b9 (HIP treated)",
+      "description": "SHPB compression of HIP\u2019ed WE43 cylinders; porosity reduced vs as-built and curves terminate at shear failure (~0.15 strain).",
+      "about_graph": "HIP densifies pores; strength trends converge for #1/#4/#7; #9 remains weakest due to residual porosity.",
+      "x_axis_label": "True Strain (mm/mm)",
+      "y_axis_label": "True Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "c3b_1",
+          "curve_label": "#1 HIP (0.3% porosity)",
+          "curve_description": "Nearly dense after HIP; strength slightly lower than as-built.",
+          "about_curve": "Microstructural changes offset densification; failure near \u03b5\u22480.15 by shear.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Shows a small strength drop vs its as-built counterpart.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same SHPB rate and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 81.712
+              },
+              {
+                "x": 0.003,
+                "y": 95.331
+              },
+              {
+                "x": 0.005,
+                "y": 110.895
+              },
+              {
+                "x": 0.008,
+                "y": 125.486
+              },
+              {
+                "x": 0.011,
+                "y": 139.105
+              },
+              {
+                "x": 0.014,
+                "y": 151.751
+              },
+              {
+                "x": 0.017,
+                "y": 165.37
+              },
+              {
+                "x": 0.019,
+                "y": 182.879
+              },
+              {
+                "x": 0.024,
+                "y": 196.498
+              },
+              {
+                "x": 0.027,
+                "y": 209.144
+              },
+              {
+                "x": 0.03,
+                "y": 223.735
+              },
+              {
+                "x": 0.034,
+                "y": 237.354
+              },
+              {
+                "x": 0.037,
+                "y": 250.0
+              },
+              {
+                "x": 0.043,
+                "y": 258.755
+              },
+              {
+                "x": 0.046,
+                "y": 272.374
+              },
+              {
+                "x": 0.05,
+                "y": 282.101
+              },
+              {
+                "x": 0.054,
+                "y": 290.856
+              },
+              {
+                "x": 0.058,
+                "y": 299.611
+              },
+              {
+                "x": 0.062,
+                "y": 311.284
+              },
+              {
+                "x": 0.068,
+                "y": 319.066
+              },
+              {
+                "x": 0.074,
+                "y": 328.794
+              },
+              {
+                "x": 0.079,
+                "y": 341.44
+              },
+              {
+                "x": 0.084,
+                "y": 351.167
+              },
+              {
+                "x": 0.09,
+                "y": 360.895
+              },
+              {
+                "x": 0.095,
+                "y": 369.65
+              },
+              {
+                "x": 0.101,
+                "y": 374.514
+              },
+              {
+                "x": 0.106,
+                "y": 384.241
+              },
+              {
+                "x": 0.112,
+                "y": 390.078
+              },
+              {
+                "x": 0.119,
+                "y": 396.887
+              },
+              {
+                "x": 0.125,
+                "y": 398.833
+              },
+              {
+                "x": 0.132,
+                "y": 401.751
+              },
+              {
+                "x": 0.139,
+                "y": 403.696
+              },
+              {
+                "x": 0.144,
+                "y": 403.696
+              },
+              {
+                "x": 0.15,
+                "y": 402.724
+              },
+              {
+                "x": 0.154,
+                "y": 396.887
+              },
+              {
+                "x": 0.159,
+                "y": 391.051
+              },
+              {
+                "x": 0.161,
+                "y": 379.377
+              },
+              {
+                "x": 0.162,
+                "y": 364.786
+              },
+              {
+                "x": 0.162,
+                "y": 351.167
+              },
+              {
+                "x": 0.163,
+                "y": 337.549
+              },
+              {
+                "x": 0.164,
+                "y": 323.93
+              },
+              {
+                "x": 0.164,
+                "y": 309.339
+              },
+              {
+                "x": 0.164,
+                "y": 294.747
+              },
+              {
+                "x": 0.165,
+                "y": 281.128
+              },
+              {
+                "x": 0.165,
+                "y": 265.564
+              },
+              {
+                "x": 0.166,
+                "y": 251.946
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 7385.01,
+            "sigma_sat_MPa": 437.467,
+            "fit_strain_range": [
+              0.0234,
+              0.079
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.82322,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.023\u20130.079."
+          }
+        },
+        {
+          "curve_id": "c3b_4",
+          "curve_label": "#4 HIP (0.6% porosity)",
+          "curve_description": "Densification offsets microstructural softening; stress comparable to as-built.",
+          "about_curve": "Intermediate strength; shear failure near \u03b5\u22480.15.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Porosity reduced to ~0.6% improves strength over higher-porosity states.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same test and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.0,
+                "y": 151.751
+              },
+              {
+                "x": 0.001,
+                "y": 168.288
+              },
+              {
+                "x": 0.002,
+                "y": 188.716
+              },
+              {
+                "x": 0.005,
+                "y": 199.416
+              },
+              {
+                "x": 0.008,
+                "y": 213.035
+              },
+              {
+                "x": 0.011,
+                "y": 228.599
+              },
+              {
+                "x": 0.015,
+                "y": 242.218
+              },
+              {
+                "x": 0.019,
+                "y": 248.054
+              },
+              {
+                "x": 0.022,
+                "y": 254.864
+              },
+              {
+                "x": 0.027,
+                "y": 262.646
+              },
+              {
+                "x": 0.032,
+                "y": 275.292
+              },
+              {
+                "x": 0.038,
+                "y": 285.019
+              },
+              {
+                "x": 0.042,
+                "y": 292.802
+              },
+              {
+                "x": 0.048,
+                "y": 302.529
+              },
+              {
+                "x": 0.053,
+                "y": 316.148
+              },
+              {
+                "x": 0.058,
+                "y": 323.93
+              },
+              {
+                "x": 0.063,
+                "y": 333.658
+              },
+              {
+                "x": 0.068,
+                "y": 345.331
+              },
+              {
+                "x": 0.075,
+                "y": 354.086
+              },
+              {
+                "x": 0.081,
+                "y": 363.813
+              },
+              {
+                "x": 0.085,
+                "y": 370.623
+              },
+              {
+                "x": 0.09,
+                "y": 376.459
+              },
+              {
+                "x": 0.097,
+                "y": 384.241
+              },
+              {
+                "x": 0.102,
+                "y": 390.078
+              },
+              {
+                "x": 0.109,
+                "y": 394.942
+              },
+              {
+                "x": 0.117,
+                "y": 399.805
+              },
+              {
+                "x": 0.126,
+                "y": 406.615
+              },
+              {
+                "x": 0.133,
+                "y": 404.669
+              },
+              {
+                "x": 0.141,
+                "y": 397.86
+              },
+              {
+                "x": 0.145,
+                "y": 387.16
+              },
+              {
+                "x": 0.147,
+                "y": 375.486
+              },
+              {
+                "x": 0.149,
+                "y": 358.949
+              },
+              {
+                "x": 0.15,
+                "y": 345.331
+              },
+              {
+                "x": 0.15,
+                "y": 331.712
+              },
+              {
+                "x": 0.151,
+                "y": 318.093
+              },
+              {
+                "x": 0.151,
+                "y": 305.447
+              },
+              {
+                "x": 0.152,
+                "y": 291.829
+              },
+              {
+                "x": 0.152,
+                "y": 277.237
+              },
+              {
+                "x": 0.153,
+                "y": 260.7
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 2484.196,
+            "sigma_sat_MPa": 1264.192,
+            "fit_strain_range": [
+              0.02243,
+              0.07483
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.15861,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.075."
+          }
+        },
+        {
+          "curve_id": "c3b_7",
+          "curve_label": "#7 HIP (0.7% porosity)",
+          "curve_description": "Substantial densification relative to as-built; among the higher HIP curves.",
+          "about_curve": "Higher stresses than #1 HIP at the same strain; failure near \u03b5\u22480.15.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Shows clearest HIP strengthening among #1/#4/#7.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same material and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.005,
+                "y": 203.307
+              },
+              {
+                "x": 0.008,
+                "y": 216.926
+              },
+              {
+                "x": 0.012,
+                "y": 232.49
+              },
+              {
+                "x": 0.017,
+                "y": 245.136
+              },
+              {
+                "x": 0.02,
+                "y": 258.755
+              },
+              {
+                "x": 0.024,
+                "y": 269.455
+              },
+              {
+                "x": 0.03,
+                "y": 282.101
+              },
+              {
+                "x": 0.034,
+                "y": 289.883
+              },
+              {
+                "x": 0.039,
+                "y": 296.693
+              },
+              {
+                "x": 0.042,
+                "y": 307.393
+              },
+              {
+                "x": 0.047,
+                "y": 318.093
+              },
+              {
+                "x": 0.052,
+                "y": 329.767
+              },
+              {
+                "x": 0.057,
+                "y": 339.494
+              },
+              {
+                "x": 0.061,
+                "y": 348.249
+              },
+              {
+                "x": 0.066,
+                "y": 355.058
+              },
+              {
+                "x": 0.069,
+                "y": 363.813
+              },
+              {
+                "x": 0.072,
+                "y": 371.595
+              },
+              {
+                "x": 0.077,
+                "y": 380.35
+              },
+              {
+                "x": 0.084,
+                "y": 383.268
+              },
+              {
+                "x": 0.092,
+                "y": 389.105
+              },
+              {
+                "x": 0.1,
+                "y": 393.969
+              },
+              {
+                "x": 0.108,
+                "y": 396.887
+              },
+              {
+                "x": 0.119,
+                "y": 400.778
+              },
+              {
+                "x": 0.127,
+                "y": 397.86
+              },
+              {
+                "x": 0.134,
+                "y": 392.023
+              },
+              {
+                "x": 0.139,
+                "y": 381.323
+              },
+              {
+                "x": 0.142,
+                "y": 371.595
+              },
+              {
+                "x": 0.144,
+                "y": 356.031
+              },
+              {
+                "x": 0.145,
+                "y": 344.358
+              },
+              {
+                "x": 0.147,
+                "y": 327.821
+              },
+              {
+                "x": 0.147,
+                "y": 309.339
+              },
+              {
+                "x": 0.149,
+                "y": 291.829
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 4147.556,
+            "sigma_sat_MPa": 676.929,
+            "fit_strain_range": [
+              0.02017,
+              0.07709
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.26388,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.020\u20130.077."
+          }
+        },
+        {
+          "curve_id": "c3b_9",
+          "curve_label": "#9 HIP (2.7% porosity)",
+          "curve_description": "Residual porosity remains relatively high; lowest HIP curve.",
+          "about_curve": "Failure occurs at lower stress/strain; densification insufficient to recover strength.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lowest flow stress due to residual porosity.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same specimen size, test rate, and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.003,
+                "y": 130.35
+              },
+              {
+                "x": 0.006,
+                "y": 143.969
+              },
+              {
+                "x": 0.011,
+                "y": 153.696
+              },
+              {
+                "x": 0.016,
+                "y": 169.261
+              },
+              {
+                "x": 0.023,
+                "y": 185.798
+              },
+              {
+                "x": 0.029,
+                "y": 193.58
+              },
+              {
+                "x": 0.034,
+                "y": 206.226
+              },
+              {
+                "x": 0.04,
+                "y": 213.035
+              },
+              {
+                "x": 0.044,
+                "y": 222.763
+              },
+              {
+                "x": 0.052,
+                "y": 232.49
+              },
+              {
+                "x": 0.06,
+                "y": 240.272
+              },
+              {
+                "x": 0.065,
+                "y": 247.082
+              },
+              {
+                "x": 0.072,
+                "y": 250.973
+              },
+              {
+                "x": 0.076,
+                "y": 254.864
+              },
+              {
+                "x": 0.081,
+                "y": 258.755
+              },
+              {
+                "x": 0.086,
+                "y": 261.673
+              },
+              {
+                "x": 0.093,
+                "y": 262.646
+              },
+              {
+                "x": 0.099,
+                "y": 265.564
+              },
+              {
+                "x": 0.106,
+                "y": 265.564
+              },
+              {
+                "x": 0.111,
+                "y": 262.646
+              },
+              {
+                "x": 0.118,
+                "y": 260.7
+              },
+              {
+                "x": 0.122,
+                "y": 256.809
+              },
+              {
+                "x": 0.126,
+                "y": 249.027
+              },
+              {
+                "x": 0.13,
+                "y": 240.272
+              },
+              {
+                "x": 0.132,
+                "y": 231.518
+              },
+              {
+                "x": 0.132,
+                "y": 221.79
+              },
+              {
+                "x": 0.134,
+                "y": 210.117
+              },
+              {
+                "x": 0.136,
+                "y": 194.553
+              },
+              {
+                "x": 0.137,
+                "y": 180.934
+              },
+              {
+                "x": 0.137,
+                "y": 167.315
+              },
+              {
+                "x": 0.138,
+                "y": 151.751
+              },
+              {
+                "x": 0.139,
+                "y": 134.241
+              },
+              {
+                "x": 0.14,
+                "y": 116.732
+              },
+              {
+                "x": 0.142,
+                "y": 98.249
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 5631.862,
+            "sigma_sat_MPa": 296.267,
+            "fit_strain_range": [
+              0.02274,
+              0.07643
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.95833,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.023\u20130.076."
+          }
+        }
+      ]
+    },
+    {
+      "graph_id": "fig13_sample_1",
+      "title": "Dynamic true stress\u2013true strain at 1000 s\u207b\u00b9: Sample #1 As-built vs HIP",
+      "description": "Overlay of Sample #1 in as-built vs HIP conditions to isolate HIP effects at fixed SLM parameters.",
+      "about_graph": "As-built shows porosity-dependent strength; HIP modifies both porosity and precipitate populations, shifting curves and often causing shear failure near 0.15 strain.",
+      "x_axis_label": "True Strain (mm/mm)",
+      "y_axis_label": "True Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "c13_1_AB",
+          "curve_label": "As-built #1 (porosity 0.3%)",
+          "curve_description": "Baseline dynamic response before HIP.",
+          "about_curve": "Reflects as-built porosity and precipitate morphology.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Generally higher ductility window than HIP except for highly porous #9.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy, cylinder geometry, 1000 s\u207b\u00b9 SHPB, true stress\u2013strain axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.001,
+                "y": 161.245
+              },
+              {
+                "x": 0.002,
+                "y": 180.001
+              },
+              {
+                "x": 0.003,
+                "y": 197.504
+              },
+              {
+                "x": 0.006,
+                "y": 217.522
+              },
+              {
+                "x": 0.009,
+                "y": 235.039
+              },
+              {
+                "x": 0.013,
+                "y": 251.306
+              },
+              {
+                "x": 0.017,
+                "y": 266.326
+              },
+              {
+                "x": 0.022,
+                "y": 280.102
+              },
+              {
+                "x": 0.028,
+                "y": 295.13
+              },
+              {
+                "x": 0.032,
+                "y": 307.653
+              },
+              {
+                "x": 0.039,
+                "y": 316.434
+              },
+              {
+                "x": 0.044,
+                "y": 325.21
+              },
+              {
+                "x": 0.049,
+                "y": 335.238
+              },
+              {
+                "x": 0.054,
+                "y": 349.013
+              },
+              {
+                "x": 0.061,
+                "y": 355.295
+              },
+              {
+                "x": 0.065,
+                "y": 367.817
+              },
+              {
+                "x": 0.071,
+                "y": 384.096
+              },
+              {
+                "x": 0.078,
+                "y": 395.38
+              },
+              {
+                "x": 0.086,
+                "y": 401.669
+              },
+              {
+                "x": 0.092,
+                "y": 407.95
+              },
+              {
+                "x": 0.1,
+                "y": 416.74
+              },
+              {
+                "x": 0.108,
+                "y": 421.779
+              },
+              {
+                "x": 0.114,
+                "y": 429.313
+              },
+              {
+                "x": 0.123,
+                "y": 435.605
+              },
+              {
+                "x": 0.13,
+                "y": 438.142
+              },
+              {
+                "x": 0.136,
+                "y": 438.173
+              },
+              {
+                "x": 0.144,
+                "y": 438.209
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 4013.435,
+            "sigma_sat_MPa": 698.637,
+            "fit_strain_range": [
+              0.02226,
+              0.07826
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.22491,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.078."
+          }
+        },
+        {
+          "curve_id": "c13_1_HIP",
+          "curve_label": "HIP #1 (porosity 0.3%)",
+          "curve_description": "Dynamic response after HIP densification and precipitate evolution.",
+          "about_curve": "All HIP curves show abrupt shear failure near \u03b5\u22480.15; strength change relative to as-built depends on the balance of densification vs precipitate coarsening.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Often higher initial stress if densification dominates (#7), or lower if microstructural softening dominates (#1).",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same axes and testing protocol; true stress\u2013strain metrics.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.003,
+                "y": 96.258
+              },
+              {
+                "x": 0.006,
+                "y": 115.019
+              },
+              {
+                "x": 0.01,
+                "y": 132.539
+              },
+              {
+                "x": 0.013,
+                "y": 148.807
+              },
+              {
+                "x": 0.016,
+                "y": 166.324
+              },
+              {
+                "x": 0.02,
+                "y": 178.841
+              },
+              {
+                "x": 0.023,
+                "y": 190.108
+              },
+              {
+                "x": 0.028,
+                "y": 202.631
+              },
+              {
+                "x": 0.031,
+                "y": 222.648
+              },
+              {
+                "x": 0.037,
+                "y": 237.677
+              },
+              {
+                "x": 0.042,
+                "y": 252.699
+              },
+              {
+                "x": 0.048,
+                "y": 275.231
+              },
+              {
+                "x": 0.055,
+                "y": 290.265
+              },
+              {
+                "x": 0.061,
+                "y": 309.046
+              },
+              {
+                "x": 0.069,
+                "y": 322.839
+              },
+              {
+                "x": 0.076,
+                "y": 334.123
+              },
+              {
+                "x": 0.084,
+                "y": 349.162
+              },
+              {
+                "x": 0.091,
+                "y": 361.696
+              },
+              {
+                "x": 0.098,
+                "y": 369.23
+              },
+              {
+                "x": 0.104,
+                "y": 379.261
+              },
+              {
+                "x": 0.111,
+                "y": 385.548
+              },
+              {
+                "x": 0.118,
+                "y": 395.582
+              },
+              {
+                "x": 0.127,
+                "y": 396.874
+              },
+              {
+                "x": 0.134,
+                "y": 401.914
+              },
+              {
+                "x": 0.143,
+                "y": 401.956
+              },
+              {
+                "x": 0.151,
+                "y": 399.495
+              },
+              {
+                "x": 0.157,
+                "y": 392.028
+              },
+              {
+                "x": 0.162,
+                "y": 379.551
+              },
+              {
+                "x": 0.163,
+                "y": 358.309
+              },
+              {
+                "x": 0.164,
+                "y": 333.314
+              },
+              {
+                "x": 0.165,
+                "y": 312.066
+              },
+              {
+                "x": 0.165,
+                "y": 288.318
+              },
+              {
+                "x": 0.165,
+                "y": 272.068
+              },
+              {
+                "x": 0.166,
+                "y": 253.32
+              },
+              {
+                "x": 0.166,
+                "y": 228.32
+              },
+              {
+                "x": 0.167,
+                "y": 208.325
+              },
+              {
+                "x": 0.168,
+                "y": 182.08
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 6466.959,
+            "sigma_sat_MPa": 472.631,
+            "fit_strain_range": [
+              0.0236,
+              0.07634
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.89647,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.024\u20130.076."
+          }
+        }
+      ]
+    },
+    {
+      "graph_id": "fig13_sample_4",
+      "title": "Dynamic true stress\u2013true strain at 1000 s\u207b\u00b9: Sample #4 As-built vs HIP",
+      "description": "Overlay of Sample #4 in as-built vs HIP conditions to isolate HIP effects at fixed SLM parameters.",
+      "about_graph": "As-built shows porosity-dependent strength; HIP modifies both porosity and precipitate populations, shifting curves and often causing shear failure near 0.15 strain.",
+      "x_axis_label": "True Strain (mm/mm)",
+      "y_axis_label": "True Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "c13_4_AB",
+          "curve_label": "As-built #4 (porosity 1.7%)",
+          "curve_description": "Baseline dynamic response before HIP.",
+          "about_curve": "Reflects as-built porosity and precipitate morphology.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Generally higher ductility window than HIP except for highly porous #9.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy, cylinder geometry, 1000 s\u207b\u00b9 SHPB, true stress\u2013strain axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 156.373
+              },
+              {
+                "x": 0.005,
+                "y": 174.446
+              },
+              {
+                "x": 0.007,
+                "y": 191.46
+              },
+              {
+                "x": 0.008,
+                "y": 203.156
+              },
+              {
+                "x": 0.012,
+                "y": 215.907
+              },
+              {
+                "x": 0.016,
+                "y": 228.655
+              },
+              {
+                "x": 0.021,
+                "y": 239.272
+              },
+              {
+                "x": 0.027,
+                "y": 252.011
+              },
+              {
+                "x": 0.033,
+                "y": 260.498
+              },
+              {
+                "x": 0.038,
+                "y": 271.115
+              },
+              {
+                "x": 0.045,
+                "y": 279.597
+              },
+              {
+                "x": 0.048,
+                "y": 290.222
+              },
+              {
+                "x": 0.051,
+                "y": 295.527
+              },
+              {
+                "x": 0.057,
+                "y": 304.015
+              },
+              {
+                "x": 0.061,
+                "y": 313.572
+              },
+              {
+                "x": 0.067,
+                "y": 324.185
+              },
+              {
+                "x": 0.072,
+                "y": 333.736
+              },
+              {
+                "x": 0.079,
+                "y": 343.281
+              },
+              {
+                "x": 0.086,
+                "y": 350.699
+              },
+              {
+                "x": 0.093,
+                "y": 359.181
+              },
+              {
+                "x": 0.1,
+                "y": 368.722
+              },
+              {
+                "x": 0.108,
+                "y": 375.074
+              },
+              {
+                "x": 0.117,
+                "y": 379.29
+              },
+              {
+                "x": 0.126,
+                "y": 385.634
+              },
+              {
+                "x": 0.132,
+                "y": 386.671
+              },
+              {
+                "x": 0.139,
+                "y": 387.706
+              },
+              {
+                "x": 0.147,
+                "y": 387.673
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 2981.396,
+            "sigma_sat_MPa": 746.131,
+            "fit_strain_range": [
+              0.02109,
+              0.07883
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.278,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.021\u20130.079."
+          }
+        },
+        {
+          "curve_id": "c13_4_HIP",
+          "curve_label": "HIP #4 (porosity 0.6%)",
+          "curve_description": "Dynamic response after HIP densification and precipitate evolution.",
+          "about_curve": "All HIP curves show abrupt shear failure near \u03b5\u22480.15; strength change relative to as-built depends on the balance of densification vs precipitate coarsening.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Often higher initial stress if densification dominates (#7), or lower if microstructural softening dominates (#1).",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same axes and testing protocol; true stress\u2013strain metrics.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 189.353
+              },
+              {
+                "x": 0.006,
+                "y": 201.038
+              },
+              {
+                "x": 0.009,
+                "y": 218.048
+              },
+              {
+                "x": 0.011,
+                "y": 231.87
+              },
+              {
+                "x": 0.016,
+                "y": 239.295
+              },
+              {
+                "x": 0.021,
+                "y": 248.849
+              },
+              {
+                "x": 0.026,
+                "y": 260.529
+              },
+              {
+                "x": 0.031,
+                "y": 269.015
+              },
+              {
+                "x": 0.036,
+                "y": 280.698
+              },
+              {
+                "x": 0.042,
+                "y": 290.245
+              },
+              {
+                "x": 0.048,
+                "y": 301.922
+              },
+              {
+                "x": 0.053,
+                "y": 319.988
+              },
+              {
+                "x": 0.058,
+                "y": 331.667
+              },
+              {
+                "x": 0.066,
+                "y": 338.018
+              },
+              {
+                "x": 0.071,
+                "y": 348.634
+              },
+              {
+                "x": 0.078,
+                "y": 357.115
+              },
+              {
+                "x": 0.086,
+                "y": 367.718
+              },
+              {
+                "x": 0.094,
+                "y": 377.258
+              },
+              {
+                "x": 0.102,
+                "y": 382.544
+              },
+              {
+                "x": 0.109,
+                "y": 391.028
+              },
+              {
+                "x": 0.115,
+                "y": 395.256
+              },
+              {
+                "x": 0.12,
+                "y": 399.488
+              },
+              {
+                "x": 0.128,
+                "y": 401.582
+              },
+              {
+                "x": 0.134,
+                "y": 399.431
+              },
+              {
+                "x": 0.139,
+                "y": 399.408
+              },
+              {
+                "x": 0.145,
+                "y": 389.81
+              },
+              {
+                "x": 0.146,
+                "y": 379.168
+              },
+              {
+                "x": 0.147,
+                "y": 365.332
+              },
+              {
+                "x": 0.148,
+                "y": 350.433
+              },
+              {
+                "x": 0.149,
+                "y": 333.407
+              },
+              {
+                "x": 0.151,
+                "y": 317.444
+              },
+              {
+                "x": 0.151,
+                "y": 295.101
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 3563.912,
+            "sigma_sat_MPa": 655.96,
+            "fit_strain_range": [
+              0.021,
+              0.078
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.20004,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.021\u20130.078."
+          }
+        }
+      ]
+    },
+    {
+      "graph_id": "fig13_sample_7",
+      "title": "Dynamic true stress\u2013true strain at 1000 s\u207b\u00b9: Sample #7 As-built vs HIP",
+      "description": "Overlay of Sample #7 in as-built vs HIP conditions to isolate HIP effects at fixed SLM parameters.",
+      "about_graph": "As-built shows porosity-dependent strength; HIP modifies both porosity and precipitate populations, shifting curves and often causing shear failure near 0.15 strain.",
+      "x_axis_label": "True Strain (mm/mm)",
+      "y_axis_label": "True Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "c13_7_AB",
+          "curve_label": "As-built #7 (porosity 3.4%)",
+          "curve_description": "Baseline dynamic response before HIP.",
+          "about_curve": "Reflects as-built porosity and precipitate morphology.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Generally higher ductility window than HIP except for highly porous #9.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy, cylinder geometry, 1000 s\u207b\u00b9 SHPB, true stress\u2013strain axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.004,
+                "y": 78.616
+              },
+              {
+                "x": 0.006,
+                "y": 96.436
+              },
+              {
+                "x": 0.009,
+                "y": 115.304
+              },
+              {
+                "x": 0.012,
+                "y": 135.22
+              },
+              {
+                "x": 0.017,
+                "y": 153.04
+              },
+              {
+                "x": 0.022,
+                "y": 168.763
+              },
+              {
+                "x": 0.026,
+                "y": 183.438
+              },
+              {
+                "x": 0.031,
+                "y": 201.258
+              },
+              {
+                "x": 0.037,
+                "y": 208.595
+              },
+              {
+                "x": 0.043,
+                "y": 224.319
+              },
+              {
+                "x": 0.049,
+                "y": 237.945
+              },
+              {
+                "x": 0.058,
+                "y": 253.669
+              },
+              {
+                "x": 0.067,
+                "y": 268.344
+              },
+              {
+                "x": 0.075,
+                "y": 280.922
+              },
+              {
+                "x": 0.082,
+                "y": 291.405
+              },
+              {
+                "x": 0.092,
+                "y": 297.694
+              },
+              {
+                "x": 0.1,
+                "y": 299.79
+              },
+              {
+                "x": 0.108,
+                "y": 303.983
+              },
+              {
+                "x": 0.117,
+                "y": 303.983
+              },
+              {
+                "x": 0.125,
+                "y": 306.08
+              },
+              {
+                "x": 0.135,
+                "y": 309.224
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 6158.344,
+            "sigma_sat_MPa": 356.251,
+            "fit_strain_range": [
+              0.02174,
+              0.07466
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.89087,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.075."
+          }
+        },
+        {
+          "curve_id": "c13_7_HIP",
+          "curve_label": "HIP #7 (porosity 0.7%)",
+          "curve_description": "Dynamic response after HIP densification and precipitate evolution.",
+          "about_curve": "All HIP curves show abrupt shear failure near \u03b5\u22480.15; strength change relative to as-built depends on the balance of densification vs precipitate coarsening.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Often higher initial stress if densification dominates (#7), or lower if microstructural softening dominates (#1).",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same axes and testing protocol; true stress\u2013strain metrics.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 177.149
+              },
+              {
+                "x": 0.003,
+                "y": 198.113
+              },
+              {
+                "x": 0.009,
+                "y": 213.836
+              },
+              {
+                "x": 0.014,
+                "y": 233.753
+              },
+              {
+                "x": 0.02,
+                "y": 258.91
+              },
+              {
+                "x": 0.029,
+                "y": 278.826
+              },
+              {
+                "x": 0.034,
+                "y": 288.26
+              },
+              {
+                "x": 0.04,
+                "y": 298.742
+              },
+              {
+                "x": 0.046,
+                "y": 313.417
+              },
+              {
+                "x": 0.052,
+                "y": 327.044
+              },
+              {
+                "x": 0.056,
+                "y": 338.574
+              },
+              {
+                "x": 0.063,
+                "y": 346.96
+              },
+              {
+                "x": 0.07,
+                "y": 360.587
+              },
+              {
+                "x": 0.077,
+                "y": 376.31
+              },
+              {
+                "x": 0.085,
+                "y": 384.696
+              },
+              {
+                "x": 0.094,
+                "y": 390.985
+              },
+              {
+                "x": 0.102,
+                "y": 390.985
+              },
+              {
+                "x": 0.109,
+                "y": 394.13
+              },
+              {
+                "x": 0.116,
+                "y": 394.13
+              },
+              {
+                "x": 0.125,
+                "y": 394.13
+              },
+              {
+                "x": 0.132,
+                "y": 394.13
+              },
+              {
+                "x": 0.137,
+                "y": 388.889
+              },
+              {
+                "x": 0.142,
+                "y": 378.407
+              },
+              {
+                "x": 0.144,
+                "y": 368.973
+              },
+              {
+                "x": 0.147,
+                "y": 353.249
+              },
+              {
+                "x": 0.147,
+                "y": 339.623
+              },
+              {
+                "x": 0.149,
+                "y": 316.562
+              },
+              {
+                "x": 0.149,
+                "y": 296.646
+              },
+              {
+                "x": 0.15,
+                "y": 275.681
+              },
+              {
+                "x": 0.151,
+                "y": 250.524
+              },
+              {
+                "x": 0.152,
+                "y": 230.608
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 4677.502,
+            "sigma_sat_MPa": 580.878,
+            "fit_strain_range": [
+              0.02077,
+              0.07709
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.50935,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.021\u20130.077."
+          }
+        }
+      ]
+    },
+    {
+      "graph_id": "fig13_sample_9",
+      "title": "Dynamic true stress\u2013true strain at 1000 s\u207b\u00b9: Sample #9 As-built vs HIP",
+      "description": "Overlay of Sample #9 in as-built vs HIP conditions to isolate HIP effects at fixed SLM parameters.",
+      "about_graph": "As-built shows porosity-dependent strength; HIP modifies both porosity and precipitate populations, shifting curves and often causing shear failure near 0.15 strain.",
+      "x_axis_label": "True Strain (mm/mm)",
+      "y_axis_label": "True Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "c13_9_AB",
+          "curve_label": "As-built #9 (porosity 12.4%)",
+          "curve_description": "Baseline dynamic response before HIP.",
+          "about_curve": "Reflects as-built porosity and precipitate morphology.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Generally higher ductility window than HIP except for highly porous #9.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy, cylinder geometry, 1000 s\u207b\u00b9 SHPB, true stress\u2013strain axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 79.049
+              },
+              {
+                "x": 0.003,
+                "y": 95.474
+              },
+              {
+                "x": 0.006,
+                "y": 110.86
+              },
+              {
+                "x": 0.01,
+                "y": 125.217
+              },
+              {
+                "x": 0.014,
+                "y": 135.469
+              },
+              {
+                "x": 0.018,
+                "y": 148.8
+              },
+              {
+                "x": 0.022,
+                "y": 163.155
+              },
+              {
+                "x": 0.027,
+                "y": 175.455
+              },
+              {
+                "x": 0.034,
+                "y": 188.775
+              },
+              {
+                "x": 0.04,
+                "y": 196.962
+              },
+              {
+                "x": 0.046,
+                "y": 204.125
+              },
+              {
+                "x": 0.052,
+                "y": 213.34
+              },
+              {
+                "x": 0.059,
+                "y": 220.499
+              },
+              {
+                "x": 0.069,
+                "y": 230.727
+              },
+              {
+                "x": 0.08,
+                "y": 240.947
+              },
+              {
+                "x": 0.088,
+                "y": 247.072
+              },
+              {
+                "x": 0.096,
+                "y": 249.093
+              },
+              {
+                "x": 0.105,
+                "y": 253.163
+              },
+              {
+                "x": 0.116,
+                "y": 256.198
+              },
+              {
+                "x": 0.127,
+                "y": 256.155
+              },
+              {
+                "x": 0.136,
+                "y": 255.09
+              },
+              {
+                "x": 0.144,
+                "y": 251.979
+              },
+              {
+                "x": 0.151,
+                "y": 247.842
+              },
+              {
+                "x": 0.157,
+                "y": 247.817
+              },
+              {
+                "x": 0.161,
+                "y": 243.694
+              },
+              {
+                "x": 0.168,
+                "y": 235.452
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 6713.188,
+            "sigma_sat_MPa": 263.22,
+            "fit_strain_range": [
+              0.022,
+              0.0794
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.87419,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.079."
+          }
+        },
+        {
+          "curve_id": "c13_9_HIP",
+          "curve_label": "HIP #9 (porosity 2.7%)",
+          "curve_description": "Dynamic response after HIP densification and precipitate evolution.",
+          "about_curve": "All HIP curves show abrupt shear failure near \u03b5\u22480.15; strength change relative to as-built depends on the balance of densification vs precipitate coarsening.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Often higher initial stress if densification dominates (#7), or lower if microstructural softening dominates (#1).",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same axes and testing protocol; true stress\u2013strain metrics.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Mg (wt.%)": 92.2,
+            "Y (wt.%)": 4.0,
+            "Nd (wt.%)": 3.3,
+            "Zr (wt.%)": 0.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 99.584
+              },
+              {
+                "x": 0.003,
+                "y": 120.114
+              },
+              {
+                "x": 0.005,
+                "y": 139.611
+              },
+              {
+                "x": 0.012,
+                "y": 153.956
+              },
+              {
+                "x": 0.017,
+                "y": 171.391
+              },
+              {
+                "x": 0.023,
+                "y": 185.738
+              },
+              {
+                "x": 0.028,
+                "y": 195.987
+              },
+              {
+                "x": 0.035,
+                "y": 207.252
+              },
+              {
+                "x": 0.04,
+                "y": 214.416
+              },
+              {
+                "x": 0.046,
+                "y": 222.607
+              },
+              {
+                "x": 0.053,
+                "y": 231.819
+              },
+              {
+                "x": 0.061,
+                "y": 241.026
+              },
+              {
+                "x": 0.068,
+                "y": 248.184
+              },
+              {
+                "x": 0.074,
+                "y": 254.32
+              },
+              {
+                "x": 0.081,
+                "y": 260.452
+              },
+              {
+                "x": 0.089,
+                "y": 263.497
+              },
+              {
+                "x": 0.096,
+                "y": 266.546
+              },
+              {
+                "x": 0.104,
+                "y": 268.569
+              },
+              {
+                "x": 0.112,
+                "y": 263.401
+              },
+              {
+                "x": 0.119,
+                "y": 260.294
+              },
+              {
+                "x": 0.124,
+                "y": 254.114
+              },
+              {
+                "x": 0.129,
+                "y": 241.773
+              },
+              {
+                "x": 0.134,
+                "y": 224.299
+              },
+              {
+                "x": 0.136,
+                "y": 204.784
+              },
+              {
+                "x": 0.138,
+                "y": 179.109
+              },
+              {
+                "x": 0.138,
+                "y": 159.598
+              },
+              {
+                "x": 0.14,
+                "y": 139.056
+              },
+              {
+                "x": 0.142,
+                "y": 114.409
+              },
+              {
+                "x": 0.143,
+                "y": 93.871
+              },
+              {
+                "x": 0.144,
+                "y": 63.065
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 5458.672,
+            "sigma_sat_MPa": 300.025,
+            "fit_strain_range": [
+              0.02257,
+              0.07417
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.90015,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.023\u20130.074."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2788 @@
+{
+  "paper_title": "The influences of temperature and microstructure on the tensile properties of a CoCrFeMnNi high-entropy alloy",
+  "graphs": [
+    {
+      "graph_id": "Fig. 3a",
+      "title": "Engineering stress\u2013strain (fine-grained, d \u2248 4.4 \u03bcm) at six temperatures",
+      "description": "Representative engineering stress\u2013strain curves for the fine-grained CoCrFeMnNi alloy tested at 77, 293, 473, 673, 873, and 1073 K at an engineering strain rate of 10^-3 s^-1. Highest strength and ductility at 77 K; pronounced serrations at intermediate temperatures; a clear yield point with a small load drop is observed around 293\u2013473 K; at 1073 K, the maximum stress is reached at low strain but failure occurs at >60% strain.",
+      "about_graph": "Quasi-static uniaxial tension on recrystallized, single-phase fcc CoCrFeMnNi with grain size \u22484.4 \u03bcm. Curves show strong temperature dependence of yield strength, UTS, and elongation; the inset for 473 K highlights a small load drop after yielding. Test rate 10^-3 s^-1 and the six temperatures are annotated on the curves.",
+      "x_axis_label": "Engineering Strain (%)",
+      "y_axis_label": "Engineering Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "Fig3a-77K",
+          "curve_label": "77 K (fine-grained)",
+          "curve_description": "Highest yield and tensile strengths with large work-hardening; highest ductility among the six temperatures.",
+          "about_curve": "Cryogenic testing promotes strong work hardening and delays necking in this alloy.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Much higher flow stress and work hardening; largest uniform elongation.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy, grain size, test rate, and engineering stress\u2013strain axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 20.0,
+            "Cr": 20.0,
+            "Fe": 20.0,
+            "Mn": 20.0,
+            "Ni": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.009,
+                "y": 590.494
+              },
+              {
+                "x": 0.016,
+                "y": 605.241
+              },
+              {
+                "x": 0.024,
+                "y": 622.097
+              },
+              {
+                "x": 0.031,
+                "y": 641.062
+              },
+              {
+                "x": 0.043,
+                "y": 660.018
+              },
+              {
+                "x": 0.053,
+                "y": 678.977
+              },
+              {
+                "x": 0.064,
+                "y": 700.045
+              },
+              {
+                "x": 0.075,
+                "y": 712.674
+              },
+              {
+                "x": 0.087,
+                "y": 729.52
+              },
+              {
+                "x": 0.099,
+                "y": 746.367
+              },
+              {
+                "x": 0.111,
+                "y": 763.214
+              },
+              {
+                "x": 0.121,
+                "y": 773.737
+              },
+              {
+                "x": 0.133,
+                "y": 788.475
+              },
+              {
+                "x": 0.146,
+                "y": 801.101
+              },
+              {
+                "x": 0.16,
+                "y": 815.835
+              },
+              {
+                "x": 0.173,
+                "y": 830.57
+              },
+              {
+                "x": 0.186,
+                "y": 845.305
+              },
+              {
+                "x": 0.199,
+                "y": 855.821
+              },
+              {
+                "x": 0.214,
+                "y": 868.444
+              },
+              {
+                "x": 0.227,
+                "y": 881.07
+              },
+              {
+                "x": 0.244,
+                "y": 893.689
+              },
+              {
+                "x": 0.257,
+                "y": 906.315
+              },
+              {
+                "x": 0.273,
+                "y": 916.826
+              },
+              {
+                "x": 0.287,
+                "y": 931.561
+              },
+              {
+                "x": 0.304,
+                "y": 939.959
+              },
+              {
+                "x": 0.319,
+                "y": 954.691
+              },
+              {
+                "x": 0.338,
+                "y": 965.195
+              },
+              {
+                "x": 0.354,
+                "y": 971.488
+              },
+              {
+                "x": 0.368,
+                "y": 984.113
+              },
+              {
+                "x": 0.382,
+                "y": 998.845
+              },
+              {
+                "x": 0.4,
+                "y": 1007.244
+              },
+              {
+                "x": 0.419,
+                "y": 1017.748
+              },
+              {
+                "x": 0.438,
+                "y": 1030.361
+              },
+              {
+                "x": 0.455,
+                "y": 1032.436
+              },
+              {
+                "x": 0.477,
+                "y": 1047.152
+              },
+              {
+                "x": 0.494,
+                "y": 1051.333
+              },
+              {
+                "x": 0.511,
+                "y": 1059.734
+              },
+              {
+                "x": 0.527,
+                "y": 1066.027
+              },
+              {
+                "x": 0.543,
+                "y": 1072.32
+              },
+              {
+                "x": 0.561,
+                "y": 1076.501
+              },
+              {
+                "x": 0.58,
+                "y": 1080.678
+              },
+              {
+                "x": 0.598,
+                "y": 1089.077
+              },
+              {
+                "x": 0.615,
+                "y": 1089.039
+              },
+              {
+                "x": 0.633,
+                "y": 1097.438
+              },
+              {
+                "x": 0.654,
+                "y": 1101.612
+              },
+              {
+                "x": 0.671,
+                "y": 1103.684
+              },
+              {
+                "x": 0.69,
+                "y": 1105.753
+              },
+              {
+                "x": 0.707,
+                "y": 1105.718
+              },
+              {
+                "x": 0.726,
+                "y": 1112.005
+              },
+              {
+                "x": 0.746,
+                "y": 1109.852
+              },
+              {
+                "x": 0.763,
+                "y": 1111.927
+              },
+              {
+                "x": 0.78,
+                "y": 1111.89
+              },
+              {
+                "x": 0.797,
+                "y": 1116.074
+              },
+              {
+                "x": 0.813,
+                "y": 1116.039
+              },
+              {
+                "x": 0.829,
+                "y": 1116.005
+              },
+              {
+                "x": 0.848,
+                "y": 1107.529
+              },
+              {
+                "x": 0.867,
+                "y": 1103.271
+              },
+              {
+                "x": 0.882,
+                "y": 1092.695
+              },
+              {
+                "x": 0.891,
+                "y": 1077.914
+              },
+              {
+                "x": 0.899,
+                "y": 1054.697
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 5126.223,
+            "sigma_sat_MPa": 1460.368,
+            "fit_strain_range": [
+              0.02321,
+              0.07249
+            ],
+            "savgol_filter": {
+              "window_points": 7,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.94209,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.023\u20130.072."
+          }
+        },
+        {
+          "curve_id": "Fig3a-293K",
+          "curve_label": "293 K (fine-grained)",
+          "curve_description": "Lower strengths than 77 K; significant work hardening; ductility lower than at 77 K.",
+          "about_curve": "Representative room-temperature response for FG condition.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Intermediate strength/ductility; no serrations as strong as 673 K.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same FG microstructure and test conditions.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 20.0,
+            "Cr": 20.0,
+            "Fe": 20.0,
+            "Mn": 20.0,
+            "Ni": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.007,
+                "y": 358.513
+              },
+              {
+                "x": 0.017,
+                "y": 377.471
+              },
+              {
+                "x": 0.027,
+                "y": 398.539
+              },
+              {
+                "x": 0.039,
+                "y": 413.277
+              },
+              {
+                "x": 0.051,
+                "y": 428.015
+              },
+              {
+                "x": 0.06,
+                "y": 442.759
+              },
+              {
+                "x": 0.07,
+                "y": 459.609
+              },
+              {
+                "x": 0.084,
+                "y": 474.343
+              },
+              {
+                "x": 0.1,
+                "y": 491.181
+              },
+              {
+                "x": 0.118,
+                "y": 503.797
+              },
+              {
+                "x": 0.128,
+                "y": 516.429
+              },
+              {
+                "x": 0.144,
+                "y": 533.267
+              },
+              {
+                "x": 0.166,
+                "y": 547.983
+              },
+              {
+                "x": 0.181,
+                "y": 558.497
+              },
+              {
+                "x": 0.202,
+                "y": 571.107
+              },
+              {
+                "x": 0.222,
+                "y": 581.608
+              },
+              {
+                "x": 0.243,
+                "y": 594.218
+              },
+              {
+                "x": 0.264,
+                "y": 606.828
+              },
+              {
+                "x": 0.298,
+                "y": 621.52
+              },
+              {
+                "x": 0.32,
+                "y": 625.691
+              },
+              {
+                "x": 0.342,
+                "y": 634.08
+              },
+              {
+                "x": 0.359,
+                "y": 640.37
+              },
+              {
+                "x": 0.379,
+                "y": 644.547
+              },
+              {
+                "x": 0.395,
+                "y": 644.513
+              },
+              {
+                "x": 0.412,
+                "y": 646.585
+              },
+              {
+                "x": 0.429,
+                "y": 650.769
+              },
+              {
+                "x": 0.446,
+                "y": 650.731
+              },
+              {
+                "x": 0.461,
+                "y": 650.7
+              },
+              {
+                "x": 0.476,
+                "y": 652.778
+              },
+              {
+                "x": 0.489,
+                "y": 652.75
+              },
+              {
+                "x": 0.504,
+                "y": 652.719
+              },
+              {
+                "x": 0.519,
+                "y": 650.579
+              },
+              {
+                "x": 0.533,
+                "y": 648.439
+              },
+              {
+                "x": 0.545,
+                "y": 644.196
+              },
+              {
+                "x": 0.558,
+                "y": 635.733
+              },
+              {
+                "x": 0.569,
+                "y": 627.275
+              },
+              {
+                "x": 0.577,
+                "y": 612.494
+              },
+              {
+                "x": 0.585,
+                "y": 595.607
+              },
+              {
+                "x": 0.589,
+                "y": 570.29
+              },
+              {
+                "x": 0.595,
+                "y": 549.188
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 1433.948,
+            "sigma_sat_MPa": -1036.726,
+            "fit_strain_range": [
+              0.02698,
+              0.06806
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.11806,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.027\u20130.068."
+          }
+        },
+        {
+          "curve_id": "Fig3a-473K",
+          "curve_label": "473 K (fine-grained)",
+          "curve_description": "Shows a well-defined yield point with a small load drop and serrations; strength lower than at 293 K.",
+          "about_curve": "Exhibits yield-point phenomenon and dynamic strain-aging-like serrations in FG material.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Distinct yield point and post-yield load drop; serrations more evident.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same axes, alloy, strain rate, and FG grain size.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 20.0,
+            "Cr": 20.0,
+            "Fe": 20.0,
+            "Mn": 20.0,
+            "Ni": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.005,
+                "y": 293.138
+              },
+              {
+                "x": 0.015,
+                "y": 312.097
+              },
+              {
+                "x": 0.032,
+                "y": 335.261
+              },
+              {
+                "x": 0.048,
+                "y": 352.099
+              },
+              {
+                "x": 0.057,
+                "y": 371.061
+              },
+              {
+                "x": 0.075,
+                "y": 387.895
+              },
+              {
+                "x": 0.094,
+                "y": 408.944
+              },
+              {
+                "x": 0.107,
+                "y": 423.679
+              },
+              {
+                "x": 0.125,
+                "y": 436.295
+              },
+              {
+                "x": 0.138,
+                "y": 448.921
+              },
+              {
+                "x": 0.154,
+                "y": 463.65
+              },
+              {
+                "x": 0.172,
+                "y": 474.157
+              },
+              {
+                "x": 0.187,
+                "y": 482.562
+              },
+              {
+                "x": 0.204,
+                "y": 490.96
+              },
+              {
+                "x": 0.224,
+                "y": 499.356
+              },
+              {
+                "x": 0.241,
+                "y": 507.754
+              },
+              {
+                "x": 0.258,
+                "y": 514.047
+              },
+              {
+                "x": 0.28,
+                "y": 520.327
+              },
+              {
+                "x": 0.297,
+                "y": 526.617
+              },
+              {
+                "x": 0.314,
+                "y": 532.91
+              },
+              {
+                "x": 0.333,
+                "y": 532.869
+              },
+              {
+                "x": 0.347,
+                "y": 537.056
+              },
+              {
+                "x": 0.362,
+                "y": 537.025
+              },
+              {
+                "x": 0.38,
+                "y": 536.988
+              },
+              {
+                "x": 0.393,
+                "y": 526.415
+              },
+              {
+                "x": 0.405,
+                "y": 511.627
+              },
+              {
+                "x": 0.412,
+                "y": 496.849
+              },
+              {
+                "x": 0.419,
+                "y": 475.744
+              },
+              {
+                "x": 0.424,
+                "y": 454.645
+              },
+              {
+                "x": 0.428,
+                "y": 433.547
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 2428.417,
+            "sigma_sat_MPa": 1304.618,
+            "fit_strain_range": [
+              0.14352,
+              0.26027
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.72625,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.144\u20130.260."
+          }
+        },
+        {
+          "curve_id": "Fig3a-673K",
+          "curve_label": "673 K (fine-grained)",
+          "curve_description": "Further reduced strength with pronounced serrations; FG ductility reaches a minimum in this range.",
+          "about_curve": "Intermediate-temperature response with serrated flow.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lowest ductility among FG curves despite modest stresses.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same test setup and alloy.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 20.0,
+            "Cr": 20.0,
+            "Fe": 20.0,
+            "Mn": 20.0,
+            "Ni": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.015,
+                "y": 286.79
+              },
+              {
+                "x": 0.027,
+                "y": 303.636
+              },
+              {
+                "x": 0.041,
+                "y": 320.48
+              },
+              {
+                "x": 0.055,
+                "y": 337.321
+              },
+              {
+                "x": 0.07,
+                "y": 352.052
+              },
+              {
+                "x": 0.085,
+                "y": 368.893
+              },
+              {
+                "x": 0.104,
+                "y": 381.506
+              },
+              {
+                "x": 0.122,
+                "y": 396.231
+              },
+              {
+                "x": 0.137,
+                "y": 413.072
+              },
+              {
+                "x": 0.156,
+                "y": 423.576
+              },
+              {
+                "x": 0.175,
+                "y": 434.081
+              },
+              {
+                "x": 0.191,
+                "y": 442.482
+              },
+              {
+                "x": 0.207,
+                "y": 450.884
+              },
+              {
+                "x": 0.228,
+                "y": 463.494
+              },
+              {
+                "x": 0.249,
+                "y": 465.56
+              },
+              {
+                "x": 0.268,
+                "y": 476.064
+              },
+              {
+                "x": 0.29,
+                "y": 482.344
+              },
+              {
+                "x": 0.306,
+                "y": 486.528
+              },
+              {
+                "x": 0.322,
+                "y": 486.494
+              },
+              {
+                "x": 0.337,
+                "y": 486.463
+              },
+              {
+                "x": 0.35,
+                "y": 477.999
+              },
+              {
+                "x": 0.36,
+                "y": 463.215
+              },
+              {
+                "x": 0.368,
+                "y": 442.11
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 2584.067,
+            "sigma_sat_MPa": 1038.783,
+            "fit_strain_range": [
+              0.12923,
+              0.20516
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.58453,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.129\u20130.205."
+          }
+        },
+        {
+          "curve_id": "Fig3a-873K",
+          "curve_label": "873 K (fine-grained)",
+          "curve_description": "Low strengths and moderate ductility; serrations diminish relative to 673 K.",
+          "about_curve": "High-temperature weakening with reduced work hardening.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Among the lowest strengths before the 1073 K case.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same axes and material state.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 20.0,
+            "Cr": 20.0,
+            "Fe": 20.0,
+            "Mn": 20.0,
+            "Ni": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.005,
+                "y": 250.959
+              },
+              {
+                "x": 0.018,
+                "y": 265.694
+              },
+              {
+                "x": 0.03,
+                "y": 276.214
+              },
+              {
+                "x": 0.043,
+                "y": 293.057
+              },
+              {
+                "x": 0.058,
+                "y": 303.571
+              },
+              {
+                "x": 0.074,
+                "y": 320.409
+              },
+              {
+                "x": 0.092,
+                "y": 335.134
+              },
+              {
+                "x": 0.113,
+                "y": 349.853
+              },
+              {
+                "x": 0.13,
+                "y": 360.361
+              },
+              {
+                "x": 0.147,
+                "y": 372.98
+              },
+              {
+                "x": 0.167,
+                "y": 383.481
+              },
+              {
+                "x": 0.188,
+                "y": 396.092
+              },
+              {
+                "x": 0.207,
+                "y": 398.16
+              },
+              {
+                "x": 0.229,
+                "y": 404.44
+              },
+              {
+                "x": 0.248,
+                "y": 412.836
+              },
+              {
+                "x": 0.271,
+                "y": 417.007
+              },
+              {
+                "x": 0.29,
+                "y": 419.076
+              },
+              {
+                "x": 0.307,
+                "y": 423.256
+              },
+              {
+                "x": 0.324,
+                "y": 423.222
+              },
+              {
+                "x": 0.341,
+                "y": 423.185
+              },
+              {
+                "x": 0.357,
+                "y": 421.042
+              },
+              {
+                "x": 0.381,
+                "y": 420.992
+              },
+              {
+                "x": 0.397,
+                "y": 418.849
+              },
+              {
+                "x": 0.413,
+                "y": 414.597
+              },
+              {
+                "x": 0.441,
+                "y": 406.102
+              },
+              {
+                "x": 0.458,
+                "y": 401.85
+              },
+              {
+                "x": 0.468,
+                "y": 393.393
+              },
+              {
+                "x": 0.481,
+                "y": 384.929
+              },
+              {
+                "x": 0.49,
+                "y": 370.148
+              },
+              {
+                "x": 0.499,
+                "y": 357.475
+              },
+              {
+                "x": 0.503,
+                "y": 340.594
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 3215.884,
+            "sigma_sat_MPa": 696.662,
+            "fit_strain_range": [
+              0.1545,
+              0.29279
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.81476,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.154\u20130.293."
+          }
+        },
+        {
+          "curve_id": "Fig3a-1073K",
+          "curve_label": "1073 K (fine-grained)",
+          "curve_description": "Lowest stresses; peak reached at a few percent strain but failure occurs beyond 60% engineering strain.",
+          "about_curve": "Very low work hardening; extensive post-peak elongation.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lowest strength; unique early peak with long post-peak strain.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy, FG microstructure, and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 20.0,
+            "Cr": 20.0,
+            "Fe": 20.0,
+            "Mn": 20.0,
+            "Ni": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.012,
+                "y": 134.951
+              },
+              {
+                "x": 0.03,
+                "y": 139.132
+              },
+              {
+                "x": 0.049,
+                "y": 139.091
+              },
+              {
+                "x": 0.07,
+                "y": 136.939
+              },
+              {
+                "x": 0.084,
+                "y": 136.908
+              },
+              {
+                "x": 0.103,
+                "y": 134.759
+              },
+              {
+                "x": 0.118,
+                "y": 132.619
+              },
+              {
+                "x": 0.137,
+                "y": 132.578
+              },
+              {
+                "x": 0.158,
+                "y": 130.426
+              },
+              {
+                "x": 0.177,
+                "y": 128.276
+              },
+              {
+                "x": 0.192,
+                "y": 126.136
+              },
+              {
+                "x": 0.209,
+                "y": 126.099
+              },
+              {
+                "x": 0.226,
+                "y": 121.847
+              },
+              {
+                "x": 0.243,
+                "y": 119.701
+              },
+              {
+                "x": 0.261,
+                "y": 119.664
+              },
+              {
+                "x": 0.279,
+                "y": 117.517
+              },
+              {
+                "x": 0.298,
+                "y": 115.368
+              },
+              {
+                "x": 0.317,
+                "y": 111.11
+              },
+              {
+                "x": 0.333,
+                "y": 106.858
+              },
+              {
+                "x": 0.354,
+                "y": 102.596
+              },
+              {
+                "x": 0.373,
+                "y": 100.447
+              },
+              {
+                "x": 0.389,
+                "y": 98.304
+              },
+              {
+                "x": 0.405,
+                "y": 91.943
+              },
+              {
+                "x": 0.426,
+                "y": 89.79
+              },
+              {
+                "x": 0.442,
+                "y": 83.429
+              },
+              {
+                "x": 0.464,
+                "y": 81.274
+              },
+              {
+                "x": 0.485,
+                "y": 74.904
+              },
+              {
+                "x": 0.507,
+                "y": 68.53
+              },
+              {
+                "x": 0.527,
+                "y": 66.378
+              },
+              {
+                "x": 0.547,
+                "y": 60.01
+              },
+              {
+                "x": 0.564,
+                "y": 55.755
+              },
+              {
+                "x": 0.582,
+                "y": 53.609
+              },
+              {
+                "x": 0.601,
+                "y": 47.242
+              },
+              {
+                "x": 0.617,
+                "y": 40.881
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": -2214.199,
+            "sigma_sat_MPa": 154.246,
+            "fit_strain_range": [
+              0.18965,
+              0.32847
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.54096,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.190\u20130.328."
+          }
+        }
+      ]
+    },
+    {
+      "graph_id": "Fig. 3b",
+      "title": "Engineering stress\u2013strain (coarse-grained, d \u2248 155 \u03bcm) at six temperatures",
+      "description": "Representative engineering stress\u2013strain curves for the coarse-grained CoCrFeMnNi alloy at 77, 293, 473, 673, 873, and 1073 K (10^-3 s^-1). Strength and ductility increase as temperature decreases; curves lack the fine-grained yield-point feature; failure typically occurs shortly after the maximum stress.",
+      "about_graph": "Same testing protocol as Fig. 3a but with grain size \u2248155 \u03bcm. CG and MG materials show nearly identical temperature trends in strength and ductility; no sharp yield point or load drop like the FG case.",
+      "x_axis_label": "Engineering Strain (%)",
+      "y_axis_label": "Engineering Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "Fig3b-77K",
+          "curve_label": "77 K (coarse-grained)",
+          "curve_description": "Highest strength and ductility for CG; strong work hardening.",
+          "about_curve": "Cryogenic strengthening without yield-point phenomenon.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Max strengths/elongation among CG curves.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same CG microstructure, alloy, and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 20.0,
+            "Cr": 20.0,
+            "Fe": 20.0,
+            "Mn": 20.0,
+            "Ni": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.011,
+                "y": 379.891
+              },
+              {
+                "x": 0.022,
+                "y": 401.341
+              },
+              {
+                "x": 0.028,
+                "y": 422.782
+              },
+              {
+                "x": 0.041,
+                "y": 440.34
+              },
+              {
+                "x": 0.053,
+                "y": 461.792
+              },
+              {
+                "x": 0.065,
+                "y": 477.4
+              },
+              {
+                "x": 0.076,
+                "y": 494.953
+              },
+              {
+                "x": 0.088,
+                "y": 510.56
+              },
+              {
+                "x": 0.101,
+                "y": 526.17
+              },
+              {
+                "x": 0.113,
+                "y": 545.674
+              },
+              {
+                "x": 0.127,
+                "y": 555.442
+              },
+              {
+                "x": 0.144,
+                "y": 578.852
+              },
+              {
+                "x": 0.165,
+                "y": 594.478
+              },
+              {
+                "x": 0.18,
+                "y": 608.143
+              },
+              {
+                "x": 0.193,
+                "y": 621.805
+              },
+              {
+                "x": 0.206,
+                "y": 629.623
+              },
+              {
+                "x": 0.225,
+                "y": 647.191
+              },
+              {
+                "x": 0.242,
+                "y": 658.913
+              },
+              {
+                "x": 0.256,
+                "y": 670.629
+              },
+              {
+                "x": 0.273,
+                "y": 686.247
+              },
+              {
+                "x": 0.289,
+                "y": 696.018
+              },
+              {
+                "x": 0.305,
+                "y": 711.633
+              },
+              {
+                "x": 0.328,
+                "y": 721.417
+              },
+              {
+                "x": 0.349,
+                "y": 731.199
+              },
+              {
+                "x": 0.366,
+                "y": 744.868
+              },
+              {
+                "x": 0.383,
+                "y": 752.694
+              },
+              {
+                "x": 0.4,
+                "y": 766.364
+              },
+              {
+                "x": 0.415,
+                "y": 776.132
+              },
+              {
+                "x": 0.432,
+                "y": 785.906
+              },
+              {
+                "x": 0.449,
+                "y": 791.783
+              },
+              {
+                "x": 0.463,
+                "y": 801.552
+              },
+              {
+                "x": 0.48,
+                "y": 809.378
+              },
+              {
+                "x": 0.495,
+                "y": 817.198
+              },
+              {
+                "x": 0.511,
+                "y": 823.073
+              },
+              {
+                "x": 0.527,
+                "y": 828.948
+              },
+              {
+                "x": 0.544,
+                "y": 836.774
+              },
+              {
+                "x": 0.56,
+                "y": 840.7
+              },
+              {
+                "x": 0.577,
+                "y": 852.422
+              },
+              {
+                "x": 0.598,
+                "y": 860.255
+              },
+              {
+                "x": 0.616,
+                "y": 868.084
+              },
+              {
+                "x": 0.633,
+                "y": 873.961
+              },
+              {
+                "x": 0.652,
+                "y": 881.789
+              },
+              {
+                "x": 0.668,
+                "y": 887.664
+              },
+              {
+                "x": 0.685,
+                "y": 889.646
+              },
+              {
+                "x": 0.702,
+                "y": 893.575
+              },
+              {
+                "x": 0.718,
+                "y": 897.502
+              },
+              {
+                "x": 0.732,
+                "y": 903.374
+              },
+              {
+                "x": 0.752,
+                "y": 907.309
+              },
+              {
+                "x": 0.768,
+                "y": 911.236
+              },
+              {
+                "x": 0.788,
+                "y": 915.171
+              },
+              {
+                "x": 0.803,
+                "y": 919.097
+              },
+              {
+                "x": 0.818,
+                "y": 919.126
+              },
+              {
+                "x": 0.835,
+                "y": 923.055
+              },
+              {
+                "x": 0.851,
+                "y": 923.086
+              },
+              {
+                "x": 0.868,
+                "y": 925.067
+              },
+              {
+                "x": 0.884,
+                "y": 928.994
+              },
+              {
+                "x": 0.897,
+                "y": 930.968
+              },
+              {
+                "x": 0.914,
+                "y": 931.001
+              },
+              {
+                "x": 0.933,
+                "y": 932.985
+              },
+              {
+                "x": 0.943,
+                "y": 933.006
+              },
+              {
+                "x": 0.958,
+                "y": 921.346
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 3909.75,
+            "sigma_sat_MPa": 1141.987,
+            "fit_strain_range": [
+              0.02943,
+              0.07361
+            ],
+            "savgol_filter": {
+              "window_points": 7,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.77679,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.029\u20130.074."
+          }
+        },
+        {
+          "curve_id": "Fig3b-293K",
+          "curve_label": "293 K (coarse-grained)",
+          "curve_description": "Lower strength and ductility than 77 K; smooth yielding.",
+          "about_curve": "Room-temperature CG response.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Intermediate properties; no serrated flow like FG.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same axes and test rate.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 20.0,
+            "Cr": 20.0,
+            "Fe": 20.0,
+            "Mn": 20.0,
+            "Ni": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.007,
+                "y": 179.234
+              },
+              {
+                "x": 0.017,
+                "y": 196.787
+              },
+              {
+                "x": 0.029,
+                "y": 214.343
+              },
+              {
+                "x": 0.041,
+                "y": 226.054
+              },
+              {
+                "x": 0.052,
+                "y": 243.607
+              },
+              {
+                "x": 0.066,
+                "y": 257.272
+              },
+              {
+                "x": 0.078,
+                "y": 270.931
+              },
+              {
+                "x": 0.093,
+                "y": 288.492
+              },
+              {
+                "x": 0.107,
+                "y": 302.157
+              },
+              {
+                "x": 0.124,
+                "y": 315.826
+              },
+              {
+                "x": 0.14,
+                "y": 333.39
+              },
+              {
+                "x": 0.156,
+                "y": 347.057
+              },
+              {
+                "x": 0.173,
+                "y": 364.623
+              },
+              {
+                "x": 0.189,
+                "y": 376.342
+              },
+              {
+                "x": 0.205,
+                "y": 391.957
+              },
+              {
+                "x": 0.22,
+                "y": 401.728
+              },
+              {
+                "x": 0.238,
+                "y": 417.346
+              },
+              {
+                "x": 0.255,
+                "y": 431.016
+              },
+              {
+                "x": 0.272,
+                "y": 440.789
+              },
+              {
+                "x": 0.293,
+                "y": 456.415
+              },
+              {
+                "x": 0.31,
+                "y": 468.137
+              },
+              {
+                "x": 0.326,
+                "y": 475.96
+              },
+              {
+                "x": 0.342,
+                "y": 483.783
+              },
+              {
+                "x": 0.36,
+                "y": 495.507
+              },
+              {
+                "x": 0.376,
+                "y": 503.33
+              },
+              {
+                "x": 0.392,
+                "y": 507.257
+              },
+              {
+                "x": 0.41,
+                "y": 517.033
+              },
+              {
+                "x": 0.427,
+                "y": 520.963
+              },
+              {
+                "x": 0.443,
+                "y": 526.838
+              },
+              {
+                "x": 0.459,
+                "y": 528.816
+              },
+              {
+                "x": 0.478,
+                "y": 534.696
+              },
+              {
+                "x": 0.493,
+                "y": 538.623
+              },
+              {
+                "x": 0.509,
+                "y": 540.602
+              },
+              {
+                "x": 0.524,
+                "y": 540.63
+              },
+              {
+                "x": 0.537,
+                "y": 544.552
+              },
+              {
+                "x": 0.553,
+                "y": 542.635
+              },
+              {
+                "x": 0.57,
+                "y": 548.513
+              },
+              {
+                "x": 0.591,
+                "y": 546.606
+              },
+              {
+                "x": 0.607,
+                "y": 544.688
+              },
+              {
+                "x": 0.622,
+                "y": 544.719
+              },
+              {
+                "x": 0.636,
+                "y": 544.745
+              },
+              {
+                "x": 0.654,
+                "y": 544.781
+              },
+              {
+                "x": 0.669,
+                "y": 538.965
+              },
+              {
+                "x": 0.68,
+                "y": 531.196
+              },
+              {
+                "x": 0.69,
+                "y": 513.681
+              },
+              {
+                "x": 0.698,
+                "y": 498.112
+              },
+              {
+                "x": 0.704,
+                "y": 478.644
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 1554.645,
+            "sigma_sat_MPa": -16662.71,
+            "fit_strain_range": [
+              0.0285,
+              0.07582
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.08482,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.028\u20130.076."
+          }
+        },
+        {
+          "curve_id": "Fig3b-473K",
+          "curve_label": "473 K (coarse-grained)",
+          "curve_description": "Further reduced flow stress; moderate ductility.",
+          "about_curve": "Higher temperature weakens CG alloy with smooth flow.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lower stresses than 293 K; no sharp yield point.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same material and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 20.0,
+            "Cr": 20.0,
+            "Fe": 20.0,
+            "Mn": 20.0,
+            "Ni": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.009,
+                "y": 124.694
+              },
+              {
+                "x": 0.017,
+                "y": 134.449
+              },
+              {
+                "x": 0.027,
+                "y": 146.156
+              },
+              {
+                "x": 0.036,
+                "y": 157.862
+              },
+              {
+                "x": 0.048,
+                "y": 171.521
+              },
+              {
+                "x": 0.063,
+                "y": 183.24
+              },
+              {
+                "x": 0.077,
+                "y": 193.006
+              },
+              {
+                "x": 0.09,
+                "y": 206.668
+              },
+              {
+                "x": 0.103,
+                "y": 220.331
+              },
+              {
+                "x": 0.116,
+                "y": 232.045
+              },
+              {
+                "x": 0.129,
+                "y": 241.81
+              },
+              {
+                "x": 0.141,
+                "y": 251.574
+              },
+              {
+                "x": 0.154,
+                "y": 261.34
+              },
+              {
+                "x": 0.168,
+                "y": 269.158
+              },
+              {
+                "x": 0.178,
+                "y": 278.919
+              },
+              {
+                "x": 0.191,
+                "y": 290.633
+              },
+              {
+                "x": 0.205,
+                "y": 302.347
+              },
+              {
+                "x": 0.22,
+                "y": 312.118
+              },
+              {
+                "x": 0.235,
+                "y": 323.834
+              },
+              {
+                "x": 0.251,
+                "y": 333.605
+              },
+              {
+                "x": 0.268,
+                "y": 343.379
+              },
+              {
+                "x": 0.281,
+                "y": 351.197
+              },
+              {
+                "x": 0.297,
+                "y": 362.916
+              },
+              {
+                "x": 0.317,
+                "y": 372.695
+              },
+              {
+                "x": 0.336,
+                "y": 384.422
+              },
+              {
+                "x": 0.352,
+                "y": 390.297
+              },
+              {
+                "x": 0.369,
+                "y": 398.122
+              },
+              {
+                "x": 0.388,
+                "y": 404.002
+              },
+              {
+                "x": 0.409,
+                "y": 411.835
+              },
+              {
+                "x": 0.427,
+                "y": 417.716
+              },
+              {
+                "x": 0.446,
+                "y": 421.648
+              },
+              {
+                "x": 0.463,
+                "y": 425.577
+              },
+              {
+                "x": 0.48,
+                "y": 427.559
+              },
+              {
+                "x": 0.497,
+                "y": 429.54
+              },
+              {
+                "x": 0.516,
+                "y": 427.628
+              },
+              {
+                "x": 0.53,
+                "y": 419.864
+              },
+              {
+                "x": 0.549,
+                "y": 380.939
+              },
+              {
+                "x": 0.552,
+                "y": 359.518
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 2275.112,
+            "sigma_sat_MPa": 411.658,
+            "fit_strain_range": [
+              0.02606,
+              0.0741
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.68347,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.026\u20130.074."
+          }
+        },
+        {
+          "curve_id": "Fig3b-673K",
+          "curve_label": "673 K (coarse-grained)",
+          "curve_description": "Low strength with moderate strain to fracture; no obvious yield-point behavior.",
+          "about_curve": "Intermediate-T CG behavior.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Reduced flow stress vs. lower-T curves.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same test mode and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 20.0,
+            "Cr": 20.0,
+            "Fe": 20.0,
+            "Mn": 20.0,
+            "Ni": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.042,
+                "y": 140.342
+              },
+              {
+                "x": 0.058,
+                "y": 150.113
+              },
+              {
+                "x": 0.074,
+                "y": 165.728
+              },
+              {
+                "x": 0.086,
+                "y": 175.492
+              },
+              {
+                "x": 0.102,
+                "y": 185.263
+              },
+              {
+                "x": 0.115,
+                "y": 193.081
+              },
+              {
+                "x": 0.133,
+                "y": 214.545
+              },
+              {
+                "x": 0.149,
+                "y": 226.265
+              },
+              {
+                "x": 0.166,
+                "y": 237.986
+              },
+              {
+                "x": 0.183,
+                "y": 249.708
+              },
+              {
+                "x": 0.198,
+                "y": 261.425
+              },
+              {
+                "x": 0.212,
+                "y": 271.193
+              },
+              {
+                "x": 0.23,
+                "y": 284.863
+              },
+              {
+                "x": 0.248,
+                "y": 296.587
+              },
+              {
+                "x": 0.265,
+                "y": 308.309
+              },
+              {
+                "x": 0.282,
+                "y": 318.082
+              },
+              {
+                "x": 0.302,
+                "y": 327.861
+              },
+              {
+                "x": 0.318,
+                "y": 335.684
+              },
+              {
+                "x": 0.334,
+                "y": 341.559
+              },
+              {
+                "x": 0.352,
+                "y": 349.387
+              },
+              {
+                "x": 0.369,
+                "y": 355.265
+              },
+              {
+                "x": 0.384,
+                "y": 363.085
+              },
+              {
+                "x": 0.401,
+                "y": 370.911
+              },
+              {
+                "x": 0.418,
+                "y": 374.84
+              },
+              {
+                "x": 0.434,
+                "y": 380.715
+              },
+              {
+                "x": 0.454,
+                "y": 384.65
+              },
+              {
+                "x": 0.475,
+                "y": 388.587
+              },
+              {
+                "x": 0.495,
+                "y": 392.522
+              },
+              {
+                "x": 0.517,
+                "y": 394.513
+              },
+              {
+                "x": 0.535,
+                "y": 396.497
+              },
+              {
+                "x": 0.558,
+                "y": 394.593
+              },
+              {
+                "x": 0.571,
+                "y": 380.982
+              },
+              {
+                "x": 0.58,
+                "y": 365.416
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 1920.148,
+            "sigma_sat_MPa": 1288.401,
+            "fit_strain_range": [
+              0.19291,
+              0.31377
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.62344,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.193\u20130.314."
+          }
+        },
+        {
+          "curve_id": "Fig3b-873K",
+          "curve_label": "873 K (coarse-grained)",
+          "curve_description": "Very low flow stresses; ductility still significant but failure shortly after UTS.",
+          "about_curve": "High-temperature CG response.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Among the lowest strengths (except 1073 K).",
+          "what_is_common_between_this_curve_and_OTHER_CURVES_IN_THE_SAME_GRAPH": "Same testing and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 20.0,
+            "Cr": 20.0,
+            "Fe": 20.0,
+            "Mn": 20.0,
+            "Ni": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.033,
+                "y": 113.051
+              },
+              {
+                "x": 0.05,
+                "y": 128.669
+              },
+              {
+                "x": 0.067,
+                "y": 142.339
+              },
+              {
+                "x": 0.085,
+                "y": 157.957
+              },
+              {
+                "x": 0.102,
+                "y": 169.679
+              },
+              {
+                "x": 0.123,
+                "y": 183.356
+              },
+              {
+                "x": 0.139,
+                "y": 193.127
+              },
+              {
+                "x": 0.153,
+                "y": 204.844
+              },
+              {
+                "x": 0.173,
+                "y": 218.519
+              },
+              {
+                "x": 0.189,
+                "y": 228.29
+              },
+              {
+                "x": 0.207,
+                "y": 238.066
+              },
+              {
+                "x": 0.226,
+                "y": 243.946
+              },
+              {
+                "x": 0.241,
+                "y": 251.769
+              },
+              {
+                "x": 0.257,
+                "y": 261.54
+              },
+              {
+                "x": 0.274,
+                "y": 269.366
+              },
+              {
+                "x": 0.291,
+                "y": 277.191
+              },
+              {
+                "x": 0.305,
+                "y": 283.061
+              },
+              {
+                "x": 0.322,
+                "y": 286.991
+              },
+              {
+                "x": 0.338,
+                "y": 294.814
+              },
+              {
+                "x": 0.353,
+                "y": 302.637
+              },
+              {
+                "x": 0.371,
+                "y": 306.566
+              },
+              {
+                "x": 0.385,
+                "y": 310.49
+              },
+              {
+                "x": 0.404,
+                "y": 316.37
+              },
+              {
+                "x": 0.425,
+                "y": 320.308
+              },
+              {
+                "x": 0.443,
+                "y": 324.24
+              },
+              {
+                "x": 0.463,
+                "y": 326.226
+              },
+              {
+                "x": 0.481,
+                "y": 328.21
+              },
+              {
+                "x": 0.493,
+                "y": 320.441
+              },
+              {
+                "x": 0.504,
+                "y": 306.825
+              },
+              {
+                "x": 0.506,
+                "y": 277.61
+              },
+              {
+                "x": 0.509,
+                "y": 244.498
+              },
+              {
+                "x": 0.509,
+                "y": 211.381
+              },
+              {
+                "x": 0.51,
+                "y": 174.37
+              },
+              {
+                "x": 0.51,
+                "y": 143.201
+              },
+              {
+                "x": 0.51,
+                "y": 110.084
+              },
+              {
+                "x": 0.51,
+                "y": 82.812
+              },
+              {
+                "x": 0.51,
+                "y": 57.487
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 967.193,
+            "sigma_sat_MPa": -3154.076,
+            "fit_strain_range": [
+              0.20306,
+              0.30302
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.01825,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.203\u20130.303."
+          }
+        },
+        {
+          "curve_id": "Fig3b-1073K",
+          "curve_label": "1073 K (coarse-grained)",
+          "curve_description": "Lowest strengths for CG; failure near the peak.",
+          "about_curve": "Very limited work hardening at the highest temperature.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Minimum flow stress and lowest work hardening.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy, CG grains, and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 20.0,
+            "Cr": 20.0,
+            "Fe": 20.0,
+            "Mn": 20.0,
+            "Ni": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.012,
+                "y": 72.101
+              },
+              {
+                "x": 0.024,
+                "y": 85.761
+              },
+              {
+                "x": 0.038,
+                "y": 99.425
+              },
+              {
+                "x": 0.054,
+                "y": 111.144
+              },
+              {
+                "x": 0.07,
+                "y": 124.812
+              },
+              {
+                "x": 0.087,
+                "y": 138.481
+              },
+              {
+                "x": 0.103,
+                "y": 152.149
+              },
+              {
+                "x": 0.12,
+                "y": 159.974
+              },
+              {
+                "x": 0.137,
+                "y": 167.8
+              },
+              {
+                "x": 0.156,
+                "y": 173.68
+              },
+              {
+                "x": 0.174,
+                "y": 177.612
+              },
+              {
+                "x": 0.193,
+                "y": 175.7
+              },
+              {
+                "x": 0.208,
+                "y": 169.886
+              },
+              {
+                "x": 0.219,
+                "y": 158.219
+              },
+              {
+                "x": 0.224,
+                "y": 132.904
+              },
+              {
+                "x": 0.227,
+                "y": 105.636
+              },
+              {
+                "x": 0.228,
+                "y": 84.21
+              },
+              {
+                "x": 0.231,
+                "y": 66.683
+              },
+              {
+                "x": 0.232,
+                "y": 47.205
+              },
+              {
+                "x": 0.236,
+                "y": 21.888
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 7933.827,
+            "sigma_sat_MPa": 203.376,
+            "fit_strain_range": [
+              0.1131,
+              0.18911
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.38193,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.113\u20130.189."
+          }
+        }
+      ]
+    },
+    {
+      "graph_id": "Fig. 12a",
+      "title": "True stress\u2013true strain (converted from Fig. 3a) up to UTS",
+      "description": "True stress\u2013true strain curves recalculated from the fine-grained engineering curves (Fig. 3a) up to the onset of geometric instability (UTS), shown for 77, 293, and 473 K. These reveal the larger work-hardening rate at 77 K and earlier approach to instability at higher temperatures.",
+      "about_graph": "Same specimens and conditions as Fig. 3a; conversion performed up to the UTS point to avoid post-necking artifacts. Companion Fig. 12b shows d\u03c3_t/d\u03b5_t vs \u03c3_t and Consid\u00e8re criterion.",
+      "x_axis_label": "True Strain (\u2212)",
+      "y_axis_label": "True Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "Fig12a-77K",
+          "curve_label": "77 K (true)",
+          "curve_description": "Highest true stresses and work-hardening rate; intersection with Consid\u00e8re line occurs at the highest strain.",
+          "about_curve": "Reflects cryogenic strengthening and delayed necking due to high work hardening.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Largest slope (work-hardening rate) and highest \u03c3_t.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy, FG grain size, and conversion method.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 20.0,
+            "Cr": 20.0,
+            "Fe": 20.0,
+            "Mn": 20.0,
+            "Ni": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.009,
+                "y": 593.167
+              },
+              {
+                "x": 0.02,
+                "y": 626.048
+              },
+              {
+                "x": 0.031,
+                "y": 654.221
+              },
+              {
+                "x": 0.042,
+                "y": 687.109
+              },
+              {
+                "x": 0.052,
+                "y": 715.289
+              },
+              {
+                "x": 0.064,
+                "y": 743.455
+              },
+              {
+                "x": 0.076,
+                "y": 776.329
+              },
+              {
+                "x": 0.089,
+                "y": 804.495
+              },
+              {
+                "x": 0.101,
+                "y": 837.369
+              },
+              {
+                "x": 0.114,
+                "y": 870.236
+              },
+              {
+                "x": 0.127,
+                "y": 898.402
+              },
+              {
+                "x": 0.14,
+                "y": 926.561
+              },
+              {
+                "x": 0.154,
+                "y": 959.421
+              },
+              {
+                "x": 0.167,
+                "y": 987.587
+              },
+              {
+                "x": 0.179,
+                "y": 1015.753
+              },
+              {
+                "x": 0.19,
+                "y": 1048.634
+              },
+              {
+                "x": 0.203,
+                "y": 1072.085
+              },
+              {
+                "x": 0.218,
+                "y": 1109.654
+              },
+              {
+                "x": 0.228,
+                "y": 1137.834
+              },
+              {
+                "x": 0.24,
+                "y": 1166.0
+              },
+              {
+                "x": 0.251,
+                "y": 1194.172
+              },
+              {
+                "x": 0.263,
+                "y": 1222.345
+              },
+              {
+                "x": 0.274,
+                "y": 1245.81
+              },
+              {
+                "x": 0.284,
+                "y": 1273.99
+              },
+              {
+                "x": 0.294,
+                "y": 1297.461
+              },
+              {
+                "x": 0.307,
+                "y": 1330.336
+              },
+              {
+                "x": 0.319,
+                "y": 1353.793
+              },
+              {
+                "x": 0.329,
+                "y": 1391.389
+              },
+              {
+                "x": 0.344,
+                "y": 1414.834
+              },
+              {
+                "x": 0.357,
+                "y": 1452.409
+              },
+              {
+                "x": 0.367,
+                "y": 1480.589
+              },
+              {
+                "x": 0.38,
+                "y": 1508.748
+              },
+              {
+                "x": 0.393,
+                "y": 1536.914
+              },
+              {
+                "x": 0.404,
+                "y": 1569.795
+              },
+              {
+                "x": 0.415,
+                "y": 1597.967
+              },
+              {
+                "x": 0.426,
+                "y": 1630.848
+              },
+              {
+                "x": 0.44,
+                "y": 1654.299
+              },
+              {
+                "x": 0.452,
+                "y": 1682.465
+              },
+              {
+                "x": 0.464,
+                "y": 1710.631
+              },
+              {
+                "x": 0.477,
+                "y": 1743.505
+              },
+              {
+                "x": 0.489,
+                "y": 1776.38
+              },
+              {
+                "x": 0.503,
+                "y": 1799.824
+              },
+              {
+                "x": 0.513,
+                "y": 1832.712
+              },
+              {
+                "x": 0.526,
+                "y": 1856.169
+              },
+              {
+                "x": 0.537,
+                "y": 1884.342
+              },
+              {
+                "x": 0.548,
+                "y": 1903.099
+              },
+              {
+                "x": 0.563,
+                "y": 1940.667
+              },
+              {
+                "x": 0.576,
+                "y": 1968.827
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 5046.483,
+            "sigma_sat_MPa": 1501.567,
+            "fit_strain_range": [
+              0.03109,
+              0.07626
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.94879,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.031\u20130.076."
+          }
+        },
+        {
+          "curve_id": "Fig12a-293K",
+          "curve_label": "293 K (true)",
+          "curve_description": "Intermediate true stresses and hardening; necking predicted at lower strain than 77 K.",
+          "about_curve": "Room-temperature reference for FG material.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lower \u03c3_t and hardening than 77 K but higher than 473 K.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same test, alloy, and conversion.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 20.0,
+            "Cr": 20.0,
+            "Fe": 20.0,
+            "Mn": 20.0,
+            "Ni": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.01,
+                "y": 390.714
+              },
+              {
+                "x": 0.021,
+                "y": 418.887
+              },
+              {
+                "x": 0.033,
+                "y": 447.053
+              },
+              {
+                "x": 0.047,
+                "y": 470.504
+              },
+              {
+                "x": 0.059,
+                "y": 493.962
+              },
+              {
+                "x": 0.071,
+                "y": 512.712
+              },
+              {
+                "x": 0.082,
+                "y": 545.593
+              },
+              {
+                "x": 0.099,
+                "y": 569.023
+              },
+              {
+                "x": 0.112,
+                "y": 592.474
+              },
+              {
+                "x": 0.123,
+                "y": 611.231
+              },
+              {
+                "x": 0.136,
+                "y": 629.974
+              },
+              {
+                "x": 0.15,
+                "y": 653.425
+              },
+              {
+                "x": 0.164,
+                "y": 681.577
+              },
+              {
+                "x": 0.176,
+                "y": 695.619
+              },
+              {
+                "x": 0.19,
+                "y": 719.07
+              },
+              {
+                "x": 0.203,
+                "y": 737.813
+              },
+              {
+                "x": 0.218,
+                "y": 761.251
+              },
+              {
+                "x": 0.231,
+                "y": 780.0
+              },
+              {
+                "x": 0.242,
+                "y": 798.757
+              },
+              {
+                "x": 0.255,
+                "y": 817.5
+              },
+              {
+                "x": 0.268,
+                "y": 836.243
+              },
+              {
+                "x": 0.28,
+                "y": 850.292
+              },
+              {
+                "x": 0.291,
+                "y": 864.341
+              },
+              {
+                "x": 0.301,
+                "y": 878.396
+              },
+              {
+                "x": 0.311,
+                "y": 892.452
+              },
+              {
+                "x": 0.323,
+                "y": 911.208
+              },
+              {
+                "x": 0.335,
+                "y": 915.834
+              },
+              {
+                "x": 0.349,
+                "y": 934.57
+              },
+              {
+                "x": 0.362,
+                "y": 948.605
+              },
+              {
+                "x": 0.375,
+                "y": 967.355
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 3568.768,
+            "sigma_sat_MPa": 1104.761,
+            "fit_strain_range": [
+              0.02071,
+              0.07031
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.24047,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.021\u20130.070."
+          }
+        },
+        {
+          "curve_id": "Fig12a-473K",
+          "curve_label": "473 K (true)",
+          "curve_description": "Lowest of the three in true stress and work-hardening rate; necking onset occurs at the smallest true strain.",
+          "about_curve": "Converted curve corresponding to a case with serrations in engineering data.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Minimum \u03c3_t and hardening among the three temperatures.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same FG condition and conversion procedure.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Co": 20.0,
+            "Cr": 20.0,
+            "Fe": 20.0,
+            "Mn": 20.0,
+            "Ni": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.007,
+                "y": 310.698
+              },
+              {
+                "x": 0.018,
+                "y": 334.162
+              },
+              {
+                "x": 0.029,
+                "y": 352.919
+              },
+              {
+                "x": 0.041,
+                "y": 371.669
+              },
+              {
+                "x": 0.053,
+                "y": 395.134
+              },
+              {
+                "x": 0.064,
+                "y": 418.599
+              },
+              {
+                "x": 0.078,
+                "y": 437.335
+              },
+              {
+                "x": 0.09,
+                "y": 460.793
+              },
+              {
+                "x": 0.102,
+                "y": 474.841
+              },
+              {
+                "x": 0.115,
+                "y": 498.292
+              },
+              {
+                "x": 0.126,
+                "y": 517.049
+              },
+              {
+                "x": 0.138,
+                "y": 531.091
+              },
+              {
+                "x": 0.15,
+                "y": 549.848
+              },
+              {
+                "x": 0.161,
+                "y": 568.605
+              },
+              {
+                "x": 0.177,
+                "y": 587.327
+              },
+              {
+                "x": 0.192,
+                "y": 606.063
+              },
+              {
+                "x": 0.204,
+                "y": 620.105
+              },
+              {
+                "x": 0.215,
+                "y": 629.446
+              },
+              {
+                "x": 0.227,
+                "y": 652.903
+              },
+              {
+                "x": 0.241,
+                "y": 662.23
+              },
+              {
+                "x": 0.253,
+                "y": 676.272
+              },
+              {
+                "x": 0.267,
+                "y": 690.3
+              },
+              {
+                "x": 0.279,
+                "y": 704.342
+              },
+              {
+                "x": 0.292,
+                "y": 713.676
+              },
+              {
+                "x": 0.304,
+                "y": 723.01
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 2011.172,
+            "sigma_sat_MPa": 3032.091,
+            "fit_strain_range": [
+              0.02917,
+              0.0774
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.03828,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.029\u20130.077."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,789 @@
+{
+  "paper_title": "Natural-mixing guided design of refractory high-entropy alloys with as-cast tensile ductility",
+  "graphs": [
+    {
+      "graph_id": "fig2a_tensile_engineering_TiVNbHf",
+      "title": "Figure 2a \u2014 Ambient-temperature engineering tensile properties: Ti38V15Nb23Hf24 vs equiatomic Ti25V25Nb25Hf25",
+      "description": "Engineering stress\u2013strain curves at room temperature. Ti38V15Nb23Hf24 is shown in as-cast and AH + ReX states; equiatomic Ti25V25Nb25Hf25 is plotted for comparison.",
+      "about_graph": "Highlights plateau-like plastic flow and good ductility of Ti38V15Nb23Hf24 in both conditions, and ~200 MPa higher yield strength for the equiatomic variant due to larger/frequent nano-precipitates. Axes are engineering quantities.",
+      "x_axis_label": "Engineering strain (%)",
+      "y_axis_label": "Engineering stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "Ti38V15Nb23Hf24_as_cast",
+          "curve_label": "Ti\u2083\u2088V\u2081\u2085Nb\u2082\u2083Hf\u2082\u2084 \u2014 As-cast",
+          "curve_description": "As-cast Ti38V15Nb23Hf24 RHEA; bcc matrix with \u03b2\u2032 nano-precipitates.",
+          "about_curve": "Approx. 774 MPa yield, ~792 MPa UTS, and ~20.6% elongation; shows plateau-like work hardening.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Unprocessed state; slightly lower yield than AH+ReX and lower than the equiatomic variant.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same specimen geometry and test condition; engineering stress\u2013strain axes and units.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Ti_at%": 38,
+            "V_at%": 15,
+            "Nb_at%": 23,
+            "Hf_at%": 24
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.011,
+                "y": 777.946
+              },
+              {
+                "x": 0.016,
+                "y": 779.898
+              },
+              {
+                "x": 0.02,
+                "y": 781.845
+              },
+              {
+                "x": 0.024,
+                "y": 781.908
+              },
+              {
+                "x": 0.028,
+                "y": 783.855
+              },
+              {
+                "x": 0.033,
+                "y": 785.807
+              },
+              {
+                "x": 0.037,
+                "y": 785.871
+              },
+              {
+                "x": 0.041,
+                "y": 785.934
+              },
+              {
+                "x": 0.046,
+                "y": 786.009
+              },
+              {
+                "x": 0.052,
+                "y": 787.973
+              },
+              {
+                "x": 0.056,
+                "y": 789.919
+              },
+              {
+                "x": 0.061,
+                "y": 789.994
+              },
+              {
+                "x": 0.067,
+                "y": 790.081
+              },
+              {
+                "x": 0.072,
+                "y": 790.167
+              },
+              {
+                "x": 0.078,
+                "y": 790.259
+              },
+              {
+                "x": 0.085,
+                "y": 794.118
+              },
+              {
+                "x": 0.09,
+                "y": 792.315
+              },
+              {
+                "x": 0.094,
+                "y": 792.384
+              },
+              {
+                "x": 0.099,
+                "y": 792.448
+              },
+              {
+                "x": 0.103,
+                "y": 792.517
+              },
+              {
+                "x": 0.108,
+                "y": 794.469
+              },
+              {
+                "x": 0.113,
+                "y": 792.666
+              },
+              {
+                "x": 0.119,
+                "y": 792.753
+              },
+              {
+                "x": 0.125,
+                "y": 790.956
+              },
+              {
+                "x": 0.129,
+                "y": 787.253
+              },
+              {
+                "x": 0.133,
+                "y": 783.555
+              },
+              {
+                "x": 0.138,
+                "y": 779.852
+              },
+              {
+                "x": 0.143,
+                "y": 774.278
+              },
+              {
+                "x": 0.146,
+                "y": 770.569
+              },
+              {
+                "x": 0.15,
+                "y": 764.977
+              },
+              {
+                "x": 0.154,
+                "y": 759.379
+              },
+              {
+                "x": 0.158,
+                "y": 751.903
+              },
+              {
+                "x": 0.161,
+                "y": 740.656
+              },
+              {
+                "x": 0.164,
+                "y": 733.175
+              },
+              {
+                "x": 0.167,
+                "y": 725.676
+              },
+              {
+                "x": 0.17,
+                "y": 714.429
+              },
+              {
+                "x": 0.173,
+                "y": 705.053
+              },
+              {
+                "x": 0.176,
+                "y": 693.794
+              },
+              {
+                "x": 0.178,
+                "y": 682.529
+              },
+              {
+                "x": 0.181,
+                "y": 673.153
+              },
+              {
+                "x": 0.183,
+                "y": 661.889
+              },
+              {
+                "x": 0.185,
+                "y": 650.624
+              },
+              {
+                "x": 0.187,
+                "y": 639.353
+              },
+              {
+                "x": 0.189,
+                "y": 626.205
+              },
+              {
+                "x": 0.192,
+                "y": 611.174
+              },
+              {
+                "x": 0.194,
+                "y": 599.903
+              },
+              {
+                "x": 0.195,
+                "y": 582.983
+              },
+              {
+                "x": 0.197,
+                "y": 564.179
+              },
+              {
+                "x": 0.199,
+                "y": 539.721
+              },
+              {
+                "x": 0.2,
+                "y": 507.723
+              },
+              {
+                "x": 0.202,
+                "y": 468.198
+              },
+              {
+                "x": 0.202,
+                "y": 438.078
+              },
+              {
+                "x": 0.203,
+                "y": 407.952
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 2486.717,
+            "sigma_sat_MPa": 1395.254,
+            "fit_strain_range": [
+              0.02363,
+              0.07534
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.04772,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.024\u20130.075."
+          }
+        },
+        {
+          "curve_id": "Ti38V15Nb23Hf24_AH_ReX",
+          "curve_label": "Ti\u2083\u2088V\u2081\u2085Nb\u2082\u2083Hf\u2082\u2084 \u2014 AH + ReX",
+          "curve_description": "Ti38V15Nb23Hf24 after homogenization\u2013recrystallization.",
+          "about_curve": "Slightly higher yield (~802 MPa) and ~22.5% elongation; grain size reduction explains mild strength change.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Processed condition versus as-cast; modest yield increase and ductility change.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same composition; identical test and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Ti_at%": 38,
+            "V_at%": 15,
+            "Nb_at%": 23,
+            "Hf_at%": 24
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 175.175
+              },
+              {
+                "x": 0.002,
+                "y": 199.657
+              },
+              {
+                "x": 0.003,
+                "y": 220.378
+              },
+              {
+                "x": 0.003,
+                "y": 241.094
+              },
+              {
+                "x": 0.003,
+                "y": 267.464
+              },
+              {
+                "x": 0.003,
+                "y": 288.186
+              },
+              {
+                "x": 0.003,
+                "y": 310.779
+              },
+              {
+                "x": 0.004,
+                "y": 333.389
+              },
+              {
+                "x": 0.003,
+                "y": 357.865
+              },
+              {
+                "x": 0.004,
+                "y": 380.475
+              },
+              {
+                "x": 0.004,
+                "y": 406.841
+              },
+              {
+                "x": 0.004,
+                "y": 433.206
+              },
+              {
+                "x": 0.005,
+                "y": 455.816
+              },
+              {
+                "x": 0.004,
+                "y": 478.409
+              },
+              {
+                "x": 0.005,
+                "y": 506.663
+              },
+              {
+                "x": 0.005,
+                "y": 529.262
+              },
+              {
+                "x": 0.005,
+                "y": 551.861
+              },
+              {
+                "x": 0.006,
+                "y": 576.354
+              },
+              {
+                "x": 0.006,
+                "y": 593.303
+              },
+              {
+                "x": 0.005,
+                "y": 615.902
+              },
+              {
+                "x": 0.006,
+                "y": 636.623
+              },
+              {
+                "x": 0.006,
+                "y": 661.111
+              },
+              {
+                "x": 0.006,
+                "y": 685.593
+              },
+              {
+                "x": 0.006,
+                "y": 711.958
+              },
+              {
+                "x": 0.007,
+                "y": 730.796
+              },
+              {
+                "x": 0.007,
+                "y": 755.284
+              },
+              {
+                "x": 0.008,
+                "y": 783.544
+              },
+              {
+                "x": 0.01,
+                "y": 802.411
+              },
+              {
+                "x": 0.015,
+                "y": 804.363
+              },
+              {
+                "x": 0.019,
+                "y": 804.426
+              },
+              {
+                "x": 0.023,
+                "y": 804.49
+              },
+              {
+                "x": 0.027,
+                "y": 804.547
+              },
+              {
+                "x": 0.032,
+                "y": 806.511
+              },
+              {
+                "x": 0.036,
+                "y": 806.569
+              },
+              {
+                "x": 0.041,
+                "y": 806.644
+              },
+              {
+                "x": 0.047,
+                "y": 804.847
+              },
+              {
+                "x": 0.051,
+                "y": 804.91
+              },
+              {
+                "x": 0.056,
+                "y": 804.991
+              },
+              {
+                "x": 0.061,
+                "y": 805.06
+              },
+              {
+                "x": 0.066,
+                "y": 805.141
+              },
+              {
+                "x": 0.072,
+                "y": 805.227
+              },
+              {
+                "x": 0.078,
+                "y": 805.313
+              },
+              {
+                "x": 0.083,
+                "y": 805.4
+              },
+              {
+                "x": 0.083,
+                "y": 805.4
+              },
+              {
+                "x": 0.089,
+                "y": 807.364
+              },
+              {
+                "x": 0.094,
+                "y": 805.561
+              },
+              {
+                "x": 0.099,
+                "y": 805.642
+              },
+              {
+                "x": 0.104,
+                "y": 805.716
+              },
+              {
+                "x": 0.11,
+                "y": 805.803
+              },
+              {
+                "x": 0.116,
+                "y": 802.129
+              },
+              {
+                "x": 0.122,
+                "y": 802.209
+              },
+              {
+                "x": 0.127,
+                "y": 800.407
+              },
+              {
+                "x": 0.133,
+                "y": 800.499
+              },
+              {
+                "x": 0.138,
+                "y": 798.696
+              },
+              {
+                "x": 0.143,
+                "y": 796.882
+              },
+              {
+                "x": 0.148,
+                "y": 795.074
+              },
+              {
+                "x": 0.153,
+                "y": 789.505
+              },
+              {
+                "x": 0.158,
+                "y": 782.047
+              },
+              {
+                "x": 0.163,
+                "y": 776.466
+              },
+              {
+                "x": 0.168,
+                "y": 769.002
+              },
+              {
+                "x": 0.171,
+                "y": 763.404
+              },
+              {
+                "x": 0.174,
+                "y": 752.157
+              },
+              {
+                "x": 0.18,
+                "y": 740.944
+              },
+              {
+                "x": 0.184,
+                "y": 729.696
+              },
+              {
+                "x": 0.187,
+                "y": 716.571
+              },
+              {
+                "x": 0.191,
+                "y": 701.557
+              },
+              {
+                "x": 0.194,
+                "y": 690.31
+              },
+              {
+                "x": 0.199,
+                "y": 673.43
+              },
+              {
+                "x": 0.203,
+                "y": 650.889
+              },
+              {
+                "x": 0.206,
+                "y": 635.875
+              },
+              {
+                "x": 0.208,
+                "y": 624.61
+              },
+              {
+                "x": 0.211,
+                "y": 609.579
+              },
+              {
+                "x": 0.214,
+                "y": 588.909
+              },
+              {
+                "x": 0.215,
+                "y": 568.205
+              },
+              {
+                "x": 0.217,
+                "y": 551.291
+              },
+              {
+                "x": 0.219,
+                "y": 530.604
+              },
+              {
+                "x": 0.222,
+                "y": 509.929
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 1579.231,
+            "sigma_sat_MPa": 1884.792,
+            "fit_strain_range": [
+              0.02266,
+              0.07487
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.01126,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.023\u20130.075."
+          }
+        },
+        {
+          "curve_id": "Ti25V25Nb25Hf25_as_cast",
+          "curve_label": "Ti\u2082\u2085V\u2082\u2085Nb\u2082\u2085Hf\u2082\u2085 \u2014 Equiatomic (as-cast)",
+          "curve_description": "Equiatomic TiVNbHf variant plotted as the blue curve.",
+          "about_curve": "Higher yield strength (~1,004 MPa) with ~16.1% elongation; due to increased size/fraction of \u03b2\u2032 nano-precipitates.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Highest yield strength among the three curves; reduced ductility compared to Ti38 composition.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy family and room-temperature engineering tension; same axes/units.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Ti_at%": 25,
+            "V_at%": 25,
+            "Nb_at%": 25,
+            "Hf_at%": 25
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.008,
+                "y": 813.676
+              },
+              {
+                "x": 0.008,
+                "y": 843.807
+              },
+              {
+                "x": 0.008,
+                "y": 872.056
+              },
+              {
+                "x": 0.008,
+                "y": 902.193
+              },
+              {
+                "x": 0.008,
+                "y": 924.798
+              },
+              {
+                "x": 0.009,
+                "y": 943.641
+              },
+              {
+                "x": 0.009,
+                "y": 966.24
+              },
+              {
+                "x": 0.01,
+                "y": 983.206
+              },
+              {
+                "x": 0.012,
+                "y": 994.535
+              },
+              {
+                "x": 0.015,
+                "y": 1003.997
+              },
+              {
+                "x": 0.02,
+                "y": 1009.721
+              },
+              {
+                "x": 0.026,
+                "y": 1011.685
+              },
+              {
+                "x": 0.031,
+                "y": 1011.76
+              },
+              {
+                "x": 0.035,
+                "y": 1008.063
+              },
+              {
+                "x": 0.041,
+                "y": 1008.143
+              },
+              {
+                "x": 0.045,
+                "y": 1010.096
+              },
+              {
+                "x": 0.05,
+                "y": 1012.048
+              },
+              {
+                "x": 0.055,
+                "y": 1006.473
+              },
+              {
+                "x": 0.06,
+                "y": 1006.548
+              },
+              {
+                "x": 0.065,
+                "y": 1006.623
+              },
+              {
+                "x": 0.07,
+                "y": 1006.698
+              },
+              {
+                "x": 0.074,
+                "y": 1004.884
+              },
+              {
+                "x": 0.079,
+                "y": 1004.959
+              },
+              {
+                "x": 0.084,
+                "y": 1005.028
+              },
+              {
+                "x": 0.089,
+                "y": 1005.114
+              },
+              {
+                "x": 0.095,
+                "y": 999.545
+              },
+              {
+                "x": 0.1,
+                "y": 999.626
+              },
+              {
+                "x": 0.105,
+                "y": 995.928
+              },
+              {
+                "x": 0.109,
+                "y": 995.997
+              },
+              {
+                "x": 0.114,
+                "y": 996.067
+              },
+              {
+                "x": 0.119,
+                "y": 994.252
+              },
+              {
+                "x": 0.122,
+                "y": 988.66
+              },
+              {
+                "x": 0.127,
+                "y": 984.969
+              },
+              {
+                "x": 0.132,
+                "y": 981.277
+              },
+              {
+                "x": 0.136,
+                "y": 979.457
+              },
+              {
+                "x": 0.14,
+                "y": 971.982
+              },
+              {
+                "x": 0.143,
+                "y": 964.495
+              },
+              {
+                "x": 0.148,
+                "y": 957.026
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 354.69,
+            "sigma_sat_MPa": -637.563,
+            "fit_strain_range": [
+              0.0255,
+              0.07595
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.00158,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.025\u20130.076."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,851 @@
+{
+  "paper_title": "Notch-tensile behavior of Al0.1CrFeCoNi high entropy alloy",
+  "graphs": [
+    {
+      "graph_id": "G-FEM-9",
+      "title": "Finite element fit to experimental engineering stress\u2013strain curves",
+      "description": "Figure 9: Fit of the simulated (FEM) engineering stress\u2013strain curves to the corresponding experimental curves for Al0.1-HEA, 304SS, IN625 and Ti-6Al-4V (Ti64).",
+      "about_graph": "Each material is plotted with two curves: a solid experimental engineering stress\u2013strain curve and a dashed FEM-simulated curve over the uniform plastic regime.",
+      "x_axis_label": "Engineering Strain (mm/mm)",
+      "y_axis_label": "Engineering Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "G-FEM-9-C1a",
+          "curve_label": "Al0.1-HEA \u2014 experiment",
+          "curve_description": "Measured engineering stress\u2013strain response of Al0.1CrFeCoNi (single-phase FCC) notched-tension uniform regime.",
+          "about_curve": "Serves as ground truth to validate the FEM model for Al0.1-HEA.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "This is experimental (solid line), not a simulation; absolute levels and slope reflect the real test.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same axes/units and same strain window limited to uniform deformation.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Al": 2.4,
+            "Co": 24.4,
+            "Cr": 24.4,
+            "Fe": 24.4,
+            "Ni": 24.4,
+            "basis": "at.% (nominal for Al0.1CoCrFeNi)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.006,
+                "y": 705.295
+              },
+              {
+                "x": 0.013,
+                "y": 762.496
+              },
+              {
+                "x": 0.023,
+                "y": 816.089
+              },
+              {
+                "x": 0.031,
+                "y": 851.8
+              },
+              {
+                "x": 0.04,
+                "y": 891.07
+              },
+              {
+                "x": 0.048,
+                "y": 926.781
+              },
+              {
+                "x": 0.059,
+                "y": 962.463
+              },
+              {
+                "x": 0.067,
+                "y": 987.426
+              },
+              {
+                "x": 0.078,
+                "y": 1026.681
+              },
+              {
+                "x": 0.089,
+                "y": 1069.517
+              },
+              {
+                "x": 0.103,
+                "y": 1105.163
+              },
+              {
+                "x": 0.116,
+                "y": 1126.487
+              },
+              {
+                "x": 0.13,
+                "y": 1151.377
+              },
+              {
+                "x": 0.146,
+                "y": 1186.994
+              },
+              {
+                "x": 0.162,
+                "y": 1208.289
+              },
+              {
+                "x": 0.177,
+                "y": 1215.276
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 8638.54,
+            "sigma_sat_MPa": 2537.753,
+            "fit_strain_range": [
+              0.02207,
+              0.07463
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.55003,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.075."
+          }
+        },
+        {
+          "curve_id": "G-FEM-9-C1b",
+          "curve_label": "Al0.1-HEA \u2014 simulation",
+          "curve_description": "FEM-predicted engineering stress\u2013strain curve (dashed) fitted to the experiment.",
+          "about_curve": "Johnson\u2013Cook style power-law fit used for the constitutive input; no damage modeling (post-uniform region not shown).",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Numerical prediction (dashed) rather than measured data; closely tracks the experimental Al0.1-HEA curve.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same material as its paired experimental curve; same axis scales.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Al": 2.4,
+            "Co": 24.4,
+            "Cr": 24.4,
+            "Fe": 24.4,
+            "Ni": 24.4,
+            "basis": "at.% (nominal for Al0.1CoCrFeNi)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.009,
+                "y": 690.929
+              },
+              {
+                "x": 0.017,
+                "y": 733.809
+              },
+              {
+                "x": 0.024,
+                "y": 758.785
+              },
+              {
+                "x": 0.033,
+                "y": 798.063
+              },
+              {
+                "x": 0.045,
+                "y": 858.787
+              },
+              {
+                "x": 0.057,
+                "y": 898.035
+              },
+              {
+                "x": 0.067,
+                "y": 926.564
+              },
+              {
+                "x": 0.079,
+                "y": 958.644
+              },
+              {
+                "x": 0.087,
+                "y": 997.935
+              },
+              {
+                "x": 0.099,
+                "y": 1026.435
+              },
+              {
+                "x": 0.113,
+                "y": 1058.493
+              },
+              {
+                "x": 0.123,
+                "y": 1083.441
+              },
+              {
+                "x": 0.132,
+                "y": 1101.235
+              },
+              {
+                "x": 0.142,
+                "y": 1126.175
+              },
+              {
+                "x": 0.155,
+                "y": 1158.248
+              },
+              {
+                "x": 0.167,
+                "y": 1176.006
+              },
+              {
+                "x": 0.184,
+                "y": 1208.028
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 7948.55,
+            "sigma_sat_MPa": 2467.859,
+            "fit_strain_range": [
+              0.02389,
+              0.07492
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.40844,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.024\u20130.075."
+          }
+        },
+        {
+          "curve_id": "G-FEM-9-C2a",
+          "curve_label": "304SS \u2014 experiment",
+          "curve_description": "Measured engineering stress\u2013strain curve for AISI 304 stainless steel (ductile FCC).",
+          "about_curve": "Reference experimental response for 304SS.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lower strength, higher ductility relative to IN625 and Ti64.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Paired with a FEM curve; same plotting window.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 68.0,
+            "Cr": 18.0,
+            "Ni": 8.0,
+            "Mn": 2.0,
+            "Si": 1.0,
+            "C": 0.08,
+            "basis": "wt.% (typical 304SS)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.003,
+                "y": 612.23
+              },
+              {
+                "x": 0.01,
+                "y": 640.794
+              },
+              {
+                "x": 0.019,
+                "y": 672.918
+              },
+              {
+                "x": 0.028,
+                "y": 697.865
+              },
+              {
+                "x": 0.039,
+                "y": 726.379
+              },
+              {
+                "x": 0.052,
+                "y": 751.291
+              },
+              {
+                "x": 0.063,
+                "y": 776.224
+              },
+              {
+                "x": 0.075,
+                "y": 790.401
+              },
+              {
+                "x": 0.088,
+                "y": 811.725
+              },
+              {
+                "x": 0.101,
+                "y": 833.064
+              },
+              {
+                "x": 0.111,
+                "y": 843.675
+              },
+              {
+                "x": 0.124,
+                "y": 854.271
+              },
+              {
+                "x": 0.135,
+                "y": 857.714
+              },
+              {
+                "x": 0.146,
+                "y": 868.325
+              },
+              {
+                "x": 0.158,
+                "y": 886.09
+              },
+              {
+                "x": 0.17,
+                "y": 889.526
+              },
+              {
+                "x": 0.18,
+                "y": 896.564
+              },
+              {
+                "x": 0.192,
+                "y": 900.007
+              },
+              {
+                "x": 0.203,
+                "y": 899.876
+              },
+              {
+                "x": 0.211,
+                "y": 899.782
+              },
+              {
+                "x": 0.221,
+                "y": 896.071
+              },
+              {
+                "x": 0.23,
+                "y": 888.808
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 8520.392,
+            "sigma_sat_MPa": 1222.754,
+            "fit_strain_range": [
+              0.02779,
+              0.0724
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.98354,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.028\u20130.072."
+          }
+        },
+        {
+          "curve_id": "G-FEM-9-C2b",
+          "curve_label": "304SS \u2014 simulation",
+          "curve_description": "FEM-predicted engineering stress\u2013strain curve (dashed) fitted to the 304SS experiment.",
+          "about_curve": "Captures hardening of 304SS within the uniform plastic regime.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Dashed (simulation) line showing model fit quality for 304SS.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy/axes; paired with its experimental curve.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 68.0,
+            "Cr": 18.0,
+            "Ni": 8.0,
+            "Mn": 2.0,
+            "Si": 1.0,
+            "C": 0.08,
+            "basis": "wt.% (typical 304SS)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.012,
+                "y": 669.41
+              },
+              {
+                "x": 0.023,
+                "y": 708.665
+              },
+              {
+                "x": 0.034,
+                "y": 747.928
+              },
+              {
+                "x": 0.045,
+                "y": 783.603
+              },
+              {
+                "x": 0.054,
+                "y": 804.97
+              },
+              {
+                "x": 0.066,
+                "y": 819.155
+              },
+              {
+                "x": 0.074,
+                "y": 836.956
+              },
+              {
+                "x": 0.087,
+                "y": 858.294
+              },
+              {
+                "x": 0.101,
+                "y": 876.023
+              },
+              {
+                "x": 0.113,
+                "y": 883.046
+              },
+              {
+                "x": 0.124,
+                "y": 904.392
+              },
+              {
+                "x": 0.137,
+                "y": 914.981
+              },
+              {
+                "x": 0.149,
+                "y": 929.166
+              },
+              {
+                "x": 0.157,
+                "y": 932.645
+              },
+              {
+                "x": 0.167,
+                "y": 950.424
+              },
+              {
+                "x": 0.179,
+                "y": 953.867
+              },
+              {
+                "x": 0.188,
+                "y": 957.339
+              },
+              {
+                "x": 0.198,
+                "y": 957.223
+              },
+              {
+                "x": 0.211,
+                "y": 974.966
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 12922.84,
+            "sigma_sat_MPa": 1131.89,
+            "fit_strain_range": [
+              0.02263,
+              0.07243
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.8756,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.023\u20130.072."
+          }
+        },
+        {
+          "curve_id": "G-FEM-9-C3a",
+          "curve_label": "IN625 \u2014 experiment",
+          "curve_description": "Measured engineering stress\u2013strain curve for Inconel 625 (Ni-based superalloy).",
+          "about_curve": "Experimental reference for a stronger FCC alloy with good ductility.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Higher strength than 304SS; different hardening character.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Paired with a simulated counterpart.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Ni": 61.0,
+            "Cr": 21.5,
+            "Mo": 9.0,
+            "NbPlusTa": 3.6,
+            "Fe": 2.5,
+            "Co": 1.0,
+            "Mn": 0.5,
+            "Si": 0.5,
+            "basis": "wt.% (typical IN625)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 844.979
+              },
+              {
+                "x": 0.012,
+                "y": 859.186
+              },
+              {
+                "x": 0.022,
+                "y": 880.546
+              },
+              {
+                "x": 0.035,
+                "y": 919.779
+              },
+              {
+                "x": 0.046,
+                "y": 944.713
+              },
+              {
+                "x": 0.054,
+                "y": 966.095
+              },
+              {
+                "x": 0.065,
+                "y": 994.608
+              },
+              {
+                "x": 0.077,
+                "y": 1019.535
+              },
+              {
+                "x": 0.091,
+                "y": 1044.432
+              },
+              {
+                "x": 0.101,
+                "y": 1065.792
+              },
+              {
+                "x": 0.114,
+                "y": 1094.284
+              },
+              {
+                "x": 0.124,
+                "y": 1112.063
+              },
+              {
+                "x": 0.138,
+                "y": 1133.387
+              },
+              {
+                "x": 0.15,
+                "y": 1147.564
+              },
+              {
+                "x": 0.16,
+                "y": 1165.344
+              },
+              {
+                "x": 0.173,
+                "y": 1183.094
+              },
+              {
+                "x": 0.186,
+                "y": 1200.838
+              },
+              {
+                "x": 0.198,
+                "y": 1207.854
+              },
+              {
+                "x": 0.206,
+                "y": 1214.921
+              },
+              {
+                "x": 0.215,
+                "y": 1218.4
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 4605.047,
+            "sigma_sat_MPa": 5011.182,
+            "fit_strain_range": [
+              0.02243,
+              0.07473
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.15708,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.075."
+          }
+        },
+        {
+          "curve_id": "G-FEM-9-C3b",
+          "curve_label": "IN625 \u2014 simulation",
+          "curve_description": "FEM-predicted engineering stress\u2013strain curve (dashed) fitted to the IN625 experiment.",
+          "about_curve": "Power-law constitutive input; no post-necking modeling.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Dashed simulation for IN625 showing fit quality.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same axes and strain window as the experimental IN625 curve.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Ni": 61.0,
+            "Cr": 21.5,
+            "Mo": 9.0,
+            "NbPlusTa": 3.6,
+            "Fe": 2.5,
+            "Co": 1.0,
+            "Mn": 0.5,
+            "Si": 0.5,
+            "basis": "wt.% (typical IN625)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.003,
+                "y": 819.901
+              },
+              {
+                "x": 0.011,
+                "y": 877.096
+              },
+              {
+                "x": 0.024,
+                "y": 923.49
+              },
+              {
+                "x": 0.034,
+                "y": 959.18
+              },
+              {
+                "x": 0.047,
+                "y": 1001.987
+              },
+              {
+                "x": 0.058,
+                "y": 1034.081
+              },
+              {
+                "x": 0.067,
+                "y": 1055.456
+              },
+              {
+                "x": 0.075,
+                "y": 1073.264
+              },
+              {
+                "x": 0.085,
+                "y": 1091.051
+              },
+              {
+                "x": 0.096,
+                "y": 1115.977
+              },
+              {
+                "x": 0.104,
+                "y": 1137.366
+              },
+              {
+                "x": 0.115,
+                "y": 1151.558
+              },
+              {
+                "x": 0.128,
+                "y": 1169.309
+              },
+              {
+                "x": 0.141,
+                "y": 1190.632
+              },
+              {
+                "x": 0.152,
+                "y": 1201.251
+              },
+              {
+                "x": 0.163,
+                "y": 1219.023
+              },
+              {
+                "x": 0.174,
+                "y": 1236.795
+              },
+              {
+                "x": 0.181,
+                "y": 1240.289
+              },
+              {
+                "x": 0.19,
+                "y": 1243.761
+              },
+              {
+                "x": 0.2,
+                "y": 1261.54
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 10640.412,
+            "sigma_sat_MPa": 1741.239,
+            "fit_strain_range": [
+              0.02254,
+              0.07264
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.93554,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.023\u20130.073."
+          }
+        },
+        {
+          "curve_id": "G-FEM-9-C4a",
+          "curve_label": "Ti64 \u2014 experiment",
+          "curve_description": "Measured engineering stress\u2013strain curve for Ti\u20136Al\u20134V (\u03b1+\u03b2 Ti alloy).",
+          "about_curve": "Higher strength, lower ductility compared with the FCC alloys.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Distinct hardening shape and lower uniform elongation.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Paired with a FEM prediction; same axes and units.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Ti": 90.0,
+            "Al": 6.0,
+            "V": 4.0,
+            "basis": "wt.% (nominal Ti-6Al-4V)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.004,
+                "y": 973.857
+              },
+              {
+                "x": 0.01,
+                "y": 988.107
+              },
+              {
+                "x": 0.016,
+                "y": 998.776
+              },
+              {
+                "x": 0.023,
+                "y": 1016.599
+              },
+              {
+                "x": 0.03,
+                "y": 1034.415
+              },
+              {
+                "x": 0.037,
+                "y": 1048.657
+              },
+              {
+                "x": 0.044,
+                "y": 1066.473
+              },
+              {
+                "x": 0.051,
+                "y": 1084.289
+              },
+              {
+                "x": 0.058,
+                "y": 1098.531
+              },
+              {
+                "x": 0.065,
+                "y": 1112.774
+              },
+              {
+                "x": 0.071,
+                "y": 1119.862
+              },
+              {
+                "x": 0.075,
+                "y": 1109.07
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 28115.69,
+            "sigma_sat_MPa": 1242.997,
+            "fit_strain_range": [
+              0.02265,
+              0.07232
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.41812,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.023\u20130.072."
+          }
+        },
+        {
+          "curve_id": "G-FEM-9-C4b",
+          "curve_label": "Ti64 \u2014 simulation",
+          "curve_description": "FEM-predicted engineering stress\u2013strain curve (dashed) fitted to the Ti\u20136Al\u20134V experiment.",
+          "about_curve": "Shows the degree of match achievable with the chosen constitutive form (no damage).",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Dashed simulation for Ti64; some mismatch relative to experiment is expected.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same axes/units and uniform-strain window as its experimental pair.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Ti": 90.0,
+            "Al": 6.0,
+            "V": 4.0,
+            "basis": "wt.% (nominal Ti-6Al-4V)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 1006.104
+              },
+              {
+                "x": 0.007,
+                "y": 1031.117
+              },
+              {
+                "x": 0.011,
+                "y": 1056.123
+              },
+              {
+                "x": 0.017,
+                "y": 1070.38
+              },
+              {
+                "x": 0.021,
+                "y": 1081.071
+              },
+              {
+                "x": 0.026,
+                "y": 1091.754
+              },
+              {
+                "x": 0.031,
+                "y": 1095.27
+              },
+              {
+                "x": 0.038,
+                "y": 1095.197
+              },
+              {
+                "x": 0.043,
+                "y": 1095.132
+              },
+              {
+                "x": 0.049,
+                "y": 1098.64
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 45766.349,
+            "sigma_sat_MPa": 1182.525,
+            "fit_strain_range": [
+              0.02112,
+              0.04774
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.61863,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.021\u20130.048."
+          }
+        }
+      ]
+    }
+  ]
+}

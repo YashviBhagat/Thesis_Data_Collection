@@ -1,0 +1,687 @@
+{
+  "paper_title": "Hierarchical microstructure for improved fatigue properties in a eutectic high entropy alloy",
+  "graphs": [
+    {
+      "graph_id": "fig2a",
+      "title": "Engineering and true stress\u2013strain curves for EHEAc and EHEAw",
+      "description": "Comparison of engineering vs true stress\u2013strain for as-cast EHEA (EHEAc, red) and rolled+heat-treated EHEA (EHEAw, blue) at ~10\u207b\u00b3 s\u207b\u00b9.",
+      "about_graph": "Mini-tensile tests at an initial strain rate of 10\u207b\u00b3 s\u207b\u00b9 on AlCoCrFeNi2.1 in two microstructural states: as-cast (EHEAc) and 50% cold-rolled + 700\u00b0C/12h heat-treated (EHEAw). Plot overlays engineering (solid) and true (dashed) curves.",
+      "x_axis_label": "Strain (engineering for Eng curves; true for True curves)",
+      "y_axis_label": "Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "c1",
+          "curve_label": "EHEAc - Eng",
+          "curve_description": "Engineering stress\u2013strain for as-cast eutectic HEA (lamellar FCC/BCC microstructure).",
+          "about_curve": "Lower strength relative to EHEAw; reflects load based on original area.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Uses engineering definition; lower stress vs true curve at higher strains and generally lower than EHEAw due to lack of hierarchical features.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy chemistry and test conditions; same axes and units.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Al (at.%)": 16.4,
+            "Co (at.%)": 16.4,
+            "Cr (at.%)": 16.4,
+            "Fe (at.%)": 16.4,
+            "Ni (at.%)": 34.4,
+            "_note": "Composition based on atomic ratio AlCoCrFeNi2.1."
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 770.265
+              },
+              {
+                "x": 0.003,
+                "y": 787.257
+              },
+              {
+                "x": 0.005,
+                "y": 809.912
+              },
+              {
+                "x": 0.008,
+                "y": 838.23
+              },
+              {
+                "x": 0.011,
+                "y": 860.885
+              },
+              {
+                "x": 0.014,
+                "y": 875.044
+              },
+              {
+                "x": 0.016,
+                "y": 886.372
+              },
+              {
+                "x": 0.019,
+                "y": 897.699
+              },
+              {
+                "x": 0.022,
+                "y": 909.027
+              },
+              {
+                "x": 0.025,
+                "y": 923.186
+              },
+              {
+                "x": 0.028,
+                "y": 937.345
+              },
+              {
+                "x": 0.03,
+                "y": 943.009
+              },
+              {
+                "x": 0.032,
+                "y": 954.336
+              },
+              {
+                "x": 0.034,
+                "y": 960.0
+              },
+              {
+                "x": 0.036,
+                "y": 968.496
+              },
+              {
+                "x": 0.039,
+                "y": 974.159
+              },
+              {
+                "x": 0.041,
+                "y": 982.655
+              },
+              {
+                "x": 0.043,
+                "y": 993.982
+              },
+              {
+                "x": 0.046,
+                "y": 999.646
+              },
+              {
+                "x": 0.048,
+                "y": 1005.31
+              },
+              {
+                "x": 0.051,
+                "y": 1016.637
+              },
+              {
+                "x": 0.053,
+                "y": 1019.469
+              },
+              {
+                "x": 0.056,
+                "y": 1030.796
+              },
+              {
+                "x": 0.059,
+                "y": 1033.628
+              },
+              {
+                "x": 0.062,
+                "y": 1042.124
+              },
+              {
+                "x": 0.065,
+                "y": 1050.619
+              },
+              {
+                "x": 0.068,
+                "y": 1053.451
+              },
+              {
+                "x": 0.07,
+                "y": 1059.115
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 20207.724,
+            "sigma_sat_MPa": 1177.222,
+            "fit_strain_range": [
+              0.022,
+              0.07001
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.85734,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.070."
+          }
+        },
+        {
+          "curve_id": "c2",
+          "curve_label": "EHEAc - True",
+          "curve_description": "True stress\u2013true strain for as-cast EHEA.",
+          "about_curve": "Higher stress than the engineering curve at larger strains; monotonic hardening within the ~0\u20130.12 strain window shown.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Computed from instantaneous area/log strain; still below EHEAw curves due to microstructure.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same specimen, temperature, and strain rate as other curves.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Al (at.%)": 16.4,
+            "Co (at.%)": 16.4,
+            "Cr (at.%)": 16.4,
+            "Fe (at.%)": 16.4,
+            "Ni (at.%)": 34.4,
+            "_note": "Composition based on atomic ratio AlCoCrFeNi2.1."
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.003,
+                "y": 781.593
+              },
+              {
+                "x": 0.005,
+                "y": 798.584
+              },
+              {
+                "x": 0.007,
+                "y": 818.407
+              },
+              {
+                "x": 0.008,
+                "y": 835.398
+              },
+              {
+                "x": 0.01,
+                "y": 863.717
+              },
+              {
+                "x": 0.013,
+                "y": 880.708
+              },
+              {
+                "x": 0.016,
+                "y": 903.363
+              },
+              {
+                "x": 0.018,
+                "y": 911.858
+              },
+              {
+                "x": 0.021,
+                "y": 931.681
+              },
+              {
+                "x": 0.023,
+                "y": 945.841
+              },
+              {
+                "x": 0.025,
+                "y": 957.168
+              },
+              {
+                "x": 0.028,
+                "y": 965.664
+              },
+              {
+                "x": 0.03,
+                "y": 974.159
+              },
+              {
+                "x": 0.033,
+                "y": 991.15
+              },
+              {
+                "x": 0.036,
+                "y": 1008.142
+              },
+              {
+                "x": 0.038,
+                "y": 1013.805
+              },
+              {
+                "x": 0.04,
+                "y": 1025.133
+              },
+              {
+                "x": 0.043,
+                "y": 1033.628
+              },
+              {
+                "x": 0.045,
+                "y": 1044.956
+              },
+              {
+                "x": 0.048,
+                "y": 1053.451
+              },
+              {
+                "x": 0.05,
+                "y": 1064.779
+              },
+              {
+                "x": 0.052,
+                "y": 1076.106
+              },
+              {
+                "x": 0.055,
+                "y": 1081.77
+              },
+              {
+                "x": 0.057,
+                "y": 1093.097
+              },
+              {
+                "x": 0.059,
+                "y": 1101.593
+              },
+              {
+                "x": 0.062,
+                "y": 1112.92
+              },
+              {
+                "x": 0.064,
+                "y": 1124.248
+              },
+              {
+                "x": 0.067,
+                "y": 1129.912
+              },
+              {
+                "x": 0.07,
+                "y": 1138.407
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 15594.542,
+            "sigma_sat_MPa": 1433.051,
+            "fit_strain_range": [
+              0.02074,
+              0.07004
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.52079,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.021\u20130.070."
+          }
+        },
+        {
+          "curve_id": "c3",
+          "curve_label": "EHEAw - Eng",
+          "curve_description": "Engineering stress\u2013strain for rolled+heat-treated hierarchical EHEA.",
+          "about_curve": "Higher YS/UTS and work hardening than EHEAc due to recrystallized FCC grains and B2 precipitates within lamellae.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Shows strength improvement from hierarchical microstructure; engineering definition.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same chemistry and testing conditions; plotted on same axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Al (at.%)": 16.4,
+            "Co (at.%)": 16.4,
+            "Cr (at.%)": 16.4,
+            "Fe (at.%)": 16.4,
+            "Ni (at.%)": 34.4,
+            "_note": "Composition based on atomic ratio AlCoCrFeNi2.1."
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.003,
+                "y": 1138.407
+              },
+              {
+                "x": 0.006,
+                "y": 1146.903
+              },
+              {
+                "x": 0.008,
+                "y": 1169.558
+              },
+              {
+                "x": 0.01,
+                "y": 1175.221
+              },
+              {
+                "x": 0.013,
+                "y": 1186.549
+              },
+              {
+                "x": 0.017,
+                "y": 1200.708
+              },
+              {
+                "x": 0.021,
+                "y": 1209.204
+              },
+              {
+                "x": 0.023,
+                "y": 1217.699
+              },
+              {
+                "x": 0.025,
+                "y": 1223.363
+              },
+              {
+                "x": 0.028,
+                "y": 1231.858
+              },
+              {
+                "x": 0.031,
+                "y": 1237.522
+              },
+              {
+                "x": 0.033,
+                "y": 1246.018
+              },
+              {
+                "x": 0.035,
+                "y": 1251.681
+              },
+              {
+                "x": 0.038,
+                "y": 1257.345
+              },
+              {
+                "x": 0.041,
+                "y": 1268.673
+              },
+              {
+                "x": 0.043,
+                "y": 1268.673
+              },
+              {
+                "x": 0.046,
+                "y": 1277.168
+              },
+              {
+                "x": 0.048,
+                "y": 1280.0
+              },
+              {
+                "x": 0.051,
+                "y": 1285.664
+              },
+              {
+                "x": 0.054,
+                "y": 1288.496
+              },
+              {
+                "x": 0.056,
+                "y": 1294.159
+              },
+              {
+                "x": 0.058,
+                "y": 1296.991
+              },
+              {
+                "x": 0.061,
+                "y": 1299.823
+              },
+              {
+                "x": 0.063,
+                "y": 1305.487
+              },
+              {
+                "x": 0.065,
+                "y": 1311.15
+              },
+              {
+                "x": 0.068,
+                "y": 1311.15
+              },
+              {
+                "x": 0.071,
+                "y": 1316.814
+              },
+              {
+                "x": 0.073,
+                "y": 1322.478
+              },
+              {
+                "x": 0.075,
+                "y": 1325.31
+              },
+              {
+                "x": 0.078,
+                "y": 1322.478
+              },
+              {
+                "x": 0.08,
+                "y": 1325.31
+              },
+              {
+                "x": 0.083,
+                "y": 1333.805
+              },
+              {
+                "x": 0.085,
+                "y": 1336.637
+              },
+              {
+                "x": 0.088,
+                "y": 1336.637
+              },
+              {
+                "x": 0.09,
+                "y": 1339.469
+              },
+              {
+                "x": 0.093,
+                "y": 1345.133
+              },
+              {
+                "x": 0.096,
+                "y": 1347.965
+              },
+              {
+                "x": 0.098,
+                "y": 1350.796
+              },
+              {
+                "x": 0.101,
+                "y": 1353.628
+              },
+              {
+                "x": 0.103,
+                "y": 1347.965
+              },
+              {
+                "x": 0.106,
+                "y": 1347.965
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 25827.613,
+            "sigma_sat_MPa": 1385.34,
+            "fit_strain_range": [
+              0.02066,
+              0.07766
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.72306,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.021\u20130.078."
+          }
+        },
+        {
+          "curve_id": "c4",
+          "curve_label": "EHEAw - True",
+          "curve_description": "True stress\u2013true strain for rolled+heat-treated hierarchical EHEA.",
+          "about_curve": "Highest stresses among the four curves; tracks actual flow behavior with instantaneous area.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Combines microstructural strengthening (EHEAw) with true stress definition; therefore highest curve.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy system and test method; same axis units.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Al (at.%)": 16.4,
+            "Co (at.%)": 16.4,
+            "Cr (at.%)": 16.4,
+            "Fe (at.%)": 16.4,
+            "Ni (at.%)": 34.4,
+            "_note": "Composition based on atomic ratio AlCoCrFeNi2.1."
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.003,
+                "y": 1143.198
+              },
+              {
+                "x": 0.006,
+                "y": 1154.465
+              },
+              {
+                "x": 0.01,
+                "y": 1177.087
+              },
+              {
+                "x": 0.012,
+                "y": 1202.563
+              },
+              {
+                "x": 0.017,
+                "y": 1222.308
+              },
+              {
+                "x": 0.02,
+                "y": 1233.567
+              },
+              {
+                "x": 0.023,
+                "y": 1250.524
+              },
+              {
+                "x": 0.026,
+                "y": 1261.795
+              },
+              {
+                "x": 0.029,
+                "y": 1275.923
+              },
+              {
+                "x": 0.032,
+                "y": 1281.533
+              },
+              {
+                "x": 0.034,
+                "y": 1292.812
+              },
+              {
+                "x": 0.037,
+                "y": 1301.258
+              },
+              {
+                "x": 0.04,
+                "y": 1309.704
+              },
+              {
+                "x": 0.043,
+                "y": 1332.315
+              },
+              {
+                "x": 0.046,
+                "y": 1335.095
+              },
+              {
+                "x": 0.049,
+                "y": 1346.374
+              },
+              {
+                "x": 0.052,
+                "y": 1351.98
+              },
+              {
+                "x": 0.055,
+                "y": 1366.092
+              },
+              {
+                "x": 0.058,
+                "y": 1374.534
+              },
+              {
+                "x": 0.06,
+                "y": 1382.98
+              },
+              {
+                "x": 0.063,
+                "y": 1394.259
+              },
+              {
+                "x": 0.066,
+                "y": 1399.865
+              },
+              {
+                "x": 0.069,
+                "y": 1408.315
+              },
+              {
+                "x": 0.071,
+                "y": 1419.602
+              },
+              {
+                "x": 0.074,
+                "y": 1422.375
+              },
+              {
+                "x": 0.077,
+                "y": 1430.809
+              },
+              {
+                "x": 0.08,
+                "y": 1442.092
+              },
+              {
+                "x": 0.082,
+                "y": 1447.714
+              },
+              {
+                "x": 0.085,
+                "y": 1461.834
+              },
+              {
+                "x": 0.088,
+                "y": 1467.427
+              },
+              {
+                "x": 0.091,
+                "y": 1470.196
+              },
+              {
+                "x": 0.094,
+                "y": 1478.642
+              },
+              {
+                "x": 0.096,
+                "y": 1484.255
+              },
+              {
+                "x": 0.099,
+                "y": 1487.024
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 12030.324,
+            "sigma_sat_MPa": 1891.321,
+            "fit_strain_range": [
+              0.02017,
+              0.07974
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.41391,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.020\u20130.080."
+          }
+        }
+      ]
+    }
+  ]
+}

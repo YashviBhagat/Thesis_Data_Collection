@@ -1,0 +1,1103 @@
+{
+  "paper_title": "Metastable Fe42Mn28Co10Cr15Si5 HEA: IP vs TT true stress\u2013true strain behavior",
+  "graphs": [
+    {
+      "graph_id": "G1",
+      "title": "True stress\u2013true strain (IP & TT compression) for categories A\u2013D",
+      "description": "Figure 1: True stress\u2013true strain curves for four specimen categories compressed to fracture in both in-plane (IP) and through-thickness (TT) directions. Several tests were interrupted for NeD/EBSD (symbols in the plot).",
+      "about_graph": "All curves are from compression tests on Fe42Mn28Co10Cr15Si5 high-entropy alloy; IP denotes in-plane loading, TT denotes through-thickness loading.",
+      "x_axis_label": "True Strain (mm/mm)",
+      "y_axis_label": "True Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "G1-C1",
+          "curve_label": "A-TT",
+          "curve_description": "Category A, through-thickness compression; highest initial work hardening among A curves.",
+          "about_curve": "Represents TT loading for condition A.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Higher flow stress than its A-IP counterpart at small strains; steeper early slope.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy, temperature, and axis definitions.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 42,
+            "Mn": 28,
+            "Co": 10,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.024,
+                "y": 687.844
+              },
+              {
+                "x": 0.03,
+                "y": 726.471
+              },
+              {
+                "x": 0.037,
+                "y": 775.631
+              },
+              {
+                "x": 0.046,
+                "y": 814.271
+              },
+              {
+                "x": 0.057,
+                "y": 845.905
+              },
+              {
+                "x": 0.067,
+                "y": 884.551
+              },
+              {
+                "x": 0.077,
+                "y": 905.654
+              },
+              {
+                "x": 0.093,
+                "y": 954.857
+              },
+              {
+                "x": 0.109,
+                "y": 990.025
+              },
+              {
+                "x": 0.119,
+                "y": 1018.145
+              },
+              {
+                "x": 0.135,
+                "y": 1046.296
+              },
+              {
+                "x": 0.147,
+                "y": 1070.92
+              },
+              {
+                "x": 0.162,
+                "y": 1099.064
+              },
+              {
+                "x": 0.178,
+                "y": 1123.706
+              },
+              {
+                "x": 0.194,
+                "y": 1151.857
+              },
+              {
+                "x": 0.21,
+                "y": 1180.008
+              },
+              {
+                "x": 0.227,
+                "y": 1201.142
+              },
+              {
+                "x": 0.246,
+                "y": 1218.785
+              },
+              {
+                "x": 0.264,
+                "y": 1232.907
+              },
+              {
+                "x": 0.282,
+                "y": 1247.036
+              },
+              {
+                "x": 0.3,
+                "y": 1264.667
+              },
+              {
+                "x": 0.322,
+                "y": 1275.305
+              },
+              {
+                "x": 0.342,
+                "y": 1285.931
+              },
+              {
+                "x": 0.358,
+                "y": 1296.538
+              },
+              {
+                "x": 0.379,
+                "y": 1300.153
+              },
+              {
+                "x": 0.404,
+                "y": 1303.786
+              },
+              {
+                "x": 0.428,
+                "y": 1303.905
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 21221.065,
+            "sigma_sat_MPa": 1026.046,
+            "fit_strain_range": [
+              0.02401,
+              0.07803
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.94599,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.024\u20130.078."
+          }
+        },
+        {
+          "curve_id": "G1-C2",
+          "curve_label": "B-TT",
+          "curve_description": "Category B, through-thickness compression; slightly lower strength than A-TT.",
+          "about_curve": "TT loading response for condition B.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lower stress level than A-TT and D-TT across the same strain.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Measured as true stress vs true strain under compression.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 42,
+            "Mn": 28,
+            "Co": 10,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.018,
+                "y": 519.393
+              },
+              {
+                "x": 0.02,
+                "y": 575.545
+              },
+              {
+                "x": 0.024,
+                "y": 628.195
+              },
+              {
+                "x": 0.026,
+                "y": 666.804
+              },
+              {
+                "x": 0.029,
+                "y": 715.939
+              },
+              {
+                "x": 0.032,
+                "y": 758.062
+              },
+              {
+                "x": 0.036,
+                "y": 800.186
+              },
+              {
+                "x": 0.042,
+                "y": 842.322
+              },
+              {
+                "x": 0.049,
+                "y": 891.481
+              },
+              {
+                "x": 0.057,
+                "y": 930.115
+              },
+              {
+                "x": 0.063,
+                "y": 968.742
+              },
+              {
+                "x": 0.073,
+                "y": 1003.88
+              },
+              {
+                "x": 0.083,
+                "y": 1039.017
+              },
+              {
+                "x": 0.096,
+                "y": 1067.155
+              },
+              {
+                "x": 0.109,
+                "y": 1105.814
+              },
+              {
+                "x": 0.122,
+                "y": 1147.987
+              },
+              {
+                "x": 0.133,
+                "y": 1176.113
+              },
+              {
+                "x": 0.152,
+                "y": 1214.803
+              },
+              {
+                "x": 0.172,
+                "y": 1253.499
+              },
+              {
+                "x": 0.187,
+                "y": 1285.152
+              },
+              {
+                "x": 0.198,
+                "y": 1309.769
+              },
+              {
+                "x": 0.214,
+                "y": 1327.394
+              },
+              {
+                "x": 0.228,
+                "y": 1348.515
+              },
+              {
+                "x": 0.244,
+                "y": 1376.666
+              },
+              {
+                "x": 0.263,
+                "y": 1394.309
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 41738.425,
+            "sigma_sat_MPa": 1069.095,
+            "fit_strain_range": [
+              0.0204,
+              0.0724
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.94758,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.020\u20130.072."
+          }
+        },
+        {
+          "curve_id": "G1-C3",
+          "curve_label": "C-TT",
+          "curve_description": "Category C, through-thickness compression; intermediate strength among TT curves.",
+          "about_curve": "TT response for condition C.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Falls between B-TT and D-TT in stress level.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same testing and plot axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 42,
+            "Mn": 28,
+            "Co": 10,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.014,
+                "y": 743.934
+              },
+              {
+                "x": 0.017,
+                "y": 831.671
+              },
+              {
+                "x": 0.017,
+                "y": 873.776
+              },
+              {
+                "x": 0.021,
+                "y": 926.426
+              },
+              {
+                "x": 0.023,
+                "y": 982.578
+              },
+              {
+                "x": 0.025,
+                "y": 1024.695
+              },
+              {
+                "x": 0.029,
+                "y": 1077.345
+              },
+              {
+                "x": 0.034,
+                "y": 1119.475
+              },
+              {
+                "x": 0.04,
+                "y": 1161.611
+              },
+              {
+                "x": 0.046,
+                "y": 1203.747
+              },
+              {
+                "x": 0.054,
+                "y": 1242.38
+              },
+              {
+                "x": 0.062,
+                "y": 1277.511
+              },
+              {
+                "x": 0.071,
+                "y": 1305.625
+              },
+              {
+                "x": 0.081,
+                "y": 1340.762
+              },
+              {
+                "x": 0.093,
+                "y": 1379.421
+              },
+              {
+                "x": 0.106,
+                "y": 1407.553
+              },
+              {
+                "x": 0.119,
+                "y": 1439.2
+              },
+              {
+                "x": 0.13,
+                "y": 1488.378
+              },
+              {
+                "x": 0.146,
+                "y": 1506.003
+              },
+              {
+                "x": 0.164,
+                "y": 1537.669
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 79026.944,
+            "sigma_sat_MPa": 1314.295,
+            "fit_strain_range": [
+              0.02057,
+              0.07091
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.90983,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.021\u20130.071."
+          }
+        },
+        {
+          "curve_id": "G1-C4",
+          "curve_label": "D-TT",
+          "curve_description": "Category D, through-thickness compression; among the highest TT strengths in the set.",
+          "about_curve": "TT response for condition D.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Higher flow stress than B-TT and C-TT at the same strain.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same material and conditions aside from category.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 42,
+            "Mn": 28,
+            "Co": 10,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.012,
+                "y": 645.683
+              },
+              {
+                "x": 0.017,
+                "y": 705.356
+              },
+              {
+                "x": 0.022,
+                "y": 758.012
+              },
+              {
+                "x": 0.022,
+                "y": 803.626
+              },
+              {
+                "x": 0.022,
+                "y": 859.766
+              },
+              {
+                "x": 0.026,
+                "y": 912.416
+              },
+              {
+                "x": 0.028,
+                "y": 965.059
+              },
+              {
+                "x": 0.032,
+                "y": 1024.726
+              },
+              {
+                "x": 0.033,
+                "y": 1073.855
+              },
+              {
+                "x": 0.034,
+                "y": 1133.51
+              },
+              {
+                "x": 0.036,
+                "y": 1189.662
+              },
+              {
+                "x": 0.041,
+                "y": 1238.809
+              },
+              {
+                "x": 0.041,
+                "y": 1294.949
+              },
+              {
+                "x": 0.042,
+                "y": 1340.569
+              },
+              {
+                "x": 0.045,
+                "y": 1382.686
+              },
+              {
+                "x": 0.048,
+                "y": 1428.319
+              },
+              {
+                "x": 0.052,
+                "y": 1477.46
+              },
+              {
+                "x": 0.059,
+                "y": 1523.111
+              },
+              {
+                "x": 0.068,
+                "y": 1568.768
+              },
+              {
+                "x": 0.077,
+                "y": 1603.899
+              },
+              {
+                "x": 0.084,
+                "y": 1646.041
+              },
+              {
+                "x": 0.096,
+                "y": 1677.682
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 71218.616,
+            "sigma_sat_MPa": 1869.755,
+            "fit_strain_range": [
+              0.022,
+              0.07623
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.30318,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.076."
+          }
+        },
+        {
+          "curve_id": "G1-C5",
+          "curve_label": "A-IP",
+          "curve_description": "Category A, in-plane compression; lower than A-TT at low strain but converges at higher strain.",
+          "about_curve": "IP loading for condition A.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lower initial slope vs A-TT due to loading direction.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy and plotting conventions.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 42,
+            "Mn": 28,
+            "Co": 10,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.013,
+                "y": 487.79
+              },
+              {
+                "x": 0.016,
+                "y": 554.474
+              },
+              {
+                "x": 0.016,
+                "y": 614.123
+              },
+              {
+                "x": 0.021,
+                "y": 659.761
+              },
+              {
+                "x": 0.027,
+                "y": 701.897
+              },
+              {
+                "x": 0.038,
+                "y": 747.567
+              },
+              {
+                "x": 0.052,
+                "y": 793.249
+              },
+              {
+                "x": 0.063,
+                "y": 835.41
+              },
+              {
+                "x": 0.075,
+                "y": 874.069
+              },
+              {
+                "x": 0.088,
+                "y": 912.727
+              },
+              {
+                "x": 0.101,
+                "y": 937.357
+              },
+              {
+                "x": 0.114,
+                "y": 972.507
+              },
+              {
+                "x": 0.132,
+                "y": 1007.687
+              },
+              {
+                "x": 0.15,
+                "y": 1046.371
+              },
+              {
+                "x": 0.166,
+                "y": 1078.03
+              },
+              {
+                "x": 0.184,
+                "y": 1106.194
+              },
+              {
+                "x": 0.209,
+                "y": 1134.388
+              },
+              {
+                "x": 0.227,
+                "y": 1162.546
+              },
+              {
+                "x": 0.245,
+                "y": 1183.692
+              },
+              {
+                "x": 0.263,
+                "y": 1201.322
+              },
+              {
+                "x": 0.281,
+                "y": 1218.96
+              },
+              {
+                "x": 0.306,
+                "y": 1243.645
+              },
+              {
+                "x": 0.328,
+                "y": 1264.81
+              },
+              {
+                "x": 0.348,
+                "y": 1268.419
+              },
+              {
+                "x": 0.371,
+                "y": 1286.074
+              },
+              {
+                "x": 0.388,
+                "y": 1296.688
+              },
+              {
+                "x": 0.409,
+                "y": 1310.829
+              },
+              {
+                "x": 0.433,
+                "y": 1324.982
+              },
+              {
+                "x": 0.453,
+                "y": 1328.591
+              },
+              {
+                "x": 0.47,
+                "y": 1328.678
+              },
+              {
+                "x": 0.49,
+                "y": 1339.304
+              },
+              {
+                "x": 0.512,
+                "y": 1339.416
+              },
+              {
+                "x": 0.532,
+                "y": 1346.533
+              },
+              {
+                "x": 0.552,
+                "y": 1350.142
+              },
+              {
+                "x": 0.572,
+                "y": 1353.75
+              },
+              {
+                "x": 0.589,
+                "y": 1357.346
+              },
+              {
+                "x": 0.61,
+                "y": 1360.961
+              },
+              {
+                "x": 0.629,
+                "y": 1364.563
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 41994.343,
+            "sigma_sat_MPa": 894.093,
+            "fit_strain_range": [
+              0.02057,
+              0.07509
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.70556,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.021\u20130.075."
+          }
+        },
+        {
+          "curve_id": "G1-C6",
+          "curve_label": "B-IP",
+          "curve_description": "Category B, in-plane compression; sits below B-TT but above C-IP at small strains.",
+          "about_curve": "IP loading for condition B.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Moderate work-hardening relative to other IP curves.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same composition and measurement units.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 42,
+            "Mn": 28,
+            "Co": 10,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.014,
+                "y": 708.846
+              },
+              {
+                "x": 0.02,
+                "y": 772.035
+              },
+              {
+                "x": 0.021,
+                "y": 838.707
+              },
+              {
+                "x": 0.027,
+                "y": 884.352
+              },
+              {
+                "x": 0.033,
+                "y": 933.505
+              },
+              {
+                "x": 0.043,
+                "y": 975.66
+              },
+              {
+                "x": 0.053,
+                "y": 1021.324
+              },
+              {
+                "x": 0.064,
+                "y": 1066.993
+              },
+              {
+                "x": 0.078,
+                "y": 1102.149
+              },
+              {
+                "x": 0.094,
+                "y": 1151.353
+              },
+              {
+                "x": 0.106,
+                "y": 1182.994
+              },
+              {
+                "x": 0.118,
+                "y": 1218.143
+              },
+              {
+                "x": 0.133,
+                "y": 1253.305
+              },
+              {
+                "x": 0.151,
+                "y": 1284.971
+              },
+              {
+                "x": 0.164,
+                "y": 1313.11
+              },
+              {
+                "x": 0.178,
+                "y": 1344.757
+              },
+              {
+                "x": 0.196,
+                "y": 1376.429
+              },
+              {
+                "x": 0.214,
+                "y": 1408.095
+              },
+              {
+                "x": 0.231,
+                "y": 1432.743
+              },
+              {
+                "x": 0.25,
+                "y": 1457.398
+              },
+              {
+                "x": 0.268,
+                "y": 1475.035
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 51714.663,
+            "sigma_sat_MPa": 1123.634,
+            "fit_strain_range": [
+              0.02229,
+              0.07843
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.79873,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.078."
+          }
+        },
+        {
+          "curve_id": "G1-C7",
+          "curve_label": "C-IP",
+          "curve_description": "Category C, in-plane compression; intermediate IP strength.",
+          "about_curve": "IP response for condition C.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Below B-IP and D-IP in stress level at a given strain.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "True stress\u2013true strain representation; same test method.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 42,
+            "Mn": 28,
+            "Co": 10,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.014,
+                "y": 715.864
+              },
+              {
+                "x": 0.012,
+                "y": 782.524
+              },
+              {
+                "x": 0.013,
+                "y": 838.67
+              },
+              {
+                "x": 0.013,
+                "y": 901.827
+              },
+              {
+                "x": 0.014,
+                "y": 954.464
+              },
+              {
+                "x": 0.018,
+                "y": 1010.623
+              },
+              {
+                "x": 0.018,
+                "y": 1052.728
+              },
+              {
+                "x": 0.02,
+                "y": 1087.828
+              },
+              {
+                "x": 0.02,
+                "y": 1136.95
+              },
+              {
+                "x": 0.024,
+                "y": 1175.565
+              },
+              {
+                "x": 0.028,
+                "y": 1221.197
+              },
+              {
+                "x": 0.032,
+                "y": 1277.362
+              },
+              {
+                "x": 0.039,
+                "y": 1326.515
+              },
+              {
+                "x": 0.045,
+                "y": 1372.16
+              },
+              {
+                "x": 0.053,
+                "y": 1407.291
+              },
+              {
+                "x": 0.063,
+                "y": 1452.955
+              },
+              {
+                "x": 0.077,
+                "y": 1488.11
+              },
+              {
+                "x": 0.089,
+                "y": 1537.295
+              },
+              {
+                "x": 0.105,
+                "y": 1565.446
+              },
+              {
+                "x": 0.116,
+                "y": 1590.063
+              },
+              {
+                "x": 0.135,
+                "y": 1621.735
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 99405.762,
+            "sigma_sat_MPa": 1477.169,
+            "fit_strain_range": [
+              0.02051,
+              0.07597
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.76042,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.021\u20130.076."
+          }
+        },
+        {
+          "curve_id": "G1-C8",
+          "curve_label": "D-IP",
+          "curve_description": "Category D, in-plane compression; highest among IP curves at a given strain.",
+          "about_curve": "IP response for condition D.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Exhibits the largest flow stress among IP directions.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy, temperature, and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 42,
+            "Mn": 28,
+            "Co": 10,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.003,
+                "y": 407.039
+              },
+              {
+                "x": 0.004,
+                "y": 463.185
+              },
+              {
+                "x": 0.004,
+                "y": 540.377
+              },
+              {
+                "x": 0.006,
+                "y": 589.512
+              },
+              {
+                "x": 0.006,
+                "y": 659.687
+              },
+              {
+                "x": 0.007,
+                "y": 733.376
+              },
+              {
+                "x": 0.01,
+                "y": 789.529
+              },
+              {
+                "x": 0.008,
+                "y": 856.188
+              },
+              {
+                "x": 0.01,
+                "y": 905.317
+              },
+              {
+                "x": 0.013,
+                "y": 961.476
+              },
+              {
+                "x": 0.013,
+                "y": 1021.124
+              },
+              {
+                "x": 0.015,
+                "y": 1084.294
+              },
+              {
+                "x": 0.015,
+                "y": 1140.434
+              },
+              {
+                "x": 0.018,
+                "y": 1193.077
+              },
+              {
+                "x": 0.02,
+                "y": 1245.721
+              },
+              {
+                "x": 0.02,
+                "y": 1319.404
+              },
+              {
+                "x": 0.022,
+                "y": 1375.557
+              },
+              {
+                "x": 0.026,
+                "y": 1424.698
+              },
+              {
+                "x": 0.028,
+                "y": 1466.815
+              },
+              {
+                "x": 0.031,
+                "y": 1498.406
+              },
+              {
+                "x": 0.034,
+                "y": 1544.038
+              },
+              {
+                "x": 0.039,
+                "y": 1586.168
+              },
+              {
+                "x": 0.048,
+                "y": 1638.843
+              },
+              {
+                "x": 0.059,
+                "y": 1681.004
+              },
+              {
+                "x": 0.075,
+                "y": 1712.664
+              },
+              {
+                "x": 0.09,
+                "y": 1740.808
+              },
+              {
+                "x": 0.102,
+                "y": 1779.467
+              },
+              {
+                "x": 0.123,
+                "y": 1800.625
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 120862.62,
+            "sigma_sat_MPa": 1710.897,
+            "fit_strain_range": [
+              0.02251,
+              0.07466
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.9287,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.023\u20130.075."
+          }
+        }
+      ]
+    }
+  ]
+}

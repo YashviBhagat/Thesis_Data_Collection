@@ -1,0 +1,479 @@
+{
+  "paper_title": "Towards heterogeneous AlxCoCrFeNi high entropy alloy via friction stir processing",
+  "graphs": [
+    {
+      "graph_id": "fig3a",
+      "title": "Stress\u2013strain curves of as-cast, FSPed, and FSPed + Al powders specimens",
+      "description": "Engineering stress\u2013strain response comparing base alloy, friction-stir processed alloy, and friction-stir processed alloy with added Al powders.",
+      "about_graph": "Mini-tensile tests at an initial strain rate of 0.001 s\u207b\u00b9 on Al0.1CoCrFeNi alloy conditions. The plot shows engineering stress (MPa) vs engineering strain (mm/mm). FSP increases strength but reduces ductility; adding Al powders further increases strength while maintaining ductility due to heterogeneous structure and Al-rich precipitates.",
+      "x_axis_label": "Engineering strain (mm/mm)",
+      "y_axis_label": "Engineering stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "c1",
+          "curve_label": "As-cast specimen",
+          "curve_description": "Baseline engineering stress\u2013strain response of as-cast Al0.1CoCrFeNi (single FCC, very coarse grains).",
+          "about_curve": "Lowest strength; highest ductility among the three, serving as the reference state before processing.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "No grain refinement or second-phase strengthening; therefore lower yield and ultimate strength.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy family and test method/strain rate; engineering stress\u2013strain plotted under identical conditions.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Al (at.%)": 10.0,
+            "Co (at.%)": 22.5,
+            "Cr (at.%)": 22.5,
+            "Fe (at.%)": 22.5,
+            "Ni (at.%)": 22.5,
+            "_note": "Nominal composition Al0.1CoCrFeNi (single FCC)."
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.005,
+                "y": 151.665
+              },
+              {
+                "x": 0.018,
+                "y": 157.529
+              },
+              {
+                "x": 0.035,
+                "y": 167.266
+              },
+              {
+                "x": 0.05,
+                "y": 173.148
+              },
+              {
+                "x": 0.063,
+                "y": 180.931
+              },
+              {
+                "x": 0.078,
+                "y": 186.812
+              },
+              {
+                "x": 0.097,
+                "y": 196.567
+              },
+              {
+                "x": 0.112,
+                "y": 206.287
+              },
+              {
+                "x": 0.128,
+                "y": 214.096
+              },
+              {
+                "x": 0.144,
+                "y": 221.905
+              },
+              {
+                "x": 0.16,
+                "y": 231.634
+              },
+              {
+                "x": 0.178,
+                "y": 237.542
+              },
+              {
+                "x": 0.19,
+                "y": 249.155
+              },
+              {
+                "x": 0.207,
+                "y": 258.892
+              },
+              {
+                "x": 0.223,
+                "y": 268.621
+              },
+              {
+                "x": 0.24,
+                "y": 276.439
+              },
+              {
+                "x": 0.257,
+                "y": 286.176
+              },
+              {
+                "x": 0.272,
+                "y": 292.058
+              },
+              {
+                "x": 0.286,
+                "y": 301.769
+              },
+              {
+                "x": 0.305,
+                "y": 309.604
+              },
+              {
+                "x": 0.322,
+                "y": 317.423
+              },
+              {
+                "x": 0.339,
+                "y": 327.16
+              },
+              {
+                "x": 0.357,
+                "y": 336.898
+              },
+              {
+                "x": 0.37,
+                "y": 344.689
+              },
+              {
+                "x": 0.385,
+                "y": 350.571
+              },
+              {
+                "x": 0.403,
+                "y": 356.469
+              },
+              {
+                "x": 0.419,
+                "y": 364.279
+              },
+              {
+                "x": 0.438,
+                "y": 370.195
+              },
+              {
+                "x": 0.455,
+                "y": 381.852
+              },
+              {
+                "x": 0.473,
+                "y": 387.759
+              },
+              {
+                "x": 0.484,
+                "y": 389.767
+              },
+              {
+                "x": 0.498,
+                "y": 393.72
+              },
+              {
+                "x": 0.515,
+                "y": 399.618
+              },
+              {
+                "x": 0.53,
+                "y": 405.5
+              },
+              {
+                "x": 0.542,
+                "y": 407.525
+              },
+              {
+                "x": 0.557,
+                "y": 409.567
+              },
+              {
+                "x": 0.577,
+                "y": 417.403
+              },
+              {
+                "x": 0.592,
+                "y": 417.526
+              },
+              {
+                "x": 0.604,
+                "y": 415.712
+              },
+              {
+                "x": 0.62,
+                "y": 421.602
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 749.996,
+            "sigma_sat_MPa": -608.363,
+            "fit_strain_range": [
+              0.20152,
+              0.338
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.37847,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.202\u20130.338."
+          }
+        },
+        {
+          "curve_id": "c2",
+          "curve_label": "FSPed specimen",
+          "curve_description": "Engineering stress\u2013strain after friction stir processing (FSP) of the base alloy without additional Al powders.",
+          "about_curve": "Strength enhanced and ductility reduced compared with as-cast, primarily due to grain refinement (recrystallized FCC ~15 \u03bcm).",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Higher yield/UTS than as-cast but lower ductility; lacks Al-rich precipitates/heterogeneous BCC regions seen with Al-powder addition.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same nominal alloy base and testing conditions; engineering stress\u2013strain axes identical.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Al (at.%)": 10.0,
+            "Co (at.%)": 22.5,
+            "Cr (at.%)": 22.5,
+            "Fe (at.%)": 22.5,
+            "Ni (at.%)": 22.5,
+            "_note": "Nominal composition Al0.1CoCrFeNi; FSP without added Al powders."
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.006,
+                "y": 410.789
+              },
+              {
+                "x": 0.013,
+                "y": 431.963
+              },
+              {
+                "x": 0.023,
+                "y": 455.075
+              },
+              {
+                "x": 0.03,
+                "y": 476.25
+              },
+              {
+                "x": 0.041,
+                "y": 489.773
+              },
+              {
+                "x": 0.053,
+                "y": 505.225
+              },
+              {
+                "x": 0.065,
+                "y": 522.596
+              },
+              {
+                "x": 0.072,
+                "y": 541.851
+              },
+              {
+                "x": 0.085,
+                "y": 553.473
+              },
+              {
+                "x": 0.099,
+                "y": 567.023
+              },
+              {
+                "x": 0.112,
+                "y": 578.644
+              },
+              {
+                "x": 0.124,
+                "y": 590.266
+              },
+              {
+                "x": 0.138,
+                "y": 601.897
+              },
+              {
+                "x": 0.152,
+                "y": 609.688
+              },
+              {
+                "x": 0.169,
+                "y": 625.184
+              },
+              {
+                "x": 0.185,
+                "y": 632.993
+              },
+              {
+                "x": 0.206,
+                "y": 640.838
+              },
+              {
+                "x": 0.233,
+                "y": 652.583
+              },
+              {
+                "x": 0.25,
+                "y": 656.562
+              },
+              {
+                "x": 0.266,
+                "y": 664.371
+              },
+              {
+                "x": 0.29,
+                "y": 664.565
+              },
+              {
+                "x": 0.307,
+                "y": 666.625
+              },
+              {
+                "x": 0.324,
+                "y": 666.765
+              },
+              {
+                "x": 0.339,
+                "y": 664.969
+              },
+              {
+                "x": 0.352,
+                "y": 663.155
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 4873.054,
+            "sigma_sat_MPa": 1049.364,
+            "fit_strain_range": [
+              0.02165,
+              0.07081
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.27069,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.071."
+          }
+        },
+        {
+          "curve_id": "c3",
+          "curve_label": "FSPed + Al powders specimen",
+          "curve_description": "Engineering stress\u2013strain after FSP with Al powders added into predrilled holes, creating localized Al-rich regions.",
+          "about_curve": "Highest strength with ductility maintained relative to FSP-only due to further grain refinement (~5 \u03bcm FCC) and second-phase formation (Al-rich precipitates, BCC Al,Ni-rich regions) yielding a heterogeneous microstructure.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Further strength enhancement and ductility retention from heterogeneous structure and Al-rich precipitates absent in the other two conditions.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same overall alloy system and test method; all curves reflect engineering stress\u2013strain at the same scale.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Al (at.%)": "\u226510 (locally enriched due to added powders)",
+            "Co (at.%)": 22.5,
+            "Cr (at.%)": 22.5,
+            "Fe (at.%)": 22.5,
+            "Ni (at.%)": 22.5,
+            "_note": "Nominal matrix Al0.1CoCrFeNi with localized Al enrichment; exact local at.% not quantified in the figure/caption."
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.008,
+                "y": 541.324
+              },
+              {
+                "x": 0.019,
+                "y": 558.686
+              },
+              {
+                "x": 0.027,
+                "y": 574.111
+              },
+              {
+                "x": 0.038,
+                "y": 585.715
+              },
+              {
+                "x": 0.049,
+                "y": 597.319
+              },
+              {
+                "x": 0.06,
+                "y": 608.932
+              },
+              {
+                "x": 0.071,
+                "y": 624.375
+              },
+              {
+                "x": 0.084,
+                "y": 637.916
+              },
+              {
+                "x": 0.098,
+                "y": 651.466
+              },
+              {
+                "x": 0.111,
+                "y": 668.855
+              },
+              {
+                "x": 0.128,
+                "y": 680.503
+              },
+              {
+                "x": 0.142,
+                "y": 695.981
+              },
+              {
+                "x": 0.162,
+                "y": 707.655
+              },
+              {
+                "x": 0.176,
+                "y": 717.366
+              },
+              {
+                "x": 0.192,
+                "y": 725.176
+              },
+              {
+                "x": 0.209,
+                "y": 736.833
+              },
+              {
+                "x": 0.229,
+                "y": 746.596
+              },
+              {
+                "x": 0.243,
+                "y": 754.388
+              },
+              {
+                "x": 0.258,
+                "y": 764.108
+              },
+              {
+                "x": 0.279,
+                "y": 770.042
+              },
+              {
+                "x": 0.295,
+                "y": 775.932
+              },
+              {
+                "x": 0.312,
+                "y": 779.911
+              },
+              {
+                "x": 0.329,
+                "y": 783.891
+              },
+              {
+                "x": 0.345,
+                "y": 789.781
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 1810.022,
+            "sigma_sat_MPa": -8734.509,
+            "fit_strain_range": [
+              0.0274,
+              0.06883
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.00275,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.027\u20130.069."
+          }
+        }
+      ]
+    }
+  ]
+}

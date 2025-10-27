@@ -1,0 +1,178 @@
+{
+  "paper_title": "Deformation mechanisms and ductile fracture characteristics of a friction stir processed transformative high entropy alloy",
+  "graphs": [
+    {
+      "graph_id": "paper89_fig1b",
+      "title": "Tensile engineering stress\u2013strain curves for CS-HEA under different FSP conditions",
+      "description": "Fig. 1(b): Engineering stress\u2013strain response of Fe40Mn20Co20Cr15Si5 (CS-HEA) processed by friction stir processing (FSP) with three parameter sets (S350, S150, D-pass).",
+      "about_graph": "Comparison across processing routes: S350 shows the highest strength; D-pass shows the best ductility; S150 is lowest.",
+      "x_axis_label": "Engineering Strain (%)",
+      "y_axis_label": "Engineering Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "c1",
+          "curve_label": "S350",
+          "curve_description": "Single-pass FSP at 350 rpm; \u03b5 (hcp)-dominant.",
+          "about_curve": "Highest peak stress among the three; moderate ductility.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Higher strength level; shorter uniform elongation than D-pass.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy and test environment; monotonic work hardening.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 40,
+            "Mn": 20,
+            "Co": 20,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {},
+          "Kocks\u2013Mecking_hardening_parameters": {}
+        },
+        {
+          "curve_id": "c2",
+          "curve_label": "S150",
+          "curve_description": "Single-pass FSP at 150 rpm; \u03b3 (fcc)-dominant dual phase.",
+          "about_curve": "Lowest strength and ductility among the three.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lower hardening slope and peak stress.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same test setup and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 40,
+            "Mn": 20,
+            "Co": 20,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {},
+          "Kocks\u2013Mecking_hardening_parameters": {}
+        },
+        {
+          "curve_id": "c3",
+          "curve_label": "D-pass",
+          "curve_description": "Overlapping passes (350 rpm then 150 rpm).",
+          "about_curve": "Exhibits the largest uniform elongation due to sustained hardening.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Greatest ductility; strength between S150 and S350.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same material and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 40,
+            "Mn": 20,
+            "Co": 20,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {},
+          "Kocks\u2013Mecking_hardening_parameters": {}
+        }
+      ]
+    },
+    {
+      "graph_id": "paper89_fig3",
+      "title": "VPSC simulation vs experiment for CS-HEA",
+      "description": "Fig. 3(a\u2013c): Simulated (VPSC) and experimental engineering stress\u2013strain curves for S350, S150 and D-pass conditions.",
+      "about_graph": "Good agreement validates active deformation modes and phase partitioning used in the model.",
+      "x_axis_label": "Engineering Strain",
+      "y_axis_label": "Engineering Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "s350_exp",
+          "curve_label": "S350_experimental",
+          "curve_description": "Measured engineering stress\u2013strain (S350).",
+          "about_curve": "Higher strength; moderate ductility.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Empirical curve; paired to S350_simulation.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same axes and composition.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 40,
+            "Mn": 20,
+            "Co": 20,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {},
+          "Kocks\u2013Mecking_hardening_parameters": {}
+        },
+        {
+          "curve_id": "s350_sim",
+          "curve_label": "S350_simulation",
+          "curve_description": "VPSC prediction (S350).",
+          "about_curve": "Matches experiment within small deviations.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Model fit instead of measurement.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy and axis labels.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 40,
+            "Mn": 20,
+            "Co": 20,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {},
+          "Kocks\u2013Mecking_hardening_parameters": {}
+        },
+        {
+          "curve_id": "s150_exp",
+          "curve_label": "S150_experimental",
+          "curve_description": "Measured engineering stress\u2013strain (S150).",
+          "about_curve": "Lowest strength among the three.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Empirical curve; paired to S150_simulation.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same axes and composition.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 40,
+            "Mn": 20,
+            "Co": 20,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {},
+          "Kocks\u2013Mecking_hardening_parameters": {}
+        },
+        {
+          "curve_id": "s150_sim",
+          "curve_label": "S150_simulation",
+          "curve_description": "VPSC prediction (S150).",
+          "about_curve": "Close agreement with experiment.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Model curve; not measured.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same axes and alloy.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 40,
+            "Mn": 20,
+            "Co": 20,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {},
+          "Kocks\u2013Mecking_hardening_parameters": {}
+        },
+        {
+          "curve_id": "dpass_exp",
+          "curve_label": "D-pass_experimental",
+          "curve_description": "Measured engineering stress\u2013strain (D-pass).",
+          "about_curve": "Highest ductility with strong hardening.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Empirical curve; paired to D-pass_simulation.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same axes and composition.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 40,
+            "Mn": 20,
+            "Co": 20,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {},
+          "Kocks\u2013Mecking_hardening_parameters": {}
+        },
+        {
+          "curve_id": "dpass_sim",
+          "curve_label": "D-pass_simulation",
+          "curve_description": "VPSC prediction (D-pass).",
+          "about_curve": "Tracks experiment closely across strain.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Model curve; not measured.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same axes and composition.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe": 40,
+            "Mn": 20,
+            "Co": 20,
+            "Cr": 15,
+            "Si": 5
+          },
+          "curve_raw_data": {},
+          "Kocks\u2013Mecking_hardening_parameters": {}
+        }
+      ]
+    }
+  ]
+}

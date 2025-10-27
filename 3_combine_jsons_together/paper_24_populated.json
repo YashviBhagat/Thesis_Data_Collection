@@ -1,0 +1,524 @@
+{
+  "paper_title": "Microstructure and room temperature properties of a high-entropy TaNbHfZrTi alloy",
+  "graphs": [
+    {
+      "graph_id": "Figure 2",
+      "title": "Engineering stress\u2013strain compression curves at 23\u00b0C",
+      "description": "Room-temperature (23\u00b0C) engineering stress vs. engineering strain curves comparing the equimolar TaNbHfZrTi alloy (present work) with two refractory equimolar/alloys from prior work: TaNbWMoV and TaNbWMo. The TaNbHfZrTi curve shows high strain hardening and large ductility; the other two exhibit lower ductility and earlier softening.",
+      "about_graph": "Compression tests at room temperature; axes are engineering strain (%) on x and engineering stress (MPa) on y, as labeled in the figure. The black curve (TaNbHfZrTi) extends to ~40% strain with strong work hardening; the red (TaNbWMoV) and purple (TaNbWMo) curves peak near ~10\u201312% strain with lower ductility. These trends are consistent with the paper\u2019s discussion of high strength and ductility for TaNbHfZrTi. :contentReference[oaicite:1]{index=1}",
+      "x_axis_label": "Engineering Strain (%)",
+      "y_axis_label": "Engineering Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "Fig2-curve-1",
+          "curve_label": "TaNbHfZrTi (present work)",
+          "curve_description": "Monotonic work hardening from yield to ~2.2\u20132.3 GPa by ~35\u201340% strain; no fracture indicated in the plotted range.",
+          "about_curve": "Equimolar refractory HEA produced by arc melting and HIP; predominantly single-phase BCC; shows high yield strength (~0.93 GPa reported in text) and >50% compressive ductility with significant strain hardening. :contentReference[oaicite:2]{index=2}",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Much greater ductility and sustained work hardening to higher stress; curve extends to ~40% strain versus ~10\u201312% for the others.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "All are room-temperature compression curves plotted as engineering stress vs. engineering strain.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Ta": 20.0,
+            "Nb": 20.0,
+            "Hf": 20.0,
+            "Zr": 20.0,
+            "Ti": 20.0,
+            "_note": "Equimolar composition as indicated in the paper."
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.001,
+                "y": 121.841
+              },
+              {
+                "x": 0.003,
+                "y": 194.957
+              },
+              {
+                "x": 0.005,
+                "y": 272.954
+              },
+              {
+                "x": 0.005,
+                "y": 326.568
+              },
+              {
+                "x": 0.007,
+                "y": 389.945
+              },
+              {
+                "x": 0.008,
+                "y": 448.433
+              },
+              {
+                "x": 0.008,
+                "y": 506.913
+              },
+              {
+                "x": 0.01,
+                "y": 565.416
+              },
+              {
+                "x": 0.011,
+                "y": 633.658
+              },
+              {
+                "x": 0.012,
+                "y": 682.399
+              },
+              {
+                "x": 0.013,
+                "y": 745.761
+              },
+              {
+                "x": 0.015,
+                "y": 804.264
+              },
+              {
+                "x": 0.017,
+                "y": 853.028
+              },
+              {
+                "x": 0.018,
+                "y": 916.389
+              },
+              {
+                "x": 0.021,
+                "y": 965.161
+              },
+              {
+                "x": 0.024,
+                "y": 1013.933
+              },
+              {
+                "x": 0.028,
+                "y": 1077.332
+              },
+              {
+                "x": 0.035,
+                "y": 1116.403
+              },
+              {
+                "x": 0.043,
+                "y": 1150.616
+              },
+              {
+                "x": 0.052,
+                "y": 1184.836
+              },
+              {
+                "x": 0.058,
+                "y": 1204.398
+              },
+              {
+                "x": 0.065,
+                "y": 1223.976
+              },
+              {
+                "x": 0.071,
+                "y": 1248.426
+              },
+              {
+                "x": 0.079,
+                "y": 1272.885
+              },
+              {
+                "x": 0.087,
+                "y": 1297.351
+              },
+              {
+                "x": 0.095,
+                "y": 1321.809
+              },
+              {
+                "x": 0.102,
+                "y": 1346.268
+              },
+              {
+                "x": 0.109,
+                "y": 1370.719
+              },
+              {
+                "x": 0.117,
+                "y": 1385.43
+              },
+              {
+                "x": 0.125,
+                "y": 1409.896
+              },
+              {
+                "x": 0.135,
+                "y": 1444.132
+              },
+              {
+                "x": 0.143,
+                "y": 1473.464
+              },
+              {
+                "x": 0.151,
+                "y": 1493.057
+              },
+              {
+                "x": 0.156,
+                "y": 1517.492
+              },
+              {
+                "x": 0.165,
+                "y": 1541.958
+              },
+              {
+                "x": 0.172,
+                "y": 1566.417
+              },
+              {
+                "x": 0.18,
+                "y": 1586.002
+              },
+              {
+                "x": 0.187,
+                "y": 1615.326
+              },
+              {
+                "x": 0.194,
+                "y": 1639.784
+              },
+              {
+                "x": 0.204,
+                "y": 1669.139
+              },
+              {
+                "x": 0.212,
+                "y": 1698.478
+              },
+              {
+                "x": 0.219,
+                "y": 1727.81
+              },
+              {
+                "x": 0.226,
+                "y": 1747.388
+              },
+              {
+                "x": 0.233,
+                "y": 1766.965
+              },
+              {
+                "x": 0.239,
+                "y": 1791.401
+              },
+              {
+                "x": 0.247,
+                "y": 1806.12
+              },
+              {
+                "x": 0.255,
+                "y": 1845.198
+              },
+              {
+                "x": 0.263,
+                "y": 1879.419
+              },
+              {
+                "x": 0.274,
+                "y": 1899.042
+              },
+              {
+                "x": 0.282,
+                "y": 1947.875
+              },
+              {
+                "x": 0.291,
+                "y": 1967.475
+              },
+              {
+                "x": 0.3,
+                "y": 2001.696
+              },
+              {
+                "x": 0.311,
+                "y": 2035.939
+              },
+              {
+                "x": 0.319,
+                "y": 2060.405
+              },
+              {
+                "x": 0.326,
+                "y": 2084.856
+              },
+              {
+                "x": 0.333,
+                "y": 2123.927
+              },
+              {
+                "x": 0.341,
+                "y": 2143.52
+              },
+              {
+                "x": 0.348,
+                "y": 2182.59
+              },
+              {
+                "x": 0.356,
+                "y": 2207.064
+              },
+              {
+                "x": 0.365,
+                "y": 2246.15
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 59420.878,
+            "sigma_sat_MPa": 1412.232,
+            "fit_strain_range": [
+              0.02053,
+              0.07587
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.80474,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.021\u20130.076."
+          }
+        },
+        {
+          "curve_id": "Fig2-curve-2",
+          "curve_label": "TaNbWMoV (from ref. [13])",
+          "curve_description": "High initial strength with a peak near ~1.2 GPa around ~10\u201312% strain, followed by softening; lower ductility than TaNbHfZrTi.",
+          "about_curve": "Equimolar refractory HEA with V; exhibits high strength but limited ductility at room temperature. :contentReference[oaicite:3]{index=3}",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Shows an early peak and apparent post-peak softening; lower ductility than TaNbHfZrTi.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same test mode, temperature, and axis definitions.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Ta": 20.0,
+            "Nb": 20.0,
+            "W": 20.0,
+            "Mo": 20.0,
+            "V": 20.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.07,
+                "y": 44.7
+              },
+              {
+                "x": 0.07,
+                "y": 112.927
+              },
+              {
+                "x": 0.07,
+                "y": 181.162
+              },
+              {
+                "x": 0.071,
+                "y": 249.397
+              },
+              {
+                "x": 0.072,
+                "y": 327.378
+              },
+              {
+                "x": 0.073,
+                "y": 415.106
+              },
+              {
+                "x": 0.072,
+                "y": 478.452
+              },
+              {
+                "x": 0.073,
+                "y": 566.187
+              },
+              {
+                "x": 0.073,
+                "y": 649.034
+              },
+              {
+                "x": 0.074,
+                "y": 702.649
+              },
+              {
+                "x": 0.073,
+                "y": 780.607
+              },
+              {
+                "x": 0.075,
+                "y": 834.245
+              },
+              {
+                "x": 0.076,
+                "y": 917.092
+              },
+              {
+                "x": 0.076,
+                "y": 990.192
+              },
+              {
+                "x": 0.076,
+                "y": 1058.427
+              },
+              {
+                "x": 0.079,
+                "y": 1126.684
+              },
+              {
+                "x": 0.081,
+                "y": 1180.322
+              },
+              {
+                "x": 0.087,
+                "y": 1209.631
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 223244.396,
+            "sigma_sat_MPa": 1698.383,
+            "fit_strain_range": [
+              0.06766,
+              0.07831
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.44596,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.068\u20130.078."
+          }
+        },
+        {
+          "curve_id": "Fig2-curve-3",
+          "curve_label": "TaNbWMo (from ref. [13])",
+          "curve_description": "Peaks just above ~1.0 GPa near ~10% strain with limited ductility; similar shape to the TaNbWMoV curve but slightly lower peak stress.",
+          "about_curve": "Quaternary equiatomic refractory alloy; high strength but lower ductility than TaNbHfZrTi. :contentReference[oaicite:4]{index=4}",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lower peak stress than TaNbWMoV and far less ductility than TaNbHfZrTi.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Room-temperature compression; engineering stress\u2013strain axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Ta": 25.0,
+            "Nb": 25.0,
+            "W": 25.0,
+            "Mo": 25.0
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.1,
+                "y": 25.581
+              },
+              {
+                "x": 0.099,
+                "y": 108.413
+              },
+              {
+                "x": 0.101,
+                "y": 171.79
+              },
+              {
+                "x": 0.101,
+                "y": 235.136
+              },
+              {
+                "x": 0.101,
+                "y": 293.623
+              },
+              {
+                "x": 0.102,
+                "y": 356.985
+              },
+              {
+                "x": 0.102,
+                "y": 430.085
+              },
+              {
+                "x": 0.103,
+                "y": 488.58
+              },
+              {
+                "x": 0.104,
+                "y": 566.562
+              },
+              {
+                "x": 0.104,
+                "y": 629.915
+              },
+              {
+                "x": 0.105,
+                "y": 727.39
+              },
+              {
+                "x": 0.104,
+                "y": 780.989
+              },
+              {
+                "x": 0.106,
+                "y": 824.865
+              },
+              {
+                "x": 0.106,
+                "y": 883.345
+              },
+              {
+                "x": 0.106,
+                "y": 951.572
+              },
+              {
+                "x": 0.106,
+                "y": 995.432
+              },
+              {
+                "x": 0.107,
+                "y": 1039.308
+              },
+              {
+                "x": 0.107,
+                "y": 1102.661
+              },
+              {
+                "x": 0.108,
+                "y": 1166.03
+              },
+              {
+                "x": 0.11,
+                "y": 1224.533
+              },
+              {
+                "x": 0.113,
+                "y": 1278.171
+              },
+              {
+                "x": 0.117,
+                "y": 1244.111
+              },
+              {
+                "x": 0.121,
+                "y": 1195.423
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 104912.529,
+            "sigma_sat_MPa": -1387.725,
+            "fit_strain_range": [
+              0.09803,
+              0.10158
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.38366,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.098\u20130.102."
+          }
+        }
+      ]
+    }
+  ]
+}

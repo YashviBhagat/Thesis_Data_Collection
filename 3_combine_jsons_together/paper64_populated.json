@@ -1,0 +1,571 @@
+{
+  "paper_title": "Mapping hierarchical and heterogeneous micromechanics of a transformative high entropy alloy by nanoindentation and machine learning augmented clustering",
+  "graphs": [
+    {
+      "graph_id": "Fig3_a2-b2-c2",
+      "title": "Indentation stress\u2013strain curves for different austenite (c-f.c.c.) grain orientations",
+      "description": "Nanoindentation (sphero-conical indenter, 5 \u03bcm tip radius) stress\u2013strain response measured inside single c-f.c.c. grains oriented along {111}, {110}, and {100}. Curves show incipient plasticity and subsequent hardening up to ~0.06 strain with stresses approaching 2.5\u20132.7 GPa.",
+      "about_graph": "Each panel corresponds to a different crystallographic orientation of the c-f.c.c. phase. Indentation curves were derived from load\u2013depth data using the Pathak\u2013Kalidindi spherical-equivalence method; all tests were performed at room temperature on the same HEA sample after 800 \u00b0C/30 min anneal.",
+      "x_axis_label": "Indentation strain (dimensionless)",
+      "y_axis_label": "Indentation stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "Fig3_c2",
+          "curve_label": "{111} orientation",
+          "curve_description": "Indentation stress\u2013strain from a c-f.c.c. grain oriented near {111}; shows the lowest yield among the three and strong work hardening to ~2.6\u20132.7 GPa by ~0.06 strain.",
+          "about_curve": "This curve reflects ease of slip on close-packed {111} planes, giving the lowest nanoindentation yield stress and highest TRIP propensity reported for this orientation.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lower incipient plasticity stress and slightly higher terminal stress; orientation is {111} instead of {110}/{100}.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy, same 5 \u03bcm sphero-conical tip, identical test conditions and analysis protocol; all show elastic\u2013plastic transition followed by hardening.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe (at.%)": 38.5,
+            "Mn (at.%)": 20.0,
+            "Co (at.%)": 20.0,
+            "Cr (at.%)": 15.0,
+            "Si (at.%)": 5.0,
+            "Cu (at.%)": 1.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 114.385
+              },
+              {
+                "x": 0.004,
+                "y": 109.185
+              },
+              {
+                "x": 0.006,
+                "y": 109.185
+              },
+              {
+                "x": 0.008,
+                "y": 109.185
+              },
+              {
+                "x": 0.01,
+                "y": 119.584
+              },
+              {
+                "x": 0.012,
+                "y": 109.185
+              },
+              {
+                "x": 0.014,
+                "y": 109.185
+              },
+              {
+                "x": 0.016,
+                "y": 109.185
+              },
+              {
+                "x": 0.018,
+                "y": 109.185
+              },
+              {
+                "x": 0.02,
+                "y": 103.986
+              },
+              {
+                "x": 0.022,
+                "y": 103.986
+              },
+              {
+                "x": 0.024,
+                "y": 109.185
+              },
+              {
+                "x": 0.026,
+                "y": 109.185
+              },
+              {
+                "x": 0.028,
+                "y": 119.584
+              },
+              {
+                "x": 0.03,
+                "y": 114.385
+              },
+              {
+                "x": 0.032,
+                "y": 114.385
+              },
+              {
+                "x": 0.035,
+                "y": 114.385
+              },
+              {
+                "x": 0.037,
+                "y": 114.385
+              },
+              {
+                "x": 0.038,
+                "y": 119.584
+              },
+              {
+                "x": 0.041,
+                "y": 119.584
+              },
+              {
+                "x": 0.043,
+                "y": 119.584
+              },
+              {
+                "x": 0.045,
+                "y": 119.584
+              },
+              {
+                "x": 0.05,
+                "y": 202.773
+              },
+              {
+                "x": 0.051,
+                "y": 374.35
+              },
+              {
+                "x": 0.053,
+                "y": 551.127
+              },
+              {
+                "x": 0.054,
+                "y": 759.099
+              },
+              {
+                "x": 0.055,
+                "y": 956.672
+              },
+              {
+                "x": 0.056,
+                "y": 1169.844
+              },
+              {
+                "x": 0.057,
+                "y": 1341.421
+              },
+              {
+                "x": 0.058,
+                "y": 1538.995
+              },
+              {
+                "x": 0.058,
+                "y": 1736.568
+              },
+              {
+                "x": 0.059,
+                "y": 1845.754
+              },
+              {
+                "x": 0.06,
+                "y": 2069.324
+              },
+              {
+                "x": 0.061,
+                "y": 2199.307
+              },
+              {
+                "x": 0.062,
+                "y": 2448.873
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 14992.781,
+            "sigma_sat_MPa": -132.089,
+            "fit_strain_range": [
+              0.022,
+              0.062
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.76884,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.062."
+          }
+        },
+        {
+          "curve_id": "Fig3_b2",
+          "curve_label": "{110} orientation",
+          "curve_description": "Indentation stress\u2013strain from a c-f.c.c. grain oriented near {110}; yield occurs at higher stress than {111} with comparable hardening towards ~2.5 GPa.",
+          "about_curve": "Intermediate orientation response; effective modulus and yield are between those of {111} and {100}.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Higher incipient plasticity stress than {111} and slightly different hardening slope; orientation is {110}.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same material/indenter/analysis; similar qualitative elastic\u2013plastic transition and rising stress with strain.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe (at.%)": 38.5,
+            "Mn (at.%)": 20.0,
+            "Co (at.%)": 20.0,
+            "Cr (at.%)": 15.0,
+            "Si (at.%)": 5.0,
+            "Cu (at.%)": 1.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.002,
+                "y": 99.564
+              },
+              {
+                "x": 0.004,
+                "y": 94.227
+              },
+              {
+                "x": 0.007,
+                "y": 88.94
+              },
+              {
+                "x": 0.01,
+                "y": 100.203
+              },
+              {
+                "x": 0.013,
+                "y": 116.999
+              },
+              {
+                "x": 0.016,
+                "y": 106.244
+              },
+              {
+                "x": 0.019,
+                "y": 84.35
+              },
+              {
+                "x": 0.023,
+                "y": 112.31
+              },
+              {
+                "x": 0.026,
+                "y": 112.523
+              },
+              {
+                "x": 0.028,
+                "y": 118.204
+              },
+              {
+                "x": 0.031,
+                "y": 118.425
+              },
+              {
+                "x": 0.032,
+                "y": 113.04
+              },
+              {
+                "x": 0.034,
+                "y": 102.154
+              },
+              {
+                "x": 0.036,
+                "y": 102.31
+              },
+              {
+                "x": 0.039,
+                "y": 124.647
+              },
+              {
+                "x": 0.042,
+                "y": 102.752
+              },
+              {
+                "x": 0.044,
+                "y": 97.35
+              },
+              {
+                "x": 0.046,
+                "y": 108.597
+              },
+              {
+                "x": 0.049,
+                "y": 136.476
+              },
+              {
+                "x": 0.052,
+                "y": 225.055
+              },
+              {
+                "x": 0.053,
+                "y": 396.402
+              },
+              {
+                "x": 0.055,
+                "y": 589.939
+              },
+              {
+                "x": 0.056,
+                "y": 777.852
+              },
+              {
+                "x": 0.057,
+                "y": 1004.481
+              },
+              {
+                "x": 0.058,
+                "y": 1175.803
+              },
+              {
+                "x": 0.059,
+                "y": 1363.782
+              },
+              {
+                "x": 0.06,
+                "y": 1579.296
+              },
+              {
+                "x": 0.061,
+                "y": 1750.626
+              },
+              {
+                "x": 0.062,
+                "y": 1921.981
+              },
+              {
+                "x": 0.062,
+                "y": 2071.204
+              },
+              {
+                "x": 0.062,
+                "y": 2181.694
+              },
+              {
+                "x": 0.063,
+                "y": 2303.3
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 723.012,
+            "sigma_sat_MPa": -4.862,
+            "fit_strain_range": [
+              0.02283,
+              0.063
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.88929,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.023\u20130.063."
+          }
+        },
+        {
+          "curve_id": "Fig3_a2",
+          "curve_label": "{100} orientation",
+          "curve_description": "Indentation stress\u2013strain from a c-f.c.c. grain oriented near {100}; displays the highest incipient plasticity stress among the three with hardening to ~2.3\u20132.5 GPa.",
+          "about_curve": "Least favorable slip geometry results in the highest nanoindentation yield stress and slightly lower effective modulus than {111}/{110}.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Highest yield stress and somewhat lower early hardening rate; orientation is {100}.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same HEA, tip radius, and testing/processing history; same method to convert load\u2013depth to indentation stress\u2013strain.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "Fe (at.%)": 38.5,
+            "Mn (at.%)": 20.0,
+            "Co (at.%)": 20.0,
+            "Cr (at.%)": 15.0,
+            "Si (at.%)": 5.0,
+            "Cu (at.%)": 1.5
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.001,
+                "y": 90.315
+              },
+              {
+                "x": 0.003,
+                "y": 95.041
+              },
+              {
+                "x": 0.005,
+                "y": 94.756
+              },
+              {
+                "x": 0.007,
+                "y": 94.443
+              },
+              {
+                "x": 0.009,
+                "y": 94.185
+              },
+              {
+                "x": 0.011,
+                "y": 93.967
+              },
+              {
+                "x": 0.012,
+                "y": 93.722
+              },
+              {
+                "x": 0.014,
+                "y": 93.491
+              },
+              {
+                "x": 0.016,
+                "y": 98.258
+              },
+              {
+                "x": 0.017,
+                "y": 98.067
+              },
+              {
+                "x": 0.018,
+                "y": 97.863
+              },
+              {
+                "x": 0.02,
+                "y": 97.632
+              },
+              {
+                "x": 0.022,
+                "y": 97.333
+              },
+              {
+                "x": 0.024,
+                "y": 102.032
+              },
+              {
+                "x": 0.026,
+                "y": 101.787
+              },
+              {
+                "x": 0.028,
+                "y": 101.569
+              },
+              {
+                "x": 0.029,
+                "y": 101.338
+              },
+              {
+                "x": 0.031,
+                "y": 101.148
+              },
+              {
+                "x": 0.032,
+                "y": 100.876
+              },
+              {
+                "x": 0.034,
+                "y": 100.658
+              },
+              {
+                "x": 0.036,
+                "y": 105.438
+              },
+              {
+                "x": 0.037,
+                "y": 105.234
+              },
+              {
+                "x": 0.04,
+                "y": 104.799
+              },
+              {
+                "x": 0.039,
+                "y": 105.03
+              },
+              {
+                "x": 0.041,
+                "y": 104.609
+              },
+              {
+                "x": 0.043,
+                "y": 104.391
+              },
+              {
+                "x": 0.044,
+                "y": 104.187
+              },
+              {
+                "x": 0.046,
+                "y": 103.997
+              },
+              {
+                "x": 0.047,
+                "y": 103.806
+              },
+              {
+                "x": 0.049,
+                "y": 103.575
+              },
+              {
+                "x": 0.051,
+                "y": 98.264
+              },
+              {
+                "x": 0.053,
+                "y": 178.285
+              },
+              {
+                "x": 0.055,
+                "y": 343.841
+              },
+              {
+                "x": 0.057,
+                "y": 529.578
+              },
+              {
+                "x": 0.057,
+                "y": 710.359
+              },
+              {
+                "x": 0.059,
+                "y": 931.258
+              },
+              {
+                "x": 0.06,
+                "y": 1147.201
+              },
+              {
+                "x": 0.06,
+                "y": 1312.96
+              },
+              {
+                "x": 0.061,
+                "y": 1463.631
+              },
+              {
+                "x": 0.061,
+                "y": 1639.454
+              },
+              {
+                "x": 0.063,
+                "y": 1805.051
+              },
+              {
+                "x": 0.064,
+                "y": 1985.859
+              },
+              {
+                "x": 0.064,
+                "y": 2081.335
+              },
+              {
+                "x": 0.064,
+                "y": 2181.782
+              },
+              {
+                "x": 0.065,
+                "y": 2302.248
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 2741.402,
+            "sigma_sat_MPa": -23.278,
+            "fit_strain_range": [
+              0.022,
+              0.06496
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.80176,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.022\u20130.065."
+          }
+        }
+      ]
+    }
+  ]
+}

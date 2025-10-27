@@ -1,0 +1,704 @@
+{
+  "paper_title": "Grain size dependence of strain rate sensitivity in a single phase FCC high entropy alloy Al0.3CoCrFeNi",
+  "graphs": [
+    {
+      "graph_id": "fig3a",
+      "title": "True stress\u2013true strain at multiple strain rates (d\u2081 = 12 \u03bcm, 60CR+HM2min)",
+      "description": "Mechanical response of fine-grained Al0.3CoCrFeNi (12 \u03bcm) under quasi-static (10\u207b\u00b3 s\u207b\u00b9), intermediate (10\u00b9 s\u207b\u00b9), and dynamic (2\u00d710\u00b3 s\u207b\u00b9) loading.",
+      "about_graph": "Room-temperature tests across three strain-rate regimes after 60% cold rolling + 2 min high-temperature solutionizing; single-phase FCC. Panel corresponds to Fig. 3(a) in the paper.",
+      "x_axis_label": "True Strain",
+      "y_axis_label": "True Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "c1",
+          "curve_label": "10\u207b\u00b3 s\u207b\u00b9 (quasi-static)",
+          "curve_description": "True stress\u2013true strain at 10\u207b\u00b3 s\u207b\u00b9 for 12 \u03bcm grains.",
+          "about_curve": "Lowest rate; shows strong work hardening to ~0.45\u20130.5 true strain before softening.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lower flow stresses than higher-rate curves due to rate sensitivity.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy, grain size, temperature, and test geometry; true stress\u2013true strain reported.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "nominal": "Al0.3CoCrFeNi (single-phase FCC)",
+            "_note": "Exact at.% not specified in the figure; composition reported as Al0.3 with Co, Cr, Fe, Ni near-equiatomic."
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.016,
+                "y": 331.408
+              },
+              {
+                "x": 0.032,
+                "y": 352.697
+              },
+              {
+                "x": 0.048,
+                "y": 377.086
+              },
+              {
+                "x": 0.059,
+                "y": 401.595
+              },
+              {
+                "x": 0.073,
+                "y": 416.742
+              },
+              {
+                "x": 0.086,
+                "y": 447.423
+              },
+              {
+                "x": 0.1,
+                "y": 468.771
+              },
+              {
+                "x": 0.115,
+                "y": 486.989
+              },
+              {
+                "x": 0.128,
+                "y": 511.438
+              },
+              {
+                "x": 0.147,
+                "y": 529.567
+              },
+              {
+                "x": 0.163,
+                "y": 566.36
+              },
+              {
+                "x": 0.179,
+                "y": 593.85
+              },
+              {
+                "x": 0.196,
+                "y": 618.21
+              },
+              {
+                "x": 0.211,
+                "y": 651.932
+              },
+              {
+                "x": 0.224,
+                "y": 667.109
+              },
+              {
+                "x": 0.238,
+                "y": 688.457
+              },
+              {
+                "x": 0.254,
+                "y": 706.645
+              },
+              {
+                "x": 0.267,
+                "y": 728.024
+              },
+              {
+                "x": 0.279,
+                "y": 746.301
+              },
+              {
+                "x": 0.294,
+                "y": 770.72
+              },
+              {
+                "x": 0.307,
+                "y": 788.998
+              },
+              {
+                "x": 0.325,
+                "y": 813.328
+              },
+              {
+                "x": 0.344,
+                "y": 837.658
+              },
+              {
+                "x": 0.36,
+                "y": 858.947
+              },
+              {
+                "x": 0.374,
+                "y": 874.093
+              },
+              {
+                "x": 0.39,
+                "y": 889.18
+              },
+              {
+                "x": 0.403,
+                "y": 907.458
+              },
+              {
+                "x": 0.418,
+                "y": 922.575
+              },
+              {
+                "x": 0.435,
+                "y": 931.43
+              },
+              {
+                "x": 0.453,
+                "y": 943.357
+              },
+              {
+                "x": 0.472,
+                "y": 942.88
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 2665.176,
+            "sigma_sat_MPa": 1649.827,
+            "fit_strain_range": [
+              0.16317,
+              0.29297
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.40606,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.163\u20130.293."
+          }
+        },
+        {
+          "curve_id": "c2",
+          "curve_label": "10\u00b9 s\u207b\u00b9 (intermediate)",
+          "curve_description": "True stress\u2013true strain at 10\u00b9 s\u207b\u00b9 for 12 \u03bcm grains.",
+          "about_curve": "Intermediate rate; higher flow stresses than 10\u207b\u00b3 s\u207b\u00b9 with similar hardening shape.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Elevated flow stress vs quasi-static; below the dynamic curve.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Identical alloy and test temperature; same axes and scale.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "nominal": "Al0.3CoCrFeNi (single-phase FCC)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.013,
+                "y": 433.797
+              },
+              {
+                "x": 0.026,
+                "y": 458.276
+              },
+              {
+                "x": 0.037,
+                "y": 479.684
+              },
+              {
+                "x": 0.048,
+                "y": 504.223
+              },
+              {
+                "x": 0.062,
+                "y": 528.672
+              },
+              {
+                "x": 0.075,
+                "y": 550.02
+              },
+              {
+                "x": 0.088,
+                "y": 574.5
+              },
+              {
+                "x": 0.098,
+                "y": 589.736
+              },
+              {
+                "x": 0.109,
+                "y": 611.174
+              },
+              {
+                "x": 0.125,
+                "y": 629.362
+              },
+              {
+                "x": 0.14,
+                "y": 656.882
+              },
+              {
+                "x": 0.154,
+                "y": 678.23
+              },
+              {
+                "x": 0.172,
+                "y": 699.46
+              },
+              {
+                "x": 0.185,
+                "y": 720.838
+              },
+              {
+                "x": 0.2,
+                "y": 745.257
+              },
+              {
+                "x": 0.212,
+                "y": 763.535
+              },
+              {
+                "x": 0.224,
+                "y": 778.741
+              },
+              {
+                "x": 0.24,
+                "y": 800.03
+              },
+              {
+                "x": 0.256,
+                "y": 821.319
+              },
+              {
+                "x": 0.271,
+                "y": 845.738
+              },
+              {
+                "x": 0.288,
+                "y": 863.896
+              },
+              {
+                "x": 0.304,
+                "y": 885.185
+              },
+              {
+                "x": 0.321,
+                "y": 906.474
+              },
+              {
+                "x": 0.333,
+                "y": 921.65
+              },
+              {
+                "x": 0.348,
+                "y": 939.868
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 3631.029,
+            "sigma_sat_MPa": 1052.465,
+            "fit_strain_range": [
+              0.02606,
+              0.07534
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.78717,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.026\u20130.075."
+          }
+        },
+        {
+          "curve_id": "c3",
+          "curve_label": "2\u00d710\u00b3 s\u207b\u00b9 (dynamic)",
+          "curve_description": "Split-Hopkinson pressure bar rate for 12 \u03bcm grains.",
+          "about_curve": "Highest rate; highest flow stresses among the three curves; shortened strain range typical of SHPB data.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Maximum rate-induced strengthening.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same specimen condition and temperature; true stress vs true strain.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "nominal": "Al0.3CoCrFeNi (single-phase FCC)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.011,
+                "y": 486.572
+              },
+              {
+                "x": 0.022,
+                "y": 514.181
+              },
+              {
+                "x": 0.035,
+                "y": 544.862
+              },
+              {
+                "x": 0.045,
+                "y": 572.502
+              },
+              {
+                "x": 0.058,
+                "y": 593.88
+              },
+              {
+                "x": 0.065,
+                "y": 615.408
+              },
+              {
+                "x": 0.075,
+                "y": 639.946
+              },
+              {
+                "x": 0.087,
+                "y": 667.556
+              },
+              {
+                "x": 0.097,
+                "y": 692.095
+              },
+              {
+                "x": 0.11,
+                "y": 701.07
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 2169.14,
+            "sigma_sat_MPa": -5247.292,
+            "fit_strain_range": [
+              0.02263,
+              0.07526
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.01705,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.023\u20130.075."
+          }
+        }
+      ]
+    },
+    {
+      "graph_id": "fig3b",
+      "title": "True stress\u2013true strain at multiple strain rates (d\u2082 = 150 \u03bcm, 60CR+HM60min)",
+      "description": "Mechanical response of coarse-grained Al0.3CoCrFeNi (150 \u03bcm) under quasi-static (10\u207b\u00b3 s\u207b\u00b9), intermediate (10\u00b9 s\u207b\u00b9), and dynamic (2\u00d710\u00b3 s\u207b\u00b9) loading.",
+      "about_graph": "Room-temperature tests across three strain-rate regimes after 60% cold rolling + 60 min solutionizing; single-phase FCC. Panel corresponds to Fig. 3(b) in the paper.",
+      "x_axis_label": "True Strain",
+      "y_axis_label": "True Stress (MPa)",
+      "curves": [
+        {
+          "curve_id": "c1",
+          "curve_label": "10\u207b\u00b3 s\u207b\u00b9 (quasi-static)",
+          "curve_description": "True stress\u2013true strain at 10\u207b\u00b3 s\u207b\u00b9 for 150 \u03bcm grains.",
+          "about_curve": "Lowest flow stresses and reduced hardening compared with finer grains at the same rate.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Lower strength due to coarse grain size and low rate.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy, test temperature, and axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "nominal": "Al0.3CoCrFeNi (single-phase FCC)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.012,
+                "y": 155.861
+              },
+              {
+                "x": 0.03,
+                "y": 170.89
+              },
+              {
+                "x": 0.047,
+                "y": 185.919
+              },
+              {
+                "x": 0.066,
+                "y": 200.926
+              },
+              {
+                "x": 0.095,
+                "y": 221.896
+              },
+              {
+                "x": 0.114,
+                "y": 236.903
+              },
+              {
+                "x": 0.137,
+                "y": 254.903
+              },
+              {
+                "x": 0.156,
+                "y": 266.851
+              },
+              {
+                "x": 0.174,
+                "y": 275.762
+              },
+              {
+                "x": 0.195,
+                "y": 287.665
+              },
+              {
+                "x": 0.214,
+                "y": 299.613
+              },
+              {
+                "x": 0.236,
+                "y": 302.339
+              },
+              {
+                "x": 0.255,
+                "y": 314.287
+              },
+              {
+                "x": 0.277,
+                "y": 326.19
+              },
+              {
+                "x": 0.301,
+                "y": 334.99
+              },
+              {
+                "x": 0.328,
+                "y": 346.827
+              },
+              {
+                "x": 0.357,
+                "y": 361.679
+              },
+              {
+                "x": 0.379,
+                "y": 364.405
+              },
+              {
+                "x": 0.402,
+                "y": 367.109
+              },
+              {
+                "x": 0.426,
+                "y": 375.909
+              },
+              {
+                "x": 0.46,
+                "y": 381.516
+              },
+              {
+                "x": 0.483,
+                "y": 381.161
+              },
+              {
+                "x": 0.508,
+                "y": 386.901
+              },
+              {
+                "x": 0.531,
+                "y": 389.605
+              },
+              {
+                "x": 0.556,
+                "y": 389.228
+              },
+              {
+                "x": 0.582,
+                "y": 388.828
+              },
+              {
+                "x": 0.602,
+                "y": 385.458
+              },
+              {
+                "x": 0.621,
+                "y": 372.933
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 1245.343,
+            "sigma_sat_MPa": 486.984,
+            "fit_strain_range": [
+              0.19414,
+              0.37969
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.48933,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.194\u20130.380."
+          }
+        },
+        {
+          "curve_id": "c2",
+          "curve_label": "10\u00b9 s\u207b\u00b9 (intermediate)",
+          "curve_description": "True stress\u2013true strain at 10\u00b9 s\u207b\u00b9 for 150 \u03bcm grains.",
+          "about_curve": "Intermediate rate; noticeable increase in flow stress relative to quasi-static.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Higher stresses than 10\u207b\u00b3 s\u207b\u00b9; still below the dynamic rate.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same alloy and conditions; same axes.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "nominal": "Al0.3CoCrFeNi (single-phase FCC)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.012,
+                "y": 290.463
+              },
+              {
+                "x": 0.033,
+                "y": 308.507
+              },
+              {
+                "x": 0.053,
+                "y": 326.551
+              },
+              {
+                "x": 0.075,
+                "y": 344.573
+              },
+              {
+                "x": 0.092,
+                "y": 365.721
+              },
+              {
+                "x": 0.108,
+                "y": 380.772
+              },
+              {
+                "x": 0.127,
+                "y": 401.897
+              },
+              {
+                "x": 0.145,
+                "y": 419.986
+              },
+              {
+                "x": 0.164,
+                "y": 441.111
+              },
+              {
+                "x": 0.18,
+                "y": 462.281
+              },
+              {
+                "x": 0.199,
+                "y": 480.347
+              },
+              {
+                "x": 0.216,
+                "y": 498.435
+              },
+              {
+                "x": 0.235,
+                "y": 522.62
+              },
+              {
+                "x": 0.257,
+                "y": 543.701
+              },
+              {
+                "x": 0.275,
+                "y": 564.848
+              },
+              {
+                "x": 0.293,
+                "y": 589.033
+              },
+              {
+                "x": 0.312,
+                "y": 610.158
+              },
+              {
+                "x": 0.334,
+                "y": 634.298
+              },
+              {
+                "x": 0.353,
+                "y": 658.483
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": 960.081,
+            "sigma_sat_MPa": -3125.139,
+            "fit_strain_range": [
+              0.12649,
+              0.21626
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.07864,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.126\u20130.216."
+          }
+        },
+        {
+          "curve_id": "c3",
+          "curve_label": "2\u00d710\u00b3 s\u207b\u00b9 (dynamic)",
+          "curve_description": "Split-Hopkinson pressure bar rate for 150 \u03bcm grains.",
+          "about_curve": "Highest rate; substantial rate strengthening but overall lower than the fine-grained condition at the same rate.",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "Maximum rate-induced strengthening for this grain size.",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "Same specimen condition and temperature; true stress vs true strain.",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            "nominal": "Al0.3CoCrFeNi (single-phase FCC)"
+          },
+          "curve_raw_data": {
+            "x_axis": "x",
+            "y_axis": "y",
+            "data": [
+              {
+                "x": 0.017,
+                "y": 403.585
+              },
+              {
+                "x": 0.037,
+                "y": 427.747
+              },
+              {
+                "x": 0.055,
+                "y": 442.777
+              },
+              {
+                "x": 0.07,
+                "y": 470.087
+              },
+              {
+                "x": 0.09,
+                "y": 485.072
+              },
+              {
+                "x": 0.103,
+                "y": 515.463
+              },
+              {
+                "x": 0.118,
+                "y": 536.655
+              },
+              {
+                "x": 0.132,
+                "y": 560.906
+              },
+              {
+                "x": 0.148,
+                "y": 591.254
+              },
+              {
+                "x": 0.161,
+                "y": 618.586
+              }
+            ]
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            "theta0_MPa": -2702.185,
+            "sigma_sat_MPa": 317.393,
+            "fit_strain_range": [
+              0.07171,
+              0.10403
+            ],
+            "savgol_filter": {
+              "window_points": 5,
+              "poly_order": 3
+            },
+            "goodness_of_fit_R2": 0.99182,
+            "comment": "Parameters obtained by linear regression on \u03b8 vs \u03c3 in the strain window 0.072\u20130.104."
+          }
+        }
+      ]
+    }
+  ]
+}

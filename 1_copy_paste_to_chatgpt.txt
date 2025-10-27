@@ -1,0 +1,72 @@
+You need to do the tasks described below.
+
+Use the following information to find what input and what output the code should produce —
+You will take input of a pdf of a research paper which i am uploading in the chat.
+The research paper will contain some stress strain graphs. I am also uploading the images from the pdf which are stress strain graphs.
+
+Also, when the code is executing make sure to add a message to the console so that I know at what stage of execution the program is currently in.
+
+Algorithm starts---
+
+Process - 
+You will take the pdf file and the images of the stress strain graphs I will upload in the chat.
+You will then need to populate the sections marked below as {populate} based on the information you have from the pdf and the images.
+
+Note - The pdf I am giving you will basically be having a corresponding JSON as described below.
+
+
+JSON you need to populate. The JSON file looks like this but not exactly since multiple graphs and multiple curves in a graph are possible ---
+
+{
+  "paper_title": "{populate}",
+  "graphs": [
+    {
+      "graph_id": "{populate}",
+      "title": "{populate}",
+      "description": "{populate}",
+      "about_graph": "{populate}",
+      "x_axis_label": "{populate - note that sometimes these images contain only stress-strain labels. In that case figure out whether that is true/engineering stress-strain values. And the put that true/engg stress-strain value here.}",
+      "y_axis_label": "{populate - note that sometimes these images contain only stress-strain labels. In that case figure out whether that is true/engineering stress-strain values. And the put that true/engg stress-strain value here.}",
+      "curves": [
+        {
+          "curve_id": "{populate}",
+          "curve_label": "{populate}",
+          "curve_description": "{populate}",
+          "about_curve": "{populate}",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "{populate}",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "{populate}",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            {populate}
+          },
+          
+          "curve_raw_data": {
+            {donot populate - leave empty}
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            {donot populate - leave empty}
+          }
+        },
+        {
+          "curve_id": "{populate}",
+          "curve_label": "{populate}",
+          "curve_description": "{populate}",
+          "about_curve": "{populate}",
+          "what_is_different_between_this_curve_and_other_curves_in_the_same_graph": "{populate}",
+          "what_is_common_between_this_curve_and_other_curves_in_the_same_graph": "{populate}",
+          "alloy_composition_in_percentages_corresponding_to_this_curve": {
+            {populate}
+          },
+          
+          "curve_raw_data": {
+            {donot populate - leave empty}
+          },
+          "Kocks\u2013Mecking_hardening_parameters": {
+            {donot populate - leave empty}
+          }
+        }
+      ]
+    }
+  ]
+}
+
+What is output for this step ? - The JSON file should be outputted.

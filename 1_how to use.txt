@@ -1,0 +1,29 @@
+Step 1 (manual) - 
+
+First copy 1.txt and paste in o3 model chatgpt paid.
+Then, paste the pdf and the images of stress strain graphs.
+
+Then you get JSON as output.
+Store this json in the main directory.
+
+Step 2 (manual) -
+
+Then, open webplot digitizer -> paste the true-stress graph (if true not available then do for engineering).
+-> get data csv and put in csv to json folder.
+-> run csv to json for each curve in order as it appears in the json. i.e. in order of file name of the downloaded csv.
+
+//To be made automated by observing the order of the file names 
+//-> paste the output json into the main json by carefully looking at which curve data you are inputting.
+//-> inject manually -> copy paste.
+
+-> full auto -> 
+
+
+Step 3 (manual) -
+
+Then, paste the updated json into the folder "2 json to complete json".
+Run the python script.
+
+You now have the complete data for the paper.
+
+Copy and paste in the final_results folder.
